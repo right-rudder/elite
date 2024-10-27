@@ -14,7 +14,7 @@ if (!images[content.imagePath]) {
 ---
 
 <header
-  class="relative lg:mt-0 min-h-screen h-fit bg-gray-800 text-white flex flex-col items-center justify-center overflow-hidden"
+  class="relative lg:mt-0 min-h-screen font-sans2 h-fit bg-gray-800 text-white flex flex-col items-center justify-center overflow-hidden"
 >
   <Image
     src={images[content.imagePath]()}
@@ -24,7 +24,7 @@ if (!images[content.imagePath]) {
     class="absolute inset-0 -z-0 object-cover object-center w-full h-full animate-slow-zoom"
   />
   <div
-    class="absolute bg-gradient-to-b from-black/40 to-black/60 w-full h-full z-0"
+    class="absolute bg-gradient-to-b from-black/30 to-black/10 w-full h-full z-0"
   >
   </div>
   <!-- Text -->
@@ -32,11 +32,11 @@ if (!images[content.imagePath]) {
     class="text-white mt-20 lg:mt-0 text-center lg:text-left z-10 flex flex-col items-center gap-4 px-5 h-full lg:pt-28 justify-center"
   >
     <h1
-      class="text-5xl md:text-6xl lg:text-7xl drop-shadow-lg xl:text-8xl text-center font-medium tracking-wide text-muted-100"
+      class="text-5xl md:text-6xl uppercase lg:text-7xl drop-shadow-lg xl:text-8xl text-center font-medium text-muted-100"
       set:html={content.headerH1}
     />
     <h2
-      class="text-xl mt-3 font-light tracking-wide text-center max-w-4xl"
+      class="text-xl mt-3 font-normal tracking-wide text-center max-w-4xl"
       set:html={content.paragraph}
     />
     <div

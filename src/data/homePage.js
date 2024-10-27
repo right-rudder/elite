@@ -11,12 +11,12 @@ const homePage = {
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/john-mcarthur-PrdNTrIrG8w-unsplash.jpg",
+      imagePath: "/src/assets/greg-rosenke-0DizjoNOCrw-unsplash.jpg",
       imageAlt:
         "sun city aviation academy airplane flying over the city of miami",
-      headerH1: `Become a</br>Professional Pilot`,
+      headerH1: `Come Fly<br>With Us`,
       paragraph:
-        "Your path to becoming a professional pilot starts here. Our experienced instructors will help you achieve your aviation goals. Join the family at Sun City.",
+        "Start your aviation journey with Elite Flight Training. Whether you're looking to fly for fun or pursue a career in aviation, Our programs and instructors to help you achieve your goals.",
       buttons: [
         {
           name: "Enroll Now",

@@ -15,16 +15,8 @@ export const footerLinks = [
         link: "/discovery-flight",
       },
       {
-        name: "Flight Training",
-        link: "/flight-training-pilot-programs",
-      },
-      {
-        name: "Experience Aviation",
-        link: "/experience-aviation",
-      },
-      {
-        name: "Aviation 101",
-        link: "/youth-aviation-class",
+        name: "Aircraft Services",
+        link: "/aircraft-services",
       },
       {
         name: "Contact",
@@ -36,32 +28,20 @@ export const footerLinks = [
     title: "Programs",
     links: [
       {
-        name: "Professional Pilot",
-        link: "/professional-pilot-course",
-      },
-      {
-        name: "PPC",
+        name: "Private Pilot",
         link: "/private-pilot-training",
       },
       {
-        name: "IR",
+        name: "Instrument Rating",
         link: "/instrument-rating",
       },
       {
-        name: "CPL",
+        name: "Commercial Pilot",
         link: "/commercial-pilot-training",
       },
       {
-        name: "ME Rating",
+        name: "Multi-Engine Rating",
         link: "/multi-engine-rating",
-      },
-      {
-        name: "CFI",
-        link: "/certified-flight-instructor-cfi",
-      },
-      {
-        name: "ATP",
-        link: "/airline-transport-pilot-atp",
       },
     ],
   },
@@ -69,20 +49,16 @@ export const footerLinks = [
     title: "About",
     links: [
       {
-        name: "Our Story",
-        link: "/about/our-story",
-      },
-      {
         name: "Our Team",
-        link: "/about/our-team",
+        link: "/our-team",
       },
       {
         name: "Our Fleet",
-        link: "/about/our-fleet",
+        link: "/our-fleet",
       },
       {
-        name: "Financing",
-        link: "/stratus-finance",
+        name: "Visit Us",
+        link: "/visit-us",
       },
       {
         name: "Blog",

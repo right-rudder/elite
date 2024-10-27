@@ -55,13 +55,13 @@ const { pathname } = Astro.url;
           >
             <a
               href="/privacy-policy"
-              class="mt-3 mr-4 transition-colors duration-300 text-sm text-white hover:text-accent-100"
+              class="mt-3 mr-4 transition-colors duration-300 text-sm text-white hover:text-accent-400"
               >Privacy Policy
             </a>
-            <span class="text-accent-200 text-sm pt-3"> &#x2022; </span>
+            <span class="text-accent-400 text-sm pt-3"> &#x2022; </span>
             <a
               href="/terms-of-service"
-              class="mt-3 ml-4 transition-colors duration-300 text-sm text-white hover:text-accent-100"
+              class="mt-3 ml-4 transition-colors duration-300 text-sm text-white hover:text-accent-400"
               >Terms of Service
             </a>
           </div>
@@ -73,7 +73,7 @@ const { pathname } = Astro.url;
             <div
               class={`${index % 2 === 0 ? "text-left" : "text-right lg:text-left"} lg:col-span-2`}
             >
-              <p class="font-bold text-xl font-sans lg:text-md tracking-wide text-accent-200">
+              <p class="font-bold text-xl font-sans lg:text-md tracking-wide text-accent-600">
                 {column.title}
               </p>
               <ul class="mt-2 space-y-2 text-lg font-sans2 lg:text-sm">
@@ -81,7 +81,7 @@ const { pathname } = Astro.url;
                   <li>
                     <a
                       href={link.link}
-                      class="transition-colors duration-300 text-white hover:text-accent-100"
+                      class="transition-colors duration-200 text-white hover:text-accent-400"
                     >
                       {link.name}
                     </a>
