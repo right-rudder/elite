@@ -79,32 +79,32 @@ const Navbar = ({ pathname }) => {
       <div
         className={`${
           navBar || openMobile
-            ? "bg-primary-950/90 backdrop-blur-sm"
+            ? "bg-accent-700 lg:bg-primary-950/95 backdrop-blur-sm"
             : "bg-transparent"
         } duration-500`}
       >
         <div className="px-5 max-w-7xl mx-auto top-0">
           <div
-            className={`${navBar || openMobile ? "lg:h-20" : "lg:h-28"} relative flex h-20 align-middle justify-between transition-all`}
+            className={`${navBar || openMobile ? "lg:h-20" : "lg:h-28"} relative flex h-24 align-middle justify-center transition-all`}
             id="navbar"
           >
             <div className="flex w-full items-center justify-between">
               <a
                 href="/"
                 title="SunCity Aviation Academy"
-                className="relative hover:brightness-110 duration-200 ease-in-out w-4/6 md:w-1/3 lg:w-2/12"
+                className="hover:brightness-110 flex p-3 h-20 lg:h-28 justify-end align-middle items-center duration-200 ease-in-out w-2/3 lg:w-1/5 lg:bg-accent-700"
               >
                 <img
-                  src="/sun-city-white-text-logo.webp"
-                  alt="SunCity Aviation Academy Logo"
-                  aria-label="SunCity Aviation Academy Logo"
-                  title="SunCity Aviation Academy"
+                  src="/EFTAM_Vert_White.webp"
+                  alt="Elite Flight Training & Aircraft Management Logo"
+                  aria-label="Elite Flight Training & Aircraft Management Logo"
+                  title="Elite Flight Training & Aircraft Management"
                   loading="eager"
-                  className={`${navBar || openMobile ? "h-16 lg:h-32 w-9/12 lg:w-10/12" : "h-20 lg:h-32 w-10/12 lg:w-full"} object-contain duration-500`}
+                  className={`${navBar || openMobile ? "h-20 lg:h-24 lg:mt-6" : "h-24 lg:h-28 mt-0"} object-contain duration-500`}
                 />
               </a>
-              <div className="hidden lg:flex justify-end w-full">
-                <ul className="flex justify-between align-middle w-10/12 items-center">
+              <div className="hidden lg:flex justify-end lg:w-4/6">
+                <ul className="flex ml-6 justify-between align-middle w-full items-center text-white">
                   {navbarLinks.map((item, index) => (
                     <li
                       key={index}
@@ -116,25 +116,25 @@ const Navbar = ({ pathname }) => {
                         <a
                           href={item.link}
                           target={`${item.link.includes("http") ? "_blank" : "_self"}`}
-                          className="font-semibold text-lg duration-300 hover:underline decoration-accent-200 decoration-4 underline-offset-[10px] py-12 border-accent whitespace-nowrap group-last:font-bold group-last:hover:text-muted-950 group-last:bg-accent-300 group-last:py-3 group-last:px-5 group-last:rounded-sm group-last:hover:bg-accent-400 group-last:hover:no-underline"
+                          className="font-semibold text-lg duration-300 hover:underline decoration-accent-600 decoration-4 underline-offset-[10px] py-12 border-accent-50 whitespace-nowrap group-last:font-bold group-last:hover:text-muted-50 group-last:bg-accent-700 group-last:py-3 group-last:px-5 group-last:rounded-sm group-last:hover:bg-accent-900 group-last:hover:no-underline"
                         >
-                          <span className="relative font-semibold text-accent-50 group-last:text-muted-950">
+                          <span className="relative font-semibold text-accent-50 group-last:text-accent-200">
                             {item.name}
                           </span>
                         </a>
                       ) : (
-                        <span className="font-semibold cursor-default text-accent-50 text-lg duration-300 hover:underline decoration-accent-200 decoration-4 underline-offset-[10px] py-12 whitespace-nowrap">
+                        <span className="font-semibold cursor-default text-accent-50 text-lg duration-300 hover:underline decoration-accent-500 decoration-4 underline-offset-[10px] py-12 whitespace-nowrap">
                           {item.name}
                         </span>
                       )}
                       {item.submenu && item.submenu.length > 0 && (
                         <ul
-                          className={`absolute top-10 bg-accent-300/95 border-b-4 border-black/20 whitespace-nowrap text-primary-950 -left-4 duration-200 ease-out ${hoveredIndex === index ? "max-h-auto w-auto opacity-100" : "max-h-0 h-0 opacity-0 overflow-hidden"}`}
+                          className={`absolute top-10 bg-primary-800/95 border-b-4 border-white/20 whitespace-nowrap text-primary-50 -left-4 duration-200 ease-out ${hoveredIndex === index ? "max-h-auto w-auto opacity-100" : "max-h-0 h-0 opacity-0 overflow-hidden"}`}
                         >
                           {item.submenu.map((subitem, subIndex) => (
                             <li
                               key={subIndex}
-                              className={`${isActive(subitem, pathname) ? "bg-accent-200 text-primary-900" : ""} relative hover:bg-accent-200 hover:scale-105 px-1 hover:font-semibold hover:shadow-sm drop-shadow-sm font-medium`}
+                              className={`${isActive(subitem, pathname) ? "bg-accent-500 text-primary-200" : ""} relative hover:bg-accent-600 hover:scale-105 px-1 hover:font-semibold hover:shadow-sm drop-shadow-sm font-medium`}
                               onMouseEnter={() => setSubHoveredIndex(subIndex)}
                               onMouseLeave={() => setSubHoveredIndex(null)}
                             >
@@ -263,10 +263,10 @@ const Navbar = ({ pathname }) => {
           className="z-30 relative flex justify-center items-center align-middle"
         >
           <img
-            src="/sun-city-white-text-logo.webp"
-            alt="SunCity Aviation Academy Logo"
-            aria-label="SunCity Aviation Academy Logo"
-            title="SunCity Aviation Academy"
+            src="/EFTAM_Vert_White.webp"
+            alt="Elite Flight Training & Aircraft Management Logo"
+            aria-label="Elite Flight Training & Aircraft Management Logo"
+            title="Elite Flight Training & Aircraft Management"
             className="object-contain h-24 w-auto drop-shadow-sm"
           />
         </a>

@@ -2,19 +2,19 @@ const homePage = {
   data: {
     //SEO Header Stuff
     pageTitle:
-      "Sun City Aviation Academy | Miami South Florida Flight Training",
+      "Flight Training in Kankakee, IL | Elite Flight Training & Aircraft Management",
     pageDescription:
-      "Grow and scale your aviation business. Right Rudder Marketing specializes in aviation marketing services, helping flight schools and aviation companies increase visibility and grow enrollment. We offer tailored digital marketing solutions, including SEO, web design, and lead generation to help you reach more aspiring pilots. With proven aviation marketing strategies, we can help your flight school stand out in the competitive market and boost student enrollment efficiently.",
+      "Elite Flight Training & Aircraft Management offers flight training in Kankakee, IL. We offer private pilot training, instrument rating training, commercial pilot training, and more. Contact us today!",
     pageKeywords:
-      "grow flight school, scale flight school, grow and scale flight school, aviation business, aviation training,Right Rudder Marketing, Aviation marketing, Flight school marketing, Aviation digital marketing, SEO for aviation, Digital marketing for flight schools, Aviation marketing agency, Lead generation for aviation companies, Increase flight school enrollment, Aviation advertising services, Content marketing for aviation businesses, Aviation marketing strategies, Aviation SEO services",
+      "flight training, flight school, pilot training, private pilot training, instrument rating training, commercial pilot training, Kankakee, IL",
 
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/sun-city-aviation-academy-flying-over-miami.jpg",
+      imagePath: "/src/assets/john-mcarthur-PrdNTrIrG8w-unsplash.jpg",
       imageAlt:
         "sun city aviation academy airplane flying over the city of miami",
-      headerH1: `Become a </br><span class="text-accent-300">Professional Pilot</span>`,
+      headerH1: `Become a</br>Professional Pilot`,
       paragraph:
         "Your path to becoming a professional pilot starts here. Our experienced instructors will help you achieve your aviation goals. Join the family at Sun City.",
       buttons: [
