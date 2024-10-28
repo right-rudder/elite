@@ -18,16 +18,8 @@ export const navbarLinks = [
     link: "/flight-training-pilot-programs",
     submenu: [
       {
-        name: "Professional Pilot",
-        link: "/professional-pilot-course",
-      },
-      {
         name: "Private Pilot",
         link: "/private-pilot-training",
-      },
-      {
-        name: "Group Ground School",
-        link: "/group-ground-school",
       },
       {
         name: "Instrument Rating",
@@ -41,44 +33,32 @@ export const navbarLinks = [
         name: "Multi-Engine Rating",
         link: "/multi-engine-rating",
       },
-      {
-        name: "Flight Instructor",
-        link: "/certified-flight-instructor-cfi",
-      },
-      {
-        name: "Airline Transport Pilot",
-        link: "/airline-transport-pilot-atp",
-      },
-      {
-        name: "Flight Review",
-        link: "/flight-review-bfr",
-      },
-      {
-        name: "Instrument Proficiency Check",
-        link: "/instrument-proficiency-check-ipc",
-      },
-      {
-        name: "Wingman Course",
-        link: "/wingman-family-member-training",
-      },
-      {
-        name: "Sea Plane Safari",
-        link: "/seaplane-pilot-training",
-      },
     ],
   },
 
   {
-    name: "Youth Programs",
+    name: "Aircraft Services",
     link: "/experience-aviation",
     submenu: [
       {
-        name: "Experience Aviation",
-        link: "/experience-aviation",
+        name: "Brokerage",
+        link: "/aircraft-brokerage",
       },
       {
-        name: "Aviation 101",
-        link: "/youth-aviation-classes",
+        name: "Rentals",
+        link: "/aircraft-rentals",
+      },
+      {
+        name: "For Sale",
+        link: "/aircraft-for-sale",
+      },
+      {
+        name: "Maintenance",
+        link: "/aircraft-maintenance",
+      },
+      {
+        name: "Charter Revenue",
+        link: "/charter-revenue",
       },
     ],
   },
@@ -96,8 +76,8 @@ export const navbarLinks = [
         link: "/our-fleet",
       },
       {
-        name: "Financing",
-        link: "/stratus-finance",
+        name: "Visit Us",
+        link: "/visit-us",
       },
       {
         name: "Blog",

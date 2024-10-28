@@ -11,7 +11,7 @@ import { FaPhoneSquareAlt } from "react-icons/fa";
 ---
 
 <div
-  class="w-full bg-gradient-to-br from-accent-400 to-yellow-300 z-0 h-12 px-4 lg:px-0 text-black"
+  class="w-full bg-gradient-to-br font-sans2 from-muted-800 to-muted-900 z-0 h-12 px-4 lg:px-0 text-white"
 >
   <div
     class="mx-auto flex max-w-[80rem] items-center align-middle h-full justify-between"
@@ -22,7 +22,7 @@ import { FaPhoneSquareAlt } from "react-icons/fa";
         target="_blank"
         aria-label="LinkedIn"
         title="LinkedIn"
-        class="transition-colors duration-300 hover:text-accent-900/90 hover:scale-110"
+        class="transition-colors duration-300 hover:text-muted-300/70 hover:scale-110"
       >
         <svg viewBox="0 0 16 16" fill="currentColor" class="h-5">
           <path
@@ -35,7 +35,7 @@ import { FaPhoneSquareAlt } from "react-icons/fa";
         target="_blank"
         aria-label="Instagram"
         title="Instagram"
-        class="transition-colors duration-300 hover:text-accent-900/70 hover:scale-110"
+        class="transition-colors duration-300 hover:text-muted-300/70 hover:scale-110"
       >
         <svg viewBox="0 0 30 30" fill="currentColor" class="h-6">
           <circle cx="15" cy="15" r="4"></circle>
@@ -49,7 +49,7 @@ import { FaPhoneSquareAlt } from "react-icons/fa";
         target="_blank"
         aria-label="Facebook"
         title="Facebook"
-        class="transition-colors duration-300 hover:text-accent-900/70 hover:scale-110"
+        class="transition-colors duration-300 hover:text-muted-300/70 hover:scale-110"
       >
         <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
           <path
@@ -64,7 +64,7 @@ import { FaPhoneSquareAlt } from "react-icons/fa";
             target="_blank"
             aria-label="Twitter"
             title="X"
-            class="transition-colors duration-300 hover:text-accent-900/70 hover:scale-110"
+            class="transition-colors duration-300 hover:text-muted-300/70 hover:scale-110"
           >
             <svg
               class="size-7 -m-1 p-0"
@@ -81,37 +81,39 @@ import { FaPhoneSquareAlt } from "react-icons/fa";
           </a>
         )
       }
-      <a
-        href={YOUTUBE_URL}
-        target="_blank"
-        aria-label="Youtube"
-        title="Youtube"
-        class="transition-colors duration-300 hover:text-accent-900/70 hover:scale-110"
-      >
-        <svg
-          class="size-7"
-          xmlns="http://www.w3.org/2000/svg"
-          x="0px"
-          y="0px"
-          width="100"
-          height="100"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-        >
-          <path
-            d="M21.582,6.186c-0.23-0.86-0.908-1.538-1.768-1.768C18.254,4,12,4,12,4S5.746,4,4.186,4.418 c-0.86,0.23-1.538,0.908-1.768,1.768C2,7.746,2,12,2,12s0,4.254,0.418,5.814c0.23,0.86,0.908,1.538,1.768,1.768 C5.746,20,12,20,12,20s6.254,0,7.814-0.418c0.861-0.23,1.538-0.908,1.768-1.768C22,16.254,22,12,22,12S22,7.746,21.582,6.186z M10,15.464V8.536L16,12L10,15.464z"
-          ></path>
-        </svg>
-      </a>
+      {
+        YOUTUBE_URL && (
+          <a
+            href={YOUTUBE_URL}
+            target="_blank"
+            aria-label="Youtube"
+            title="Youtube"
+            class="transition-colors duration-300 hover:text-muted-300/70 hover:scale-110"
+          >
+            <svg
+              class="size-7"
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path d="M21.582,6.186c-0.23-0.86-0.908-1.538-1.768-1.768C18.254,4,12,4,12,4S5.746,4,4.186,4.418 c-0.86,0.23-1.538,0.908-1.768,1.768C2,7.746,2,12,2,12s0,4.254,0.418,5.814c0.23,0.86,0.908,1.538,1.768,1.768 C5.746,20,12,20,12,20s6.254,0,7.814-0.418c0.861-0.23,1.538-0.908,1.768-1.768C22,16.254,22,12,22,12S22,7.746,21.582,6.186z M10,15.464V8.536L16,12L10,15.464z" />
+            </svg>
+          </a>
+        )
+      }
     </div>
-    <p class="font-bold text-xl hidden lg:block">
-      #1 Flight School in South Florida Hollywood Miami
+    <p class="font-normal text-lg hidden lg:block">
+      Multi-Engine Accelerated Flight Training in Chicagoland
     </p>
     <a
       href=`tel:${PHONE_NUMBER}`
       aria-labelledby="Call Us Now"
       title="Call Us Now"
-      class="lg:mr-9 flex align-middle items-center text-right text-base lg:text-lg font-sans font-bold hover:scale-110 cursor-pointer transition-all"
+      class="lg:mr-9 flex align-middle items-center text-right text-base lg:text-lg tracking-wider font-sans2 font-semibold hover:scale-110 cursor-pointer transition-all"
       aria-label="Call telephone Link"
     >
       <FaPhoneSquareAlt className="mr-2 text-lg lg:text-xl" />
