@@ -7,7 +7,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 document.addEventListener("DOMContentLoaded", function () {
   var swiper = new Swiper(".creativeSwiper", {
     watchSlidesProgress: true,
-    slidesPerView: 4,
+    slidesPerView: 3,
     slidesPerView: 1,
     spaceBetween: 20,
     loop: true,
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     breakpoints: {
       1200: {
-        slidesPerView: 4,
+        slidesPerView: 3,
       },
       992: {
         slidesPerView: 3,
