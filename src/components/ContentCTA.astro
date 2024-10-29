@@ -11,7 +11,7 @@ const { content } = Astro.props;
     <ImageComp
       imagePath={content.imagePath}
       imageAlt={content.imageAlt}
-      styles="object-cover w-full"
+      styles="object-cover w-full h-full"
       quality={100}
     />
   </div>
@@ -22,14 +22,14 @@ const { content } = Astro.props;
     <div>
       {
         content.upperHeading && (
-          <h3 class="mx-auto mt-12 uppercase text-lg lg:text-xl font-sans font-bold tracking-tight text-accent-300">
+          <h3 class="mx-auto mt-12 uppercase text-lg lg:text-xl font-sans font-bold tracking-tight text-accent-700">
             {content.upperHeading}
           </h3>
         )
       }
       {
         content.heading && (
-          <h2 class="mx-auto mb-3 text-3xl lg:text-5xl font-sans font-bold tracking-tight text-primary-800">
+          <h2 class="mx-auto mb-3 text-3xl lg:text-5xl font-sans font-bold tracking-tight text-primary-950">
             {content.heading}
           </h2>
         )
