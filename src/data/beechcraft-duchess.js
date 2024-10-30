@@ -1,7 +1,8 @@
 const duchessInfo = {
   data: {
     //SEO Header Stuff
-    pageTitle: "Beechcraft Duchess | Our Fleet | Sun City Aviation Academy",
+    pageTitle:
+      "Beechcraft Duchess | Our Fleet | Elite Flight Training & Aircraft Management",
     pageDescription:
       "Sun City Aviation Academy multi-engine training with our Beechcraft Duchess. Our Beechcraft Duchess is a reliable and versatile aircraft, perfectly suited for those taking their first steps into the world of multi-engine flight. Our Beechcraft Duchess provides an ideal learning environment for aspiring pilots.",
     pageKeywords:

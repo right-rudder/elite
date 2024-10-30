@@ -1,7 +1,8 @@
 const instrumentRating = {
   data: {
     //SEO Header Stuff
-    pageTitle: "Instrument Rating Course | Sun City Aviation Academy",
+    pageTitle:
+      "Instrument Rating Course | Elite Flight Training & Aircraft Management",
     pageDescription:
       "Master the art of flying without visual references. Our Instrument Rating course will teach you how to navigate through clouds and the skies with precision.",
     pageKeywords:

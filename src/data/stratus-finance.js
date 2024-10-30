@@ -1,7 +1,8 @@
 const stratusInfo = {
   data: {
     //SEO Header Stuff
-    pageTitle: "Stratus Financial | Financing | Sun City Aviation Academy",
+    pageTitle:
+      "Stratus Financial | Financing | Elite Flight Training & Aircraft Management",
     pageDescription:
       "Stratus Financial is a financing option for students looking to become a pilot. Sun City Aviation Academy has partnered with Stratus Financial to provide students with the financial assistance they need to complete their pilot training.",
     pageKeywords:

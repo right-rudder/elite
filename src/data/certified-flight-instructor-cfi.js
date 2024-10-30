@@ -2,7 +2,7 @@ const certifiedFlightInstructor = {
   data: {
     //SEO Header Stuff
     pageTitle:
-      "Certified Flight Instructor | CFI,CFII,MEI | Sun City Aviation Academy",
+      "Certified Flight Instructor | CFI,CFII,MEI | Elite Flight Training & Aircraft Management",
     pageDescription:
       "Become a trusted guide in the world of aviation. Become a Certified Flight Instructor (CFI) and teach others to fly. Sun City Aviation Academy offers comprehensive CFI training programs.",
     pageKeywords:

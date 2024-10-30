@@ -1,7 +1,8 @@
 const commercialPilotTraining = {
   data: {
     //SEO Header Stuff
-    pageTitle: "Commercial Pilot Course | Sun City Aviation Academy",
+    pageTitle:
+      "Commercial Pilot Course | Elite Flight Training & Aircraft Management",
     pageDescription:
       "Commercial Pilot Certificate will allow you to fly for hire. Start your pilot career with Sun City Aviation Academy and become a professional pilot.",
     pageKeywords:

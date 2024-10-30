@@ -1,7 +1,7 @@
 const discoveryInfo = {
   data: {
     //SEO Header Stuff
-    pageTitle: "Discovery Flight | Sun City Aviation Academy",
+    pageTitle: "Discovery Flight | Elite Flight Training & Aircraft Management",
     pageDescription:
       "Start your aviation journey with a discovery flight at Sun City Aviation Academy. Contact us to schedule your flight today!",
     pageKeywords:

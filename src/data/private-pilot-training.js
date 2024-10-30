@@ -1,7 +1,8 @@
 const privatePilotTraining = {
   data: {
     //SEO Header Stuff
-    pageTitle: "Private Pilot Course | Sun City Aviation Academy",
+    pageTitle:
+      "Private Pilot Course | Elite Flight Training & Aircraft Management",
     pageDescription:
       "Sun City Aviation Academy offers the Private Pilot Course. Your passport to the skies! Learn to pilot your dreams with our Private Pilot Course.",
     pageKeywords:

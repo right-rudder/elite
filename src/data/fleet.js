@@ -1,7 +1,7 @@
 const ourFleet = {
   data: {
     //SEO Header Stuff
-    pageTitle: "Our Fleet | Sun City Aviation Academy",
+    pageTitle: "Our Fleet | Elite Flight Training & Aircraft Management",
     pageDescription:
       "We have a fleet of modern aircraft for your training needs. Our fleet includes Cessna 172s, Beechcraft Duchess and Redbird Simulator.",
     pageKeywords:

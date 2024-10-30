@@ -1,7 +1,7 @@
 const ourTeam = {
   data: {
     //SEO Header Stuff
-    pageTitle: "Our Team | Sun City Aviation Academy",
+    pageTitle: "Our Team | Elite Flight Training & Aircraft Management",
     pageDescription:
       "Our team of experienced pilots and instructors are dedicated to providing the highest quality flight training in South Florida. Learn more about our team and how they can help you achieve your aviation goals.",
     pageKeywords:

@@ -2,7 +2,7 @@ const redbirdInfo = {
   data: {
     //SEO Header Stuff
     pageTitle:
-      "Redbird Flight Simulator | Our Fleet | Sun City Aviation Academy",
+      "Redbird Flight Simulator | Our Fleet | Elite Flight Training & Aircraft Management",
     pageDescription:
       "Sun City Aviation Academy offers a Redbird Simulator for pilot training. Our Redbird Simulator is a state-of-the-art training tool that provides a realistic flight experience for pilots of all levels.",
     pageKeywords:

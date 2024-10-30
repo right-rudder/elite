@@ -1,7 +1,8 @@
 const multiEngineRating = {
   data: {
     //SEO Header Stuff
-    pageTitle: "Multi-Engine Rating | Sun City Aviation Academy",
+    pageTitle:
+      "Multi-Engine Rating | Elite Flight Training & Aircraft Management",
     pageDescription:
       "Master the art of multi engine flying and unlock new horizons in your aviation career. Our Multi-Engine Rating course is designed to provide you with the skills and experience necessary to safely and confidently operate multi-engine aircraft.",
     pageKeywords:

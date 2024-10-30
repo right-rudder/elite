@@ -1,7 +1,8 @@
 const cessnaInfo = {
   data: {
     //SEO Header Stuff
-    pageTitle: "Cessna 172 | Our Fleet | Sun City Aviation Academy",
+    pageTitle:
+      "Cessna 172 | Our Fleet | Elite Flight Training & Aircraft Management",
     pageDescription:
       "Start your aviation adventure with our robust fleet of Cessna 172 aircraft. These reliable and versatile planes are perfectly suited for those taking their first steps into the world of flight. Our Cessna 172s provide an ideal learning environment for aspiring pilots.",
     pageKeywords:
