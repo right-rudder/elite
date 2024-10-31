@@ -1,7 +1,7 @@
 const contact = {
   data: {
     //SEO Header Stuff
-    pageTitle: "Contact Us | Sun City Aviation Academy",
+    pageTitle: "Contact Us | Elite Flight Training & Aircraft Management",
     pageDescription:
       "Contact Sun City Aviation Academy for all your flight training needs. We offer a variety of flight training programs and services to help you achieve your aviation goals.",
     pageKeywords:

@@ -24,12 +24,12 @@ if (!images[data.imagePath])
       <div class="lg:pr-4">
         <div class="lg:max-w-lg">
           <p
-            class="text-base font-semibold leading-7 text-accent-300 uppercase"
+            class="text-base font-semibold leading-7 text-accent-700 uppercase"
           >
             {data.upperHeading}
           </p>
           <h1
-            class="mt-0 text-3xl font-bold tracking-tight text-muted-700 sm:text-4xl"
+            class="mt-0 text-3xl font-bold tracking-tight text-primary-950 sm:text-4xl"
           >
             {data.heading}
           </h1>
@@ -92,7 +92,7 @@ if (!images[data.imagePath])
                           {item.title}
                         </strong>{" "}
                         {item.descriptions.map((dec) => (
-                          <p class="mb-2" set:html={dec} />
+                          <p class="mb-2 font-sans2" set:html={dec} />
                         ))}
                       </span>
                     </li>

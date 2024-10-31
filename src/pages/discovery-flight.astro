@@ -96,7 +96,16 @@ const { data } = discoveryInfo;
                   ></path>
                 </svg>
               </dt>
-              <dd>{ADDRESS_LINE_1}<br />{ADDRESS_LINE_2}</dd>
+              <dd>
+                <a
+                  class="hover:underline hover:text-accent-600"
+                  href={LOCATIONS[0].gMaps}
+                  target="_blank"
+                  ><strong set:html={LOCATIONS[0].title} /><br />{
+                    ADDRESS_LINE_1
+                  }<br />{ADDRESS_LINE_2}</a
+                >
+              </dd>
             </div>
             <div class="flex gap-x-4">
               <dt class="flex-none">
@@ -117,8 +126,9 @@ const { data } = discoveryInfo;
                 </svg>
               </dt>
               <dd>
-                <a class="hover:text-gray-900" href={`tel:${PHONE_NUMBER}`}
-                  >{PHONE_NUMBER}</a
+                <a
+                  class="hover:underline hover:text-accent-600"
+                  href={`tel:${PHONE_NUMBER}`}>{PHONE_NUMBER}</a
                 >
               </dd>
             </div>
@@ -141,8 +151,9 @@ const { data } = discoveryInfo;
                 </svg>
               </dt>
               <dd>
-                <a class="hover:text-gray-900" href={`mailto:${EMAIL_ADDRESS}`}
-                  >{EMAIL_ADDRESS}</a
+                <a
+                  class="hover:underline hover:text-accent-600"
+                  href={`mailto:${EMAIL_ADDRESS}`}>{EMAIL_ADDRESS}</a
                 >
               </dd>
             </div>
@@ -150,7 +161,7 @@ const { data } = discoveryInfo;
         </div>
       </div>
       <div
-        class="bg-primary-500/20 mx-auto w-full h-full flex justify-center align-middle items-center p-6"
+        class="bg-accent-200 mx-auto w-full h-full flex justify-center align-middle items-center p-6"
       >
         <form id="contact-form" class="w-full max-w-xl">
           <div class="">

@@ -1,15 +1,15 @@
 const privacyPolicies = {
   data: {
-    heading: `Privacy Policy of<br /> Sun City Aviation Academy`,
+    heading: `Privacy Policy of<br /> Elite Flight Training & Aircraft Management`,
     subheading: `Last updated: 10-24-2024`,
     content: [
       {
         heading: "Introduction",
         paragraphs: [
-          "Sun City Aviation Academy LLC operates the https://suncityaviation.com website, which is a flight school with addresses in Pembrooke Pines, FL.",
-          "This page is used to inform website visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service, the Sun City Aviation Academy website.",
+          "Elite Flight Training & Aircraft Management LLC operates the https://www.eliteproaviation.com/ website, which is a flight school with addresses in Pembrooke Pines, FL.",
+          "This page is used to inform website visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service, the Elite Flight Training & Aircraft Management website.",
           "If you choose to use our Service, then you agree to the collection and use of information in relation with this policy. The Personal Information that we collect are used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.",
-          "The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at https://rightruddermarketing.com/terms-of-service, unless otherwise defined in this Privacy Policy.",
+          "The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at https://www.eliteproaviation.com//terms-of-service, unless otherwise defined in this Privacy Policy.",
         ],
       },
       {

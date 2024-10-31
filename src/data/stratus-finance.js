@@ -1,7 +1,8 @@
 const stratusInfo = {
   data: {
     //SEO Header Stuff
-    pageTitle: "Stratus Financial | Financing | Sun City Aviation Academy",
+    pageTitle:
+      "Stratus Financial | Financing | Elite Flight Training & Aircraft Management",
     pageDescription:
       "Stratus Financial is a financing option for students looking to become a pilot. Sun City Aviation Academy has partnered with Stratus Financial to provide students with the financial assistance they need to complete their pilot training.",
     pageKeywords:
@@ -32,7 +33,7 @@ const stratusInfo = {
 
     bookCTA: {
       upperHeading: "Still looking for more information on pilot training?",
-      headerH1: `Get Your <span class="text-accent-300">FREE</span><br> Pilot Training Guide!`,
+      headerH1: `Get Your <span class="text-primary-700">FREE</span><br> Pilot Training Guide!`,
       paragraph:
         "We have a free booklet which explains everything you need to know for your pilot certificate.",
       buttons: [
@@ -71,7 +72,7 @@ const stratusInfo = {
       imageAlt: "Right Rudder Marketing team on the runway",
       headerH1: `<span class="text-primary-600">Start Your Aviation Journey</br></span>With a Discovery Flight`,
       paragraph:
-        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see the Ft. Lauderdale and Hollywood from a new perspective.",
+        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see Kankakee from a new perspective.",
       buttons: [
         {
           name: "Schedule Today",

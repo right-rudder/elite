@@ -15,20 +15,20 @@ export const KEYWORDS =
 
 export const LOCATIONS = [
   {
-    title: `North Perry Airport<br><small class="text-xs -mt-3">KHWO</small>`,
-    address: "7201 S Airport Rd #504A",
-    city: "Pembroke Pines",
-    state: "FL",
-    zip: "33023",
-    gMaps: "https://maps.app.goo.gl/yugDmTfMfqUNYQ7G7",
+    title: `Greater Kankakee Airport - IKK`,
+    address: "809 East 4000S Road",
+    city: "Kankakee",
+    state: "IL",
+    zip: "60901",
+    gMaps: "https://maps.app.goo.gl/q1SJrrPdmpFBcyjY7",
     phone: "+1-815-939-3575",
   },
 ];
 
 // CHANGE client business info
 export const PHONE_NUMBER = "+1-815-939-3575";
-export const ADDRESS_LINE_1 = "7201 S Airport Rd #504A";
-export const ADDRESS_LINE_2 = "Pembroke Pines, FL 33023";
+export const ADDRESS_LINE_1 = "809 East 4000S Road";
+export const ADDRESS_LINE_2 = "Kankakee, Illinois 60901";
 export const FACEBOOK_URL =
   "https://www.facebook.com/eliteflighttrainingkankakee";
 export const INSTAGRAM_URL =

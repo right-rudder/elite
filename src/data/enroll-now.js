@@ -1,7 +1,7 @@
 const enrollInfo = {
   data: {
     //SEO Header Stuff
-    pageTitle: "Enroll Now | Sun City Aviation Academy",
+    pageTitle: "Enroll Now | Elite Flight Training & Aircraft Management",
     pageDescription:
       "Start your aviation journey with a discovery flight at Sun City Aviation Academy. Contact us to schedule your flight today!",
     pageKeywords:
