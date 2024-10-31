@@ -4,19 +4,18 @@ const pilotTrainingGuide = {
     pageTitle:
       "Pilot Training Guide | Elite Flight Training & Aircraft Management",
     pageDescription:
-      "Grow and scale your aviation business. Right Rudder Marketing specializes in aviation marketing services, helping flight schools and aviation companies increase visibility and grow enrollment. We offer tailored digital marketing solutions, including SEO, web design, and lead generation to help you reach more aspiring pilots. With proven aviation marketing strategies, we can help your flight school stand out in the competitive market and boost student enrollment efficiently.",
+      "Learn more about how to become a pilot with Elite Flight Training. We offer a variety of programs to help you achieve your aviation dreams and become a pilot.",
     pageKeywords:
       "grow flight school, scale flight school, grow and scale flight school, aviation business, aviation training,Right Rudder Marketing, Aviation marketing, Flight school marketing, Aviation digital marketing, SEO for aviation, Digital marketing for flight schools, Aviation marketing agency, Lead generation for aviation companies, Increase flight school enrollment, Aviation advertising services, Content marketing for aviation businesses, Aviation marketing strategies, Aviation SEO services",
 
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/sun-city-pilot-training-guide.jpg",
-      imageAlt:
-        "sun city aviation academy airplane flying over the city of miami",
+      imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
+      imageAlt: "Elite Flight Training",
       headerH1: `Pilot Training </br><span class="text-accent-300">Guide</span>`,
       paragraph:
-        "Learn more about how to become a pilot with Sun City. We offer a variety of programs to help you achieve your aviation dreams and become a pilot.",
+        "Learn more about how to become a pilot with Elite Flight Training. We offer a variety of programs to help you achieve your aviation dreams and become a pilot.",
       buttons: [
         {
           name: "Enroll Now",
@@ -35,7 +34,7 @@ const pilotTrainingGuide = {
       upperHeading: "How to Get Started",
       heading: "Pilot Career Path",
       description:
-        "If you've thought about becoming a pilot, now is the perfect time to get started. Sun City Aviation Academy is your place to start training and get your pilot certificate and ratings.",
+        "If you've thought about becoming a pilot, now is the perfect time to get started. Elite Flight Training Aviation Academy is your place to start training and get your pilot certificate and ratings.",
       boxes: [
         {
           upperTitle: "Experience",
@@ -43,7 +42,8 @@ const pilotTrainingGuide = {
           copy: "The best way to see if flying is right for you is to take a discovery flight. This brief introductory flight, led by one of our seasoned instructors, offers a first hand glimpse into the world of piloting. During this experience, you'll take the controls of the plane, acquaint yourself with maneuvers, and view the south Florida coast from a new perspective.",
           imagePath:
             "/src/assets/sun-city-aviation-academy-flying-over-miami.jpg",
-          imageAlt: "sun city aviation academy student flying over miami",
+          imageAlt:
+            "Elite Flight Training aviation academy student flying over miami",
           button: {
             name: "Schedule Today",
             link: "/discovery-flight",
@@ -56,7 +56,8 @@ const pilotTrainingGuide = {
           copy: "Our team of experienced instructors will work with you to craft a training regimen that perfectly suits your goals, schedule, and preferred learning style.",
           imagePath:
             "/src/assets/sun-city-aviation-academy-flight-training.jpg",
-          imageAlt: "sun city aviation academy student flying over miami",
+          imageAlt:
+            "Elite Flight Training aviation academy student flying over miami",
           button: {
             name: "Private Pilot",
             link: "/private-pilot-training",
@@ -66,9 +67,10 @@ const pilotTrainingGuide = {
         {
           upperTitle: "Training",
           title: "Advanced Flight Training",
-          copy: "From instrument training to multi engine training, commercial training, and beyond, Sun City offers a comprehensive selection of advanced training options.",
+          copy: "From instrument training to multi engine training, commercial training, and beyond, Elite Flight Training offers a comprehensive selection of advanced training options.",
           imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
-          imageAlt: "sun city aviation academy student flying over miami",
+          imageAlt:
+            "Elite Flight Training aviation academy student flying over miami",
           button: {
             name: "Our Courses",
             link: "/flight-training-pilot-programs",
@@ -78,9 +80,10 @@ const pilotTrainingGuide = {
         {
           upperTitle: "Professional",
           title: "Start Your Pilot Career",
-          copy: "Begin your pilot career with Sun City Aviation Academy. We offer training to get your ATP (airline transport pilot) certificate - the highest level of pilot certification and is a prerequisite for those wanting to join the airlines or get into corporate aviation.",
+          copy: "Begin your pilot career with Elite Flight Training Aviation Academy. We offer training to get your ATP (airline transport pilot) certificate - the highest level of pilot certification and is a prerequisite for those wanting to join the airlines or get into corporate aviation.",
           imagePath: "/src/assets/sun-city-aviation-academy-pilot-career.jpg",
-          imageAlt: "sun city aviation academy student flying over miami",
+          imageAlt:
+            "Elite Flight Training aviation academy student flying over miami",
           button: {
             name: "ATP Course",
             link: "/airline-transport-pilot-atp",
@@ -100,7 +103,7 @@ const pilotTrainingGuide = {
       ],
       imagePath: "/src/assets/sun-city-aviation-academy-be-pilot-square.jpg",
       imageAlt:
-        "sun city aviation academy student flying a plane over the city of miami",
+        "Elite Flight Training aviation academy student flying a plane over the city of miami",
       buttons: [
         {
           name: "Take the Quiz",
@@ -115,7 +118,7 @@ const pilotTrainingGuide = {
       imageAlt: "Right Rudder Marketing team on the runway",
       headerH1: `<span class="text-primary-600">Start Your Aviation Journey</br></span>With a Discovery Flight`,
       paragraph:
-        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see the Ft. Lauderdale and Hollywood from a new perspective.",
+        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see Kankakee from a new perspective.",
       buttons: [
         {
           name: "Schedule Today",

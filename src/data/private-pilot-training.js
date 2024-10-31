@@ -14,7 +14,7 @@ const privatePilotTraining = {
       imagePath: "/src/assets/avel-chuklanov-QbTBCUJLqKY-unsplash(1).jpg",
       imageAlt:
         "sun city aviation academy private pilot student viewed from the back seat of a cessna airplane",
-      headerH1: `Private</br><span class="text-accent-300">Pilot Course</span>`,
+      headerH1: `Private</br><span class="text-primary-100">Pilot Course</span>`,
       paragraph:
         "The foundational course for your aviation career path. With a private pilot certificate, you gain the privilege to operate aircraft for personal and recreational purposes.",
       buttons: [
@@ -34,9 +34,9 @@ const privatePilotTraining = {
     pageSummary: {
       title: "Private Pilot Certificate",
       paragraphs: [
-        "Commonly referred to as a Private Pilot License (PPL), a Private Pilot Certificate is a type of pilot certification that allows the holder to act as pilot in command of an aircraft privately (not for hire or compensation).",
-        "With a private pilot certificate, you gain the privilege to operate aircraft for personal and recreational purposes. This means you can fly for leisure, travel, or just explore the skies at your own discretion. It's the foundation upon which you can build various flying experiences.",
-        "It's also the first certificate you receive during your pilot training and it lays the foundation for your further training. If you're looking to advance onto getting your instrument, commercial, and maybe even your ATP (airline transport pilot) certificate, you're going to start here.",
+        "A Private Pilot License (PPL) is a type of pilot certification that lets you fly your own plane for fun, not for money. With a private pilot certificate, you can fly for pleasure, travel, or just explore the skies whenever you want.",
+        "It’s the starting point for all your flying adventures. And guess what? It’s also the first certificate you get when you start your pilot training.",
+        "If you want to get your instrument, commercial, or even your ATP (airline transport pilot) certificate, you’ll need to start with a private pilot certificate.",
       ],
     },
 
@@ -44,16 +44,16 @@ const privatePilotTraining = {
       upperHeading: "Roadmap",
       heading: "Private Pilot Course",
       descriptions: [
-        "Your aviation dreams take center stage here. Whether pursuing a professional career, building flight hours, or seeking leisurely adventure, we have the perfect path for you.",
+        "Your aviation dreams are our mission! Whether you’re aiming for a career in aviation, building flight hours, or just want to have some fun in the skies, we’ve got you covered.",
       ],
       steps: [
         {
           title: "Medical Exam",
           paragraphs: [
-            "The <strong>Federal Aviation Administration (FAA)</strong> requires all pilots to meet certain medical standards to ensure that they are physically and mentally fit. At Sun City, we understand that the medical exam can seem daunting, which is why we provide support and guidance to our students throughout the process.",
-            "We work closely with certified aviation medical examiners and will be able to link you up with an Aviation Medical Examiner (AME) who can assist you in navigating the examination requirements seamlessly.",
-            "Our experienced team of instructors will guide you through the exam process, explain what the exam entails, and what conditions may disqualify you from obtaining a pilot's license.",
-            "We'll provide you with tips on how to prepare for the exam, including what to bring, what to expect on the day, and how to deal with any potential issues that may arise.",
+            "The <strong>Federal Aviation Administration (FAA)</strong> has strict medical standards for pilots to make sure they’re physically and mentally fit. At Elite, we know the medical exam can be scary, so we’re here to help you every step of the way.",
+            "We’ve teamed up with certified aviation medical examiners to connect you with an Aviation Medical Examiner (AME) who’ll help you understand the exam and make sure you pass.",
+            "Our experienced instructors will be there to guide you through the exam, explain what it’s all about, and let you know what conditions might stop you from getting your pilot’s license.",
+            "We’ll give you tips on how to prepare for the exam, like what to bring and what to expect on the day. We’ll also help you handle any problems that might come up.",
           ],
           imagePath: "/src/assets/sun-city-medical-exam.webp",
           imageAlt: "sun city aviation student taking a medical exam",
@@ -61,11 +61,11 @@ const privatePilotTraining = {
         {
           title: "Written Exam",
           paragraphs: [
-            "The written exam is the second step towards obtaining your pilot's license. It covers a wide range of topics, including regulations, airspace, weather, aerodynamics, and aircraft performance.",
-            "The exam is designed to test your knowledge and ensure that you have a comprehensive understanding of what it takes to be a safe and competent pilot.",
-            "At <strong>Sun City Aviation Academy</strong>, we offer comprehensive ground school training to prepare you thoroughly for this crucial examination, equipping you with the knowledge and confidence to excel in your written test and ultimately in your flying career.",
-            "Our experienced instructors will guide you through the material, answer your questions, and help you grasp the essential concepts required for success.",
-            "We understand that the written exam can be challenging, which is why we provide our students with comprehensive ground school training to help them prepare. Our experienced instructors will guide you through the study materials, providing you with a clear understanding of the concepts covered on the exam.",
+            "The written exam is the second step to getting your pilot’s license. It covers a lot of stuff, like rules, airspace, weather, how airplanes fly, and how they perform.",
+            "The exam is designed to test your knowledge and make sure you really understand what it takes to be a safe and skilled pilot.",
+            "At <strong>Elite Flight Training</strong>, we offer a full ground school program to prepare you well for this important exam. We’ll give you all the knowledge and confidence you need to ace your written test and then your flying career.",
+            "Our experienced instructors will help you through everything, answer your questions, and make sure you get the important ideas.",
+            "We know the written exam can be tough, so we’ve got you covered. We’ll give you all the ground school training you need to prepare. Our instructors will help you understand everything you need to know for the exam.",
           ],
           imagePath: "/src/assets/ben-mullins-oXV3bzR7jxI-unsplash.jpg",
           imageAlt: "sun city aviation student taking a written exam",
@@ -73,10 +73,10 @@ const privatePilotTraining = {
         {
           title: "Flight Exam",
           paragraphs: [
-            "The flight exam, also known as the checkride, is the final step towards obtaining your license. It is designed to assess your ability to operate an aircraft safely and competently in various flight scenarios.",
-            "The exam consists of both oral and practical components and is conducted by a certified FAA examiner. During the oral portion, you'll be tested on your knowledge of aircraft systems, flight planning, regulations, and aeronautical decision making (ADM).",
-            "In the practical portion, you'll demonstrate your flying skills by performing maneuvers, takeoffs, landings, and emergency procedures. By training at our academy, you can be confident that you're receiving the best possible training and support to pass the flight exam and become a licensed pilot.",
-            "Our experienced instructors will ensure that you have everything you need to succeed, from in-depth knowledge of the aircraft to proficient flying skills. We take pride in our high pass rates, and our commitment to your success means that you'll be well-prepared to confidently tackle the checkride and earn your wings.",
+            "The flight exam, or checkride, is the last step to getting your pilot’s license. It’s like a test to see if you can fly an airplane safely and well in different situations.",
+            "The exam has two parts: talking and flying. A special FAA examiner will give you a test on your knowledge of airplanes, how to plan flights, rules, and making good decisions in the air.",
+            "In the flying part, you’ll show off your flying skills by doing maneuvers, takeoffs, landings, and emergency procedures. If you train at our academy, you’ll get the best training and support to pass the exam and become a licensed pilot.",
+            "Our experienced instructors will teach you everything you need to know about the airplane and how to fly it well. They’re really good at helping people pass the exam, and they’re committed to helping you succeed. So, you’ll be well-prepared to take on the checkride and earn your wings!",
           ],
           imagePath: "/src/assets/sun-city-aviation-academy-why-pilot.jpg",
           imageAlt:
@@ -84,7 +84,7 @@ const privatePilotTraining = {
         },
       ],
       finalParagraph:
-        "Ready to start your journey to becoming a private pilot? Enroll in our Private Pilot Course today and take the first step towards becoming a pilot.",
+        "Ready to start your journey to becoming a private pilot?<br>Enroll in our Private Pilot Course today and take the first step towards becoming a pilot.",
       finalButton: {
         name: "Enroll Now",
         link: "/enroll-now",
@@ -94,7 +94,7 @@ const privatePilotTraining = {
 
     bookCTA: {
       upperHeading: "Still looking for more information on pilot training?",
-      headerH1: `Get Your <span class="text-accent-300">FREE</span><br> Pilot Training Guide!`,
+      headerH1: `Get Your <span class="text-primary-700">FREE</span><br> Pilot Training Guide!`,
       paragraph:
         "We have a free booklet which explains everything you need to know for your pilot certificate.",
       buttons: [
@@ -133,7 +133,7 @@ const privatePilotTraining = {
       imageAlt: "Right Rudder Marketing team on the runway",
       headerH1: `<span class="text-primary-600">Start Your Aviation Journey</br></span>With a Discovery Flight`,
       paragraph:
-        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see the Ft. Lauderdale and Hollywood from a new perspective.",
+        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see Kankakee from a new perspective.",
       buttons: [
         {
           name: "Schedule Today",

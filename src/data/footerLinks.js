@@ -25,7 +25,7 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Flight Training",
+    title: "Training",
     links: [
       {
         name: "Private Pilot",
