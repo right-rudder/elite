@@ -6,27 +6,27 @@ const { content } = Astro.props;
 
 <section
   id={content.heading}
-  class="bg-gradient-to-b from-muted-50 to-primary-100 py-20 flex justify-center align-middle items-center"
+  class="bg-gradient-to-b from-white to-muted-100 py-20 flex justify-center align-middle items-center"
 >
   <div>
     <div class="w-full lg:mx-0 text-center mb-16">
       {
         content.upperHeading && (
-          <h3 class="mx-auto mt-12 uppercase text-lg lg:text-xl font-sans font-bold tracking-tight text-accent-300">
+          <h3 class="mx-auto mt-12 uppercase text-lg lg:text-xl font-sans font-bold tracking-tight text-accent-700">
             {content.upperHeading}
           </h3>
         )
       }
       {
         content.heading && (
-          <h2 class="mx-auto px-5 lg:px-0 mb-3 text-3xl lg:text-5xl font-sans font-bold tracking-tight text-primary-800">
+          <h2 class="mx-auto px-5 lg:px-0 mb-3 text-3xl lg:text-5xl font-sans font-bold tracking-tight text-primary-950">
             {content.heading}
           </h2>
         )
       }
       {
         content.descriptions && (
-          <div class="max-w-4xl mx-auto px-4 lg:px-0">
+          <div class="max-w-4xl mx-auto font-sans2 px-4 lg:px-0">
             {content.descriptions.map((p) => (
               <p
                 class="mx-auto mb-4 text-lg tracking-loose leading-relaxed text-muted-700"
@@ -45,7 +45,7 @@ const { content } = Astro.props;
           >
             <div class="pt-12 lg:pt-10 flex flex-col justify-center align-middle items-center w-full lg:w-1/2">
               <h3
-                class={`${index % 2 ? "right-2" : "left-2"} top-2 absolute font-sans text-5xl bg-accent-300 rounded-md py-2 px-5 font-semibold text-primary-900 -z-0`}
+                class={`${index % 2 ? "right-2" : "left-2"} top-2 absolute font-sans3 text-5xl bg-accent-600 rounded-md py-2 px-5 font-semibold text-white -z-0`}
               >
                 {index + 1}
               </h3>
