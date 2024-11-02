@@ -31,6 +31,10 @@ export const mobileNavbarLinks = [
         name: "Multi-Engine Rating",
         link: "/flight-training/multi-engine-rating",
       },
+      {
+        name: "Certified Flight Instructor",
+        link: "/flight-training/certified-flight-instructor-cfi",
+      },
     ],
   },
 

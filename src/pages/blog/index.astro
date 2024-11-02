@@ -7,10 +7,10 @@ import Header from "../../components/Header.astro";
 const data = {
   header: {
     imagePath: "/src/assets/sun-city-aviation-academy-fly-over-sunset.jpg",
-    imageAlt: "Sun City Aviation Academy Fly Over Sunset",
+    imageAlt: "Elite Flight Training & Aircraft Management Fly Over Sunset",
     headerH1: "Our Blog",
     paragraph:
-      "Get the latest insights and tips from Sun City Aviation Academy. Stay up-to-date with the latest happenings in the world of flight training.",
+      "Get the latest insights and tips from Elite Flight Training & Aircraft Management. Stay up-to-date with the latest happenings in the world of flight training.",
   },
 };
 
@@ -21,7 +21,7 @@ const posts = (await getCollection("blog")).sort(
 
 <BaseLayout
   pageTitle="Blog | Elite Flight Training & Aircraft Management"
-  pageDescription="Get the latest insights and tips from Sun City Aviation Academy. Stay up-to-date with the latest happenings in the world of flight training."
+  pageDescription="Get the latest insights and tips from Elite Flight Training & Aircraft Management. Stay up-to-date with the latest happenings in the world of flight training."
   pageKeywords="blog, flight training blog, aviation blog, pilot training blog, flight school blog, latest tips for pilots, latest insights for pilots"
 >
   <!-- Header -->
@@ -60,11 +60,12 @@ const posts = (await getCollection("blog")).sort(
     <div class="mx-auto px-6 lg:px-8">
       <div class="mx-auto max-w-2xl text-center">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          Sun City Aviation Academy Articles
+          Elite Flight Training & Aircraft Management Articles
         </h2>
         <p class="mt-2 text-lg leading-6 text-gray-600">
-          News, insights, and tips from Sun City Aviation Academy. Valuable
-          information for aspiring pilots and aviation enthusiasts.
+          News, insights, and tips from Elite Flight Training & Aircraft
+          Management. Valuable information for aspiring pilots and aviation
+          enthusiasts.
         </p>
         <p class="text-xs text-muted-400">
           {posts.length}{posts.length > 1 ? " Articles" : " Article"}. Since{
@@ -78,32 +79,32 @@ const posts = (await getCollection("blog")).sort(
       >
         {
           posts.map((post, index) => (
-            <article class="relative group w-full lg:m-0 md:w-2/5 lg:w-1/4 isolate flex flex-col justify-end overflow-hidden rounded-md bg-white px-8 pb-8 pt-48 lg:pt-80 hover:ring-1 hover:ring-accent-500 duration-200">
+            <article class="relative group w-full lg:m-0 md:w-2/5 lg:w-1/4 isolate flex flex-col justify-end overflow-hidden rounded-md bg-white px-8 pb-8 pt-48 lg:pt-80 hover:ring-1 hover:ring-accent-600 duration-200">
               <img
                 src={post.data.heroImage}
                 alt={post.data.title}
                 class="absolute inset-0 -z-10 h-full w-full object-cover group-hover:scale-110 group-hover:brightness-125 duration-200"
               />
-              <div class="absolute inset-0 -z-10 bg-gradient-to-t from-primary-950 via-primary-900/20 group-hover:bg-black/60 duration-200" />
+              <div class="absolute inset-0 -z-10 bg-gradient-to-t from-slate-950/90 via-primary-900/40 group-hover:bg-primary-900/50 duration-200" />
               <div class="absolute inset-0 -z-10 ring-1 ring-inset ring-accent-400/10" />
 
               <div class="flex flex-wrap items-center gap-y-1 overflow-hidden text-sm leading-6 text-gray-100">
-                <time datetime="2020-03-16" class="mr-8 text-accent-400">
+                <time datetime="2020-03-16" class="mr-8 text-accent-100">
                   <FormattedDate date={post.data.pubDate} />
                 </time>
                 <div class="-ml-4 flex items-center gap-x-4">
                   <svg
                     viewBox="0 0 2 2"
-                    class="-ml-0.5 h-0.5 w-0.5 flex-none fill-white/50"
+                    class="-ml-0.5 h-0.5 w-0.5 flex-none fill-white"
                   >
                     <circle cx="1" cy="1" r="1" />
                   </svg>
-                  <div class="flex font-bold text-base text-accent-200">
+                  <div class="flex font-bold text-base text-accent-50">
                     {post.data.author}
                   </div>
                 </div>
               </div>
-              <h3 class="mt-3 text-lg font-black leading-6 text-primary-100">
+              <h3 class="mt-3 text-lg font-black leading-6 text-white">
                 <a href={`/blog/${post.slug}/`}>
                   <span class="absolute inset-0" />
                   {post.data.title}

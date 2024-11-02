@@ -9,6 +9,7 @@ const {
   link,
   linkText = "Explore",
   description,
+  style = "",
 } = Astro.props;
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "/src/assets/*.{jpeg,jpg,png,gif,webp}"
@@ -19,7 +20,9 @@ if (!images[imagePath])
   );
 ---
 
-<div class="flex flex-col bg-white group relative overflow-hidden rounded-sm">
+<div
+  class=`${style} flex flex-col bg-white group relative overflow-hidden rounded-md`
+>
   <div
     class="w-full h-[27rem] overflow-hidden flex flex-col justify-center items-center align-middle"
   >

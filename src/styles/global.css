@@ -48,8 +48,13 @@
   color: black !important;
 }
 
+.swiper-pagination-bullet {
+  background-color: white !important;
+  opacity: 0.5;
+}
+
 .swiper-pagination-bullet-active {
-  background-color: black !important;
+  background-color: rgb(255, 174, 174) !important;
 }
 
 /* .swiper-wrapper {

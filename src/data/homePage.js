@@ -96,9 +96,9 @@ const homePage = {
 
     blogfeed: {
       upperHeading: "Our Blog",
-      heading: "Sun City Aviation Academy News",
+      heading: "Elite Flight News",
       description:
-        "Stay up to date with the latest news, pilot resources and updates from Sun City Aviation Academy.",
+        "Stay up to date with the latest news, pilot resources and updates from Elite Flight Training & Aircraft Management.",
     },
 
     flyWithUsCTA: {
