@@ -11,9 +11,9 @@ const homePage = {
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/greg-rosenke-0DizjoNOCrw-unsplash.jpg",
+      imagePath: "/src/assets/zander-betterton-24R77S3ZA5s-unsplash.jpg",
       imageAlt:
-        "sun city aviation academy airplane flying over the city of miami",
+        "Elite Flight Training & Aircraft Management flight over Kankakee, IL",
       headerH1: `Come Fly<br>With Us`,
       paragraph:
         "Start your aviation journey with Elite Flight Training. Whether you're looking to fly for fun or pursue a career in aviation, Our programs and instructors to help you achieve your goals.",
@@ -120,8 +120,8 @@ const homePage = {
       upperHeading: "The Elite Family",
       heading: "Our Students Love Us",
       headingText: [
-        "While our main goal is to train future pilots safely and effectively, it’s important to us at Elite Flight Training our students have a fun and comfortable environment to practice in.",
-        "Check out what our students and guests have to say about their experiences at Elite.",
+        "While our main goal is to train future pilots safely and effectively, it’s important to us at Elite Flight Training our students have a fun and comfortable environment to practice in. We are proud of the relationships we have built with our students and guests.",
+        "Check out what they have to say about their experiences with Us.",
       ],
       buttonText: "Leave Us a Review",
       buttonLink:

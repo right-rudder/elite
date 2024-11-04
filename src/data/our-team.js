@@ -9,7 +9,8 @@ const ourTeam = {
 
     //top header
     header: {
-      imagePath: "/src/assets/zander-betterton-C4yWlj1skkA-unsplash.jpg",
+      imagePath:
+        "/src/assets/elite-flight-training-certified-flight-instructor.jpg",
       imageAlt: "Elite Flight Training & Aircraft Management Team",
       headerH1: `Come</br><span class="text-primary-100">Meet Us</span>`,
       paragraph:
@@ -157,7 +158,7 @@ const ourTeam = {
         "Are you fascinated by the world of aviation? Have you dreamed of flying and exploring the skies? Do you often look upward at passing aircraft, wondering if you yourself could be in the cockpit?",
         "Begin your journey in aviation with our brief quiz. Our quiz is designed to look at your aviation related knowledge and aptitude, alongside your unique personality traits and interests, to provide insights into whether a future in aviation aligns with your aspirations.",
       ],
-      imagePath: "/src/assets/sun-city-aviation-academy-be-pilot-square.jpg",
+      imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
       imageAlt:
         "sun city aviation academy student flying a plane over the city of miami",
       buttons: [

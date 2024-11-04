@@ -61,10 +61,6 @@ export const footerLinks = [
         link: "/our-fleet",
       },
       {
-        name: "Visit Us",
-        link: "/visit-us",
-      },
-      {
         name: "Blog",
         link: "/blog",
       },
