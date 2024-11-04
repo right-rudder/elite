@@ -13,7 +13,7 @@ const pilotTrainingGuide = {
       stars: true,
       imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
       imageAlt: "Elite Flight Training",
-      headerH1: `Pilot Training </br><span class="text-accent-300">Guide</span>`,
+      headerH1: `Pilot Training </br><span class="text-primary-100">Guide</span>`,
       paragraph:
         "Learn more about how to become a pilot with Elite Flight Training. We offer a variety of programs to help you achieve your aviation dreams and become a pilot.",
       buttons: [
@@ -40,8 +40,7 @@ const pilotTrainingGuide = {
           upperTitle: "Experience",
           title: "Take a Discovery Flight",
           copy: "The best way to see if flying is right for you is to take a discovery flight. This brief introductory flight, led by one of our seasoned instructors, offers a first hand glimpse into the world of piloting. During this experience, you'll take the controls of the plane, acquaint yourself with maneuvers, and view the south Florida coast from a new perspective.",
-          imagePath:
-            "/src/assets/sun-city-aviation-academy-flying-over-miami.jpg",
+          imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
           imageAlt:
             "Elite Flight Training aviation academy student flying over miami",
           button: {
@@ -54,13 +53,12 @@ const pilotTrainingGuide = {
           upperTitle: "Training",
           title: "Start Flight Training",
           copy: "Our team of experienced instructors will work with you to craft a training regimen that perfectly suits your goals, schedule, and preferred learning style.",
-          imagePath:
-            "/src/assets/sun-city-aviation-academy-flight-training.jpg",
+          imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
           imageAlt:
             "Elite Flight Training aviation academy student flying over miami",
           button: {
             name: "Private Pilot",
-            link: "/private-pilot-training",
+            link: "/flight-training/private-pilot-training",
             primary: true,
           },
         },
@@ -78,15 +76,15 @@ const pilotTrainingGuide = {
           },
         },
         {
-          upperTitle: "Professional",
-          title: "Start Your Pilot Career",
-          copy: "Begin your pilot career with Elite Flight Training Aviation Academy. We offer training to get your ATP (airline transport pilot) certificate - the highest level of pilot certification and is a prerequisite for those wanting to join the airlines or get into corporate aviation.",
-          imagePath: "/src/assets/sun-city-aviation-academy-pilot-career.jpg",
+          upperTitle: "Instructor",
+          title: "Become a Certified Flight Instructor",
+          copy: "Once you've completed your training, you can become a certified flight instructor and help others achieve their aviation dreams. Our CFI training program will prepare you for this exciting career path. We offer CFI and CFII training.",
+          imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
           imageAlt:
             "Elite Flight Training aviation academy student flying over miami",
           button: {
-            name: "ATP Course",
-            link: "/airline-transport-pilot-atp",
+            name: "CFI Training",
+            link: "/flight-training/certified-flight-instructor-cfi",
             primary: true,
           },
         },
@@ -101,7 +99,7 @@ const pilotTrainingGuide = {
         "Are you fascinated by the world of aviation? Have you dreamed of flying and exploring the skies? Do you often look upward at passing aircraft, wondering if you yourself could be in the cockpit?",
         "Begin your journey in aviation with our brief quiz. Our quiz is designed to look at your aviation related knowledge and aptitude, alongside your unique personality traits and interests, to provide insights into whether a future in aviation aligns with your aspirations.",
       ],
-      imagePath: "/src/assets/sun-city-aviation-academy-be-pilot-square.jpg",
+      imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
       imageAlt:
         "Elite Flight Training aviation academy student flying a plane over the city of miami",
       buttons: [

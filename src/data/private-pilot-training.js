@@ -68,7 +68,7 @@ const privatePilotTraining = {
             "We know the written exam can be tough, so we’ve got you covered. We’ll give you all the ground school training you need to prepare. Our instructors will help you understand everything you need to know for the exam.",
           ],
           imagePath: "/src/assets/ben-mullins-oXV3bzR7jxI-unsplash.jpg",
-          imageAlt: "sun city aviation student taking a written exam",
+          imageAlt: "Elite Flight Training student studying for a written exam",
         },
         {
           title: "Flight Exam",
@@ -78,9 +78,9 @@ const privatePilotTraining = {
             "In the flying part, you’ll show off your flying skills by doing maneuvers, takeoffs, landings, and emergency procedures. If you train at our academy, you’ll get the best training and support to pass the exam and become a licensed pilot.",
             "Our experienced instructors will teach you everything you need to know about the airplane and how to fly it well. They’re really good at helping people pass the exam, and they’re committed to helping you succeed. So, you’ll be well-prepared to take on the checkride and earn your wings!",
           ],
-          imagePath: "/src/assets/sun-city-aviation-academy-why-pilot.jpg",
+          imagePath: "/src/assets/elite-flight-training-flight-exam.jpg",
           imageAlt:
-            "sun city aviation student taking a flight exam or checkride",
+            "Elite Flight Training view from cessna airplane cockpit during a flight exam",
         },
       ],
       finalParagraph:
@@ -116,7 +116,7 @@ const privatePilotTraining = {
         "Are you fascinated by the world of aviation? Have you dreamed of flying and exploring the skies? Do you often look upward at passing aircraft, wondering if you yourself could be in the cockpit?",
         "Begin your journey in aviation with our brief quiz. Our quiz is designed to look at your aviation related knowledge and aptitude, alongside your unique personality traits and interests, to provide insights into whether a future in aviation aligns with your aspirations.",
       ],
-      imagePath: "/src/assets/sun-city-aviation-academy-be-pilot-square.jpg",
+      imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
       imageAlt:
         "sun city aviation academy student flying a plane over the city of miami",
       buttons: [

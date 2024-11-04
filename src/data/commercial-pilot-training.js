@@ -4,19 +4,19 @@ const commercialPilotTraining = {
     pageTitle:
       "Commercial Pilot Course | Elite Flight Training & Aircraft Management",
     pageDescription:
-      "Commercial Pilot Certificate will allow you to fly for hire. Start your pilot career with Sun City Aviation Academy and become a professional pilot.",
+      "With Elite Flight Training and Our Commercial Pilot Course is designed to prepare you for a successful career in aviation. Whether you're looking to fly for an airline or charter company, our comprehensive training program will help you achieve your goals.",
     pageKeywords:
       "commercial pilot course, commercial pilot training, commercial pilot license, commercial pilot certificate, commercial pilot school, commercial pilot training cost, commercial pilot training near me, commercial pilot training programs, commercial pilot training requirements, commercial pilot training florida, commercial pilot training miami, commercial pilot training fort lauderdale, commercial pilot training south florida, commercial pilot training usa, commercial pilot training international, commercial pilot training academy, commercial pilot training center, commercial pilot training online, commercial pilot training school, commercial pilot training program, commercial pilot training course, commercial pilot training academy, commercial pilot training center, commercial pilot training online, commercial pilot training school, commercial pilot training program, commercial pilot training course",
 
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/sun-city-aviation-academy-flight-training.jpg",
+      imagePath: "/src/assets/elite-flight-training-commercial-pilot.jpg",
       imageAlt:
-        "sun city aviation academy trains professional pilots in south florida",
-      headerH1: `Commercial </br><span class="text-accent-300">Pilot Course</span>`,
+        "elite flight training commercial pilot student flying over the city",
+      headerH1: `Commercial </br><span class="text-primary-100">Pilot Course</span>`,
       paragraph:
-        "Take your passion for flying to the next level with our Commercial Pilot Course. Whether you're looking to fly for an airline or charter company, our comprehensive training program will prepare you for a successful career in aviation.",
+        "Our Commercial Pilot Course is designed to prepare you for a successful career in aviation. Whether you're looking to fly for an airline or charter company, our comprehensive training program will help you achieve your goals.",
       buttons: [
         {
           name: "Enroll Now",
@@ -34,9 +34,9 @@ const commercialPilotTraining = {
     pageSummary: {
       title: `What is a CPL?`,
       paragraphs: [
-        `A commercial pilot certificate, also frequently referred to as a <strong class="font-semibold">commercial pilot license (CPL)</strong> is a significant milestone for aspiring aviators, opening doors to professional opportunities and career advancement in the aviation industry.`,
-        "With this license, you gain the authority to act as a pilot of an aircraft and receive payment for your services. Whether you dream of flying passengers or cargo, a commercial certificate allows you to take on roles as a PIC (pilot in command) in commercial situations, ensuring safe and efficient flight operations.",
-        "Getting your commercial certificate represents a major step in your journey toward becoming a professional pilot.",
+        `Earning a commercial pilot certificate, also known as a <strong class="font-semibold">commercial pilot license (CPL)</strong>, is a big deal for aspiring pilots. It opens doors to a whole new world of career opportunities in the aviation industry.`,
+        "With this license, you get to fly planes and get paid for it! Whether you want to fly passengers or cargo, a commercial certificate lets you become a pilot in command (PIC) in commercial situations. That means you’ll be in charge of making sure everything goes smoothly and safely during flights.",
+        "Getting your commercial certificate is a big step on your path to becoming a professional pilot.",
       ],
     },
 
@@ -50,21 +50,19 @@ const commercialPilotTraining = {
         {
           title: "Required Flight Experience",
           paragraphs: [
-            "Our structured program provides a clear pathway to accumulate the essential <strong>250 flight hours</strong>. We understand that reaching this milestone is a critical aspect of your journey towards your commercial pilot certificate.",
-            "Through a structured curriculum that combines comprehensive flight training, cross country missions, and solo flight experiences, you'll gain invaluable hands on exposure to a wide range of flying conditions.",
-            "These experiences are carefully curated to enhance your piloting skills and instill the confidence and proficiency that characterize a seasoned commercial pilot.",
-            "Our program is tailored to ensure that you are well prepared to meet the demanding requirements of the aviation industry and excel in your future commercial pilot career.",
+            "Our structured program is your ticket to accumulating the crucial <strong>250 flight hours needed</strong> for your commercial pilot certificate. We know that hitting this milestone is a big deal on your journey to becoming a commercial pilot.",
+            "Our program combines everything you need to know with hands-on experience. You’ll get comprehensive flight training, cross-country missions, and solo flights. This way, you’ll gain valuable experience in different flying conditions.",
+            "We carefully plan these experiences to help you become a better pilot and build the confidence and skills that seasoned commercial pilots have. Our program is designed to make sure you’re ready to take on the challenges of the aviation industry and have a successful career as a commercial pilot.",
           ],
-          imagePath: "/src/assets/sun-city-aviation-academy-fly-over-miami.jpg",
-          imageAlt: "sun city aviation student flying over the sunset in miami",
+          imagePath: "/src/assets/greg-rosenke-0DizjoNOCrw-unsplash.jpg",
+          imageAlt: "Elite flight training commercial pilot student flying",
         },
         {
           title: "Written Exam",
           paragraphs: [
-            "The written examination for a commercial pilot certificate covers a broad spectrum of topics that are important for safe and knowledgeable piloting. It delves into aviation regulations, which encompass various aspects of flight operations and the legal framework governing commercial flying.",
-            "Questions may touch upon flight crew responsibilities, aircraft maintenance requirements, and air traffic control procedures, ensuring aspiring commercial pilots understand and adhere to regulatory standards.",
-            "The exam emphasizes understanding the rules regarding compensation for commercial services. It assesses your knowledge of when and how pilots can receive compensation, spanning activities such as carrying passengers or cargo and providing flight instruction.",
-            "Comprehending these regulations is essential for operating within legal boundaries as a commercial pilot. The written examination ensures that commercial pilot candidates possess a comprehensive understanding of critical subjects, combining legal compliance, meteorology, navigation, and more to prepare them for safe and successful careers in aviation.",
+            "The written exam for a commercial pilot certificate covers a wide range of topics that are super important for safe and knowledgeable piloting. It covers aviation regulations, what flight crew members are responsible for, how aircraft are maintained, how air traffic control works, and how much money commercial pilots make.",
+            "Knowing these rules is super important for operating legally as a commercial pilot. The exam tests candidates’ knowledge of when and how pilots can get paid for carrying passengers, cargo, or teaching people how to fly.",
+            "Learning these subjects combines legal knowledge, weather, navigation, and more to prepare candidates for successful careers in aviation.",
           ],
           imagePath: "/src/assets/ben-mullins-oXV3bzR7jxI-unsplash.jpg",
           imageAlt: "sun city aviation students studying in a classroom",
@@ -72,10 +70,10 @@ const commercialPilotTraining = {
         {
           title: "Complete Requirements",
           paragraphs: [
-            "Achieving your Commercial Pilot Certificate involves fulfilling specific flight requirements, including demanding long cross country flights and other critical experiences.",
-            "At <strong>Sun City Aviation Academy</strong>, our commercial program ensures that you master advanced flight maneuvers and precise navigation techniques to complete these cross country flights.",
-            "With your long cross country flight, you'll demonstrate your ability to plan and execute complex missions, showcasing your aptitude for real world challenges. Our structured curriculum guides you through extensive cross country missions, providing hands on exposure to diverse flying conditions.",
-            "You'll gain the skills and confidence that define a seasoned commercial pilot, mastering advanced maneuvers and navigation techniques. Throughout your training, we prioritize safety and precision, ensuring you are well prepared to excel in your commercial pilot checkride and embark on a successful career in aviation.",
+            "Becoming a Commercial Pilot is no easy feat. You’ll need to complete some tough flight requirements, like long cross country flights and other important experiences.",
+            "At <strong>Elite Flight Training</strong>, our commercial program will help you master advanced flight maneuvers and precise navigation techniques so you can complete these cross country flights.",
+            "When you take your long cross country flight, you’ll show everyone that you can plan and execute complex missions. You’ll be ready to face real-world challenges head-on. Our structured curriculum will take you through lots of cross country missions, giving you hands-on experience in different flying conditions.",
+            "You’ll learn all the skills and confidence that a seasoned commercial pilot has, like advanced maneuvers and navigation techniques. We always put safety and precision first, so you’ll be well-prepared for your commercial pilot checkride and ready to start a successful career in aviation.",
           ],
           imagePath:
             "/src/assets/sun-city-aviation-academy-grounded-aircraft.jpg",
@@ -87,16 +85,17 @@ const commercialPilotTraining = {
           paragraphs: [
             "With a paramount focus on safety and precision, our experienced instructors will do their best job in preparing you for the pivotal check ride.",
             "Through detailed training and continuous evaluation, we ensure that you are not just adequately prepared but thoroughly ready to excel in your commercial checkride.",
-            "As you confidently take to the skies with the examiner by your side, you'll embark on a journey that showcases the culmination of your training and the expertise you've gained throughout your time with Sun City Aviation Academy.",
+            "As you confidently take to the skies with the examiner by your side, you'll embark on a journey that showcases the culmination of your training and the expertise you've gained throughout your time with Elite Flight Training.",
             "This check ride isn't just a test - it's an opportunity to demonstrate your proficiency, aeronautical decision making skills, and your ability to handle real world scenarios with confidence and composure. It's the moment where you transform from a diligent trainee into a skilled and certified commercial pilot, fully prepared to embrace the challenges and opportunities of a rewarding aviation career.",
           ],
-          imagePath: "/src/assets/sun-city-private-pilot-pass-checkride.webp",
+          imagePath:
+            "/src/assets/elite-flight-training-commercial-pilot-certificate.jpg",
           imageAlt:
-            "sun city aviation students celebrating after passing their checkride",
+            "Elite Flight Training commercial pilot student receiving their certificate",
         },
       ],
       finalParagraph:
-        "At <strong>Sun City Aviation Academy</strong>, we are committed to providing you with the highest quality training and support to help you achieve your commercial pilot certificate. Our comprehensive program is designed to equip you with the skills, knowledge, and experience necessary to excel in your commercial pilot career.",
+        "At <strong>Elite Flight Training</strong>, we are committed to providing you with the highest quality training and support to help you achieve your commercial pilot certificate. Our comprehensive program is designed to equip you with the skills, knowledge, and experience necessary to excel in your commercial pilot career.",
       finalButton: {
         name: "Enroll Now",
         link: "/enroll-now",
@@ -128,9 +127,9 @@ const commercialPilotTraining = {
         "Are you fascinated by the world of aviation? Have you dreamed of flying and exploring the skies? Do you often look upward at passing aircraft, wondering if you yourself could be in the cockpit?",
         "Begin your journey in aviation with our brief quiz. Our quiz is designed to look at your aviation related knowledge and aptitude, alongside your unique personality traits and interests, to provide insights into whether a future in aviation aligns with your aspirations.",
       ],
-      imagePath: "/src/assets/sun-city-aviation-academy-be-pilot-square.jpg",
+      imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
       imageAlt:
-        "sun city aviation academy student flying a plane over the city of miami",
+        "Elite Flight Training student flying a plane over the city of miami",
       buttons: [
         {
           name: "Take the Quiz",
