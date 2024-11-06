@@ -77,7 +77,7 @@ const instrumentRating = {
             "This flight is a great way to build your confidence and your skills in real-world instrument navigation. You’ll learn how to handle all sorts of weather and navigation challenges, and you’ll gain the experience you need to become a confident pilot.",
             "So, buckle up, and let’s get ready for an exciting adventure! You’ve got this!",
           ],
-          imagePath: "/src/assets/zander-betterton-24R77S3ZA5s-unsplash.jpg",
+          imagePath: "/src/assets/thom-milkovic-mef-_dKTZjU-unsplash.jpg",
           imageAlt:
             "Elite Flight Training view from cessna airplane cockpit during a flight exam",
         },
