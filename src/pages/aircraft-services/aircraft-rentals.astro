@@ -1,0 +1,18 @@
+---
+import ContentSplit from "../../components/ContentSplit.astro";
+import HeaderScreen from "../../components/HeaderScreen.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import rentalsInfo from "../../data/aircraft-rentals";
+
+const { data } = rentalsInfo;
+---
+
+<BaseLayout
+  siteTitle={data.pageTitle}
+  siteDescription={data.pageDescription}
+  keywords={data.pageKeywords}
+>
+  <!-- HEADER -->
+  <HeaderScreen content={data.header} />
+  <ContentSplit content={data.brokerage} />
+</BaseLayout>

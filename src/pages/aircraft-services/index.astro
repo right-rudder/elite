@@ -1,0 +1,19 @@
+---
+import GridPrograms from "../../components/GridPrograms.astro";
+import HeaderScreen from "../../components/HeaderScreen.astro";
+import aircraftManagementServicesInfo from "../../data/aircraftManagement";
+import servicesGridInfo from "../../data/servicesGrid";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const { data } = aircraftManagementServicesInfo;
+---
+
+<BaseLayout
+  siteTitle={data.pageTitle}
+  siteDescription={data.pageDescription}
+  keywords={data.pageKeywords}
+>
+  <!-- HEADER -->
+  <HeaderScreen content={data.header} />
+  <GridPrograms content={servicesGridInfo} />
+</BaseLayout>
