@@ -65,7 +65,7 @@ const commercialPilotTraining = {
             "Learning these subjects combines legal knowledge, weather, navigation, and more to prepare candidates for successful careers in aviation.",
           ],
           imagePath: "/src/assets/ben-mullins-oXV3bzR7jxI-unsplash.jpg",
-          imageAlt: "sun city aviation students studying in a classroom",
+          imageAlt: "Elite Flight Training students studying in a classroom",
         },
         {
           title: "Complete Requirements",
@@ -78,7 +78,7 @@ const commercialPilotTraining = {
           imagePath:
             "/src/assets/sun-city-aviation-academy-grounded-aircraft.jpg",
           imageAlt:
-            "sun city aviation airplane parked on the runway at the airport",
+            "Elite Flight Training airplane parked on the runway at the airport",
         },
         {
           title: "Pass the Checkride",

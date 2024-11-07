@@ -13,10 +13,10 @@ const flightTrainingPrograms = {
       stars: true,
       imagePath: "/src/assets/zander-betterton-24R77S3ZA5s-unsplash.jpg",
       imageAlt:
-        "sun city aviation academy airplane flying over the city of miami",
+        "Elite Flight Training academy airplane flying over the city of miami",
       headerH1: `Flight Training </br><span class="text-primary-200">Programs</span>`,
       paragraph:
-        "Learn more about how to become a pilot with Sun City. We offer a variety of programs to help you achieve your aviation dreams and become a pilot.",
+        "Learn more about how to become a pilot with Elite. We offer a variety of programs to help you achieve your aviation dreams and become a pilot.",
       buttons: [
         {
           name: "Enroll Now",
@@ -41,7 +41,7 @@ const flightTrainingPrograms = {
       ],
       imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
       imageAlt:
-        "sun city aviation academy student flying a plane over the city of miami",
+        "Elite Flight Training academy student flying a plane over the city of miami",
       buttons: [
         {
           name: "Take the Quiz",

@@ -4,16 +4,16 @@ const privatePilotTraining = {
     pageTitle:
       "Private Pilot Course | Elite Flight Training & Aircraft Management",
     pageDescription:
-      "Sun City Aviation Academy offers the Private Pilot Course. Your passport to the skies! Learn to pilot your dreams with our Private Pilot Course.",
+      "Elite Flight Training Academy offers the Private Pilot Course. Your passport to the skies! Learn to pilot your dreams with our Private Pilot Course.",
     pageKeywords:
-      "private pilot course, private pilot training, learn to fly, sun city aviation academy, pilot training, flight school, become a pilot, private pilot license, private pilot certificate",
+      "private pilot course, private pilot training, learn to fly, Elite Flight Training academy, pilot training, flight school, become a pilot, private pilot license, private pilot certificate",
 
     //top header
     header: {
       stars: true,
       imagePath: "/src/assets/avel-chuklanov-QbTBCUJLqKY-unsplash(1).jpg",
       imageAlt:
-        "sun city aviation academy private pilot student viewed from the back seat of a cessna airplane",
+        "Elite Flight Training academy private pilot student viewed from the back seat of a cessna airplane",
       headerH1: `Private</br><span class="text-primary-100">Pilot Course</span>`,
       paragraph:
         "The foundational course for your aviation career path. With a private pilot certificate, you gain the privilege to operate aircraft for personal and recreational purposes.",
@@ -56,7 +56,7 @@ const privatePilotTraining = {
             "We’ll give you tips on how to prepare for the exam, like what to bring and what to expect on the day. We’ll also help you handle any problems that might come up.",
           ],
           imagePath: "/src/assets/sun-city-medical-exam.webp",
-          imageAlt: "sun city aviation student taking a medical exam",
+          imageAlt: "Elite Flight Training student taking a medical exam",
         },
         {
           title: "Written Exam",
@@ -118,7 +118,7 @@ const privatePilotTraining = {
       ],
       imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
       imageAlt:
-        "sun city aviation academy student flying a plane over the city of miami",
+        "Elite Flight Training academy student flying a plane over the city of miami",
       buttons: [
         {
           name: "Take the Quiz",
