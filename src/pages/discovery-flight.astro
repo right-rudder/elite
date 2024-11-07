@@ -12,8 +12,8 @@ import {
   SITE_DESCRIPTION,
   LOCATIONS,
 } from "../consts";
-import discoveryInfo from "../data/discovery-flight";
 import Header from "../components/Header.astro";
+import discoveryInfo from "../data/discovery-flight";
 
 const GHL_DISCOVERY_FORM_WEBHOOK_URL =
   "https://services.leadconnectorhq.com/hooks/SmZxqjL2v5KaWPxMSMbW/webhook-trigger/CTLkzZvkTEe4c1z2pwhl";
@@ -65,18 +65,14 @@ const { data } = discoveryInfo;
                 fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)"></rect>
             </svg>
           </div>
-          <h2 class="text-5xl font-bold tracking-tight text-gray-900">
-            Do a Discovery Flight
+          <h2 class="text-5xl mb-12 font-bold tracking-tight text-primary-900">
+            {data.form.title}
           </h2>
-          <p class="mt-12 text-lg leading-8 text-gray-600">
-            Get to the skies and experience flying like never before.
-          </p>
-          <p class="mt-2 text-lg leading-8 text-gray-600">
-            A discovery flight is a great way to experience the thrill of flying
-            and get a taste of what it's like to be a pilot. During your flight,
-            you'll have the opportunity to take the controls and fly the
-            aircraft under the guidance of a certified flight instructor.
-          </p>
+          {
+            data.form.descriptions.map((desc) => (
+              <p class="mb-3 text-lg leading-8 text-gray-600" set:html={desc} />
+            ))
+          }
           <dl class="mt-10 space-y-4 text-base leading-7 text-gray-600">
             <div class="flex gap-x-4">
               <dt class="flex-none">

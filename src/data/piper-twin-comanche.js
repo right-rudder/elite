@@ -1,22 +1,22 @@
-const cessnaInfo = {
+const piperTwinInfo = {
   data: {
     //SEO Header Stuff
     pageTitle:
-      "Cessna 172 | Our Fleet | Elite Flight Training & Aircraft Management",
+      "Piper Twin Comanche | Our Fleet | Elite Flight Training & Aircraft Management",
     pageDescription:
-      "Start your aviation adventure with our robust fleet of Cessna 172 aircraft. These reliable and versatile planes are perfectly suited for those taking their first steps into the world of flight. Our Cessna 172s provide an ideal learning environment for aspiring pilots.",
+      "Elite Flight Training & Aircraft Management offers a Piper Twin Comanche for pilot training. Our Piper Twin Comanche is a state-of-the-art training tool that provides a realistic flight experience for pilots of all levels.",
     pageKeywords:
-      "aircraft, fleet, training, Cessna 172, Elite Flight Training & Aircraft Management fleet, flight training, pilot training, aviation training, Cessna 172 training, Cessna 172 aircraft",
+      "aircraft, fleet, training, Piper Twin Comanche, Elite Flight Training & Aircraft Management fleet, flight training, pilot training, aviation training, Piper Twin Comanche training, Piper Twin Comanche aircraft",
 
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/elite-flight-training-fleet-cessna-172-2.jpg",
+      imagePath: "/src/assets/elite-flight-training-multi-engine.jpg",
       imageAlt:
         "elite flight training & aircraft management trains professional pilots in Kankakee, Illinois",
-      headerH1: `Cessna</br><span class="text-primary-100">172</span>`,
+      headerH1: `Piper</br><span class="text-primary-100">Twin Comanche</span>`,
       paragraph:
-        "Start your aviation adventure with our robust fleet of Cessna 172 aircraft. Our Cessna 172 provides an ideal learning environment for aspiring pilots.",
+        "Our Piper Twin Comanche is a state-of-the-art training tool that provides a realistic flight experience for pilots of all levels. Piper Twin Comanche is designed to help you hone your skills and build confidence in the cockpit.",
       buttons: [
         {
           name: "Rent Now",
@@ -34,31 +34,36 @@ const cessnaInfo = {
     pageSummary: {
       title: `Fly With Confidence`,
       paragraphs: [
-        "At Elite Flight Training & Aircraft Management, we take pride in our exceptional fleet of aircraft, designed to provide you with the highest quality flight training experience. Whether you're just beginning your aviation journey or advancing your skills, our versatile aircraft and training tools are here to support your goals.",
-        "Our Cessna 172 aircraft are the perfect choice for those looking to take their first steps into the world of flight. With their reliable performance and user-friendly controls, the Cessna 172 provides an ideal learning environment for aspiring pilots. Discover the joy of flight with our Cessna 172 and reserve your spot now.",
+        "The Piper Twin Comanche is a versatile and reliable aircraft that is perfect for both training and cross-country flights. With its twin engines and retractable landing gear, the Twin Comanche is an ideal aircraft for pilots looking to build multi-engine experience.",
+        "At Elite Flight Training & Aircraft Management, we are committed to providing our students with the best possible training experience. Our Piper Twin Comanche is equipped with the latest avionics and safety features to ensure that you have a safe and enjoyable flight every time.",
       ],
     },
 
     aircraftInfo: {
-      title: `Cessna<span class="text-accent-600">172</span>`,
+      title: `Piper Twin<br><span class="text-accent-600">Comanche</span>`,
       images: [
         {
-          imagePath: "/src/assets/elite-flight-training-fleet-cessna-172.jpg",
-          imageAlt: "Elite Flight Training & Aircraft Management Cessna 172",
+          imagePath:
+            "/src/assets/elite-flight-training-nulti-engine-rating.png",
+          imageAlt:
+            "Elite Flight Training & Aircraft Management Piper Twin Comanche",
         },
         {
-          imagePath: "/src/assets/elite-flight-training-fleet-cessna-172-2.jpg",
-          imageAlt: "Elite Flight Training & Aircraft Management Cessna 172",
+          imagePath:
+            "/src/assets/elite-flight-training-fleet-piper-twin-comanche.jpg",
+          imageAlt:
+            "Elite Flight Training & Aircraft Management Piper Twin Comanche",
         },
         {
-          imagePath: "/src/assets/greg-rosenke-p41WCA9p-ZY-unsplash.jpg",
-          imageAlt: "elite flight training & aircraft management cessna 172",
+          imagePath: "/src/assets/elite-flight-training-multi-engine.jpg",
+          imageAlt:
+            "Elite Flight Training & Aircraft Management Piper Twin Comanche",
         },
       ],
       features: {
         title: "Avionics and Features:",
         firstParagraph:
-          "Immerse yourself in a learning environment where technology meets training. Our Cessna 172s are equipped with:",
+          "Our Piper Twin Comanche is equipped with the latest avionics and safety features to ensure that you have a safe and enjoyable flight every time. Some of the features include:",
         list: [
           "Advanced Garmin 430 navigation systems",
           "Aspen, dual G5 PFDs",
@@ -66,16 +71,15 @@ const cessnaInfo = {
         ],
         secondParagraph:
           "These tools ensure that you’re not just a pilot, but an expert navigator too, ready to traverse the skies with confidence.",
-        finalParagraph: `Beyond the basics, our instrument capable Cessna 172s allow you to continue your journey beyond the private certificate and into an Instrument Rating certification. Discover the joy of flight with our Cessna 172s and reserve your spot now.`,
+        finalParagraph: `Our Piper Twin Comanche is a state-of-the-art training tool that provides a realistic flight experience for pilots of all levels. Whether you’re a student pilot or a seasoned aviator, the Twin Comanche is designed to help you hone your skills and build confidence in the cockpit.`,
       },
       descriptions: [
-        "Embark on an aviation journey starting with our Cessna 172 aircraft – a reliable companion for those stepping into the world of flight. Experience the open skies in a spacious cockpit designed as an environment where you can truly feel comfortable as you get started in the world of flight.",
-        "The Cessna 172 offers simplicity in control, allowing you to navigate the skies effortlessly as you take your initial flights. With top notch stability, this aircraft is perfect for any level, from student to certified pilot.",
+        `The Twin Comanche is a fabulous training aircraft due to its simplicity and proportionally balanced thrust to weight ratio.  We're lucky to have acquired a "B" model with the 3rd row window, which seems to have a cult like following and generous support.`,
       ],
       buttons: [
         {
-          name: "Enroll Now",
-          link: "/enroll-now",
+          name: "Rent Now",
+          link: "/aircraft-rental",
           primary: true,
         },
         {
@@ -110,9 +114,9 @@ const cessnaInfo = {
         "Are you fascinated by the world of aviation? Have you dreamed of flying and exploring the skies? Do you often look upward at passing aircraft, wondering if you yourself could be in the cockpit?",
         "Begin your journey in aviation with our brief quiz. Our quiz is designed to look at your aviation related knowledge and aptitude, alongside your unique personality traits and interests, to provide insights into whether a future in aviation aligns with your aspirations.",
       ],
-      imagePath: "/src/assets/benjamin-chambon-7LJLXYpqGl4-unsplash.jpg",
+      imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
       imageAlt:
-        "Elite Flight Training & Aircraft Management cessna 172 instrument panel",
+        "Elite Flight Training & Aircraft Management student flying a plane over the city of miami",
       buttons: [
         {
           name: "Take the Quiz",
@@ -138,4 +142,4 @@ const cessnaInfo = {
     },
   },
 };
-export default cessnaInfo;
+export default piperTwinInfo;

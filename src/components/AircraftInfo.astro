@@ -10,24 +10,26 @@ const { data } = Astro.props;
   <div class="flex flex-wrap justify-evenly items-start align-top">
     <div class="w-full lg:w-5/12 px-4 lg:px-12">
       <h1
-        class="text-primary uppercase pb-2 mb-10 text-5xl md:text-6xl tracking-wide font-bold border-b-4 border-accent-400/70"
+        class="text-primary-950 uppercase pb-2 mb-10 text-5xl md:text-6xl tracking-wide font-bold border-b-4 border-accent-700/40"
         set:html={data.title}
       />
       {
         data.descriptions.map((desc) => (
-          <p class="mb-4 leading-relaxed tracking-wide text-lg font-sans2 font-normal text-primary-700">
+          <p class="mb-4 leading-relaxed tracking-wide text-lg font-sans2 font-normal text-muted-700">
             {desc}
           </p>
         ))
       }
       <div
         id="aircraft-features"
-        class="bg-primary-200/80 mt-12 rounded-lg py-12 px-10"
+        class="bg-gradient-to-br to-primary-100 via-gray-50 from-accent-100 mt-12 rounded-lg py-12 px-10 text-muted-500 ring-1 ring-muted-200"
       >
-        <h3 class="text-4xl text-primary-900 font-semibold tracking-wide">
+        <h3
+          class="text-4xl text-muted-600 font-semibold tracking-wide leading-8"
+        >
           {data.features.title}
         </h3>
-        <p class="mt-4">{data.features.firstParagraph}</p>
+        <p class="mt-6">{data.features.firstParagraph}</p>
         {
           data.features.list && (
             <ul class="mt-4 list-disc list-inside">
@@ -49,7 +51,7 @@ const { data } = Astro.props;
         }
       </div>
       <div
-        class="mt-6 flex flex-wrap justify-center lg:justify-start w-full align-middle items-center gap-6 z-10"
+        class="mt-12 flex flex-wrap justify-center lg:justify-start w-full align-middle items-center gap-6 z-10"
       >
         {
           data.buttons.map((btn) => (

@@ -11,7 +11,7 @@ const whyBecomePilot = {
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
+      imagePath: "/src/assets/thom-milkovic-mef-_dKTZjU-unsplash.jpg",
       imageAlt: "Elite Flight Training",
       headerH1: `Become a </br><span class="text-primary-100">Pilot</span>`,
       paragraph:
@@ -31,7 +31,7 @@ const whyBecomePilot = {
     },
 
     shouldBePilot: {
-      imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
+      imagePath: "/src/assets/elite-flight-training-flight-exam.jpg",
       imageAlt: "Elite Flight Training",
       heading: "Should You Become A Pilot?",
       upperHeading: "More Than Just A Career",
@@ -94,8 +94,9 @@ const whyBecomePilot = {
         "Are you fascinated by the world of aviation? Have you dreamed of flying and exploring the skies? Do you often look upward at passing aircraft, wondering if you yourself could be in the cockpit?",
         "Begin your journey in aviation with our brief quiz. Our quiz is designed to look at your aviation related knowledge and aptitude, alongside your unique personality traits and interests, to provide insights into whether a future in aviation aligns with your aspirations.",
       ],
-      imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
-      imageAlt: "Elite Flight Training",
+      imagePath: "/src/assets/benjamin-chambon-7LJLXYpqGl4-unsplash.jpg",
+      imageAlt:
+        "Elite Flight Training & Aircraft Management cessna 172 instrument panel",
       buttons: [
         {
           name: "Take the Quiz",

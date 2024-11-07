@@ -66,6 +66,18 @@ const { content } = Astro.props;
         </div>
       )
     }
+    {
+      content.finalButton && (
+        <div class="mt-6 flex flex-wrap justify-center w-full align-middle items-center gap-6 z-10">
+          <a
+            href={content.finalButton.link}
+            class={`${content.finalButton.primary ? "btn-accent" : "btn-white"} w-full md:w-auto`}
+          >
+            {content.finalButton.name}
+          </a>
+        </div>
+      )
+    }
   </div>
   <div
     class="group relative aspect-square lg:aspect-auto bg-black overflow-hidden lg:rounded-lg order-first lg:order-last"
@@ -78,9 +90,9 @@ const { content } = Astro.props;
     />
     {
       content.imageLegend && (
-        <div class="absolute bottom-0 py-6 lg:translate-y-full w-full group-hover:translate-y-0 bg-black/50 backdrop-blur-md duration-300 ease-in-out">
+        <div class="absolute bottom-0 py-6 lg:translate-y-full w-full group-hover:translate-y-0 bg-muted-700/30 backdrop-blur-md duration-300 ease-in-out">
           <p
-            class="text-center font-bold leading-none text-xl text-accent-300 py-2"
+            class="text-center font-thin leading-none text-xl font-sans text-accent-400 py-2"
             set:html={content.imageLegend}
           />
         </div>

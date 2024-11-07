@@ -69,8 +69,9 @@ const homePage = {
           icon: "M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z",
         },
       ],
-      imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
-      imageAlt: "Elite Flight Training clouds in the sky",
+      imagePath: "/src/assets/elite-flight-training-cfi-training.jpg",
+      imageAlt:
+        "Elite Flight Training & Aircraft Management cessna 172 waiting for takeoff",
     },
 
     quizCTA: {
@@ -82,9 +83,9 @@ const homePage = {
         `Wondering if a pilot's life is right for you? Discover if the world of aviation is right for you by taking our "Is Flying Right for Me?" quiz. This quiz is designed to help you explore your interests and determine if the skies are where you belong. Get started on your aviation journey by clicking below to take the quiz.`,
       ],
       imageLegend: `Luke Poulos<br><small class="text-white font-normal text-sm">Founder & CEO</small>`,
-      imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
+      imagePath: "/src/assets/benjamin-chambon-7LJLXYpqGl4-unsplash.jpg",
       imageAlt:
-        "sun city aviation student and flight instructor celebrating after passing a checkride",
+        "Elite Flight Training & Aircraft Management cessna 172 instrument panel",
       buttons: [
         {
           name: "Take the Quiz",

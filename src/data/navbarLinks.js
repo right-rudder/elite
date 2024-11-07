@@ -42,27 +42,27 @@ export const navbarLinks = [
 
   {
     name: "Aircraft Services",
-    link: "/experience-aviation",
+    link: "/aircraft-services",
     submenu: [
       {
         name: "Brokerage",
-        link: "/aircraft-brokerage",
+        link: "/aircraft-services/aircraft-brokerage",
       },
       {
         name: "Rentals",
-        link: "/aircraft-rentals",
+        link: "/aircraft-services/aircraft-rentals",
       },
       {
         name: "For Sale",
-        link: "/aircraft-for-sale",
+        link: "/aircraft-services/aircraft-for-sale",
       },
       {
         name: "Maintenance",
-        link: "/aircraft-maintenance",
+        link: "/aircraft-services/aircraft-maintenance",
       },
       {
         name: "Charter Revenue",
-        link: "/charter-revenue",
+        link: "/aircraft-services/charter-revenue",
       },
     ],
   },

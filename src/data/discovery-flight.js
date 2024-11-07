@@ -16,6 +16,15 @@ const discoveryInfo = {
       paragraph:
         "Start your aviation journey with a discovery flight at Elite Flight Training. Contact us to schedule your flight today!",
     },
+
+    form: {
+      title: "Do a Discovery Flight",
+      descriptions: [
+        "Take the controls and learn to fly an airplane! This one hour introductory and log-able flight lesson is the perfect opportunity to discover what it is like to be a pilot, while learning basic aviation skills.",
+        "The adventure begins at the Greater Kankakee Airport where you will meet your Certified Flight Instructor, who will provide a briefing prior to departure.",
+        "Once the briefing and pre-flight checks are complete, it's time to jump in the co-pilot's seat and prepare for take off. When the plane is airborne, you will have the opportunity to take the controls and actually fly the airplane!",
+      ],
+    },
   },
 };
 
