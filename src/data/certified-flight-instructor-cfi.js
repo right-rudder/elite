@@ -123,13 +123,7 @@ const certifiedFlightInstructor = {
       imagePath: "/src/assets/benjamin-chambon-7LJLXYpqGl4-unsplash.jpg",
       imageAlt:
         "Elite Flight Training & Aircraft Management cessna 172 instrument panel",
-      buttons: [
-        {
-          name: "Take the Quiz",
-          link: "/quiz",
-          primary: true,
-        },
-      ],
+      quizModal: true,
     },
 
     flyWithUsCTA: {

@@ -161,13 +161,7 @@ const ourTeam = {
       imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
       imageAlt:
         "Elite Flight Training academy student flying a plane over the city of miami",
-      buttons: [
-        {
-          name: "Take the Quiz",
-          link: "/quiz",
-          primary: true,
-        },
-      ],
+      quizModal: true,
     },
 
     flyWithUsCTA: {
