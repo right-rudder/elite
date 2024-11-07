@@ -13,7 +13,7 @@ export const SITE_DESCRIPTION =
 export const KEYWORDS =
   "elite flight training, elite aircraft management, elite aircraft rentals, elite aircraft maintenance, elite aircraft brokerage, aircraft management,  aircraft rentals,  aircraft maintenance,  aircraft brokerage, flight training, flight school, pilot training, private pilot training, instrument rating training, commercial pilot training, multi-engine training, Kankakee, IL";
 
-export const OG_IMAGE = "/Elite-OG-image.png";
+export const OG_IMAGE = "/Elite-OG-image.webp";
 
 export const LOCATIONS = [
   {
