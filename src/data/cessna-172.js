@@ -1,25 +1,26 @@
 const cessnaInfo = {
   data: {
     //SEO Header Stuff
-    pageTitle: "Cessna 172 | Our Fleet | Sun City Aviation Academy",
+    pageTitle:
+      "Cessna 172 | Our Fleet | Elite Flight Training & Aircraft Management",
     pageDescription:
       "Start your aviation adventure with our robust fleet of Cessna 172 aircraft. These reliable and versatile planes are perfectly suited for those taking their first steps into the world of flight. Our Cessna 172s provide an ideal learning environment for aspiring pilots.",
     pageKeywords:
-      "aircraft, fleet, training, Cessna 172, Sun City Aviation Academy fleet, flight training, pilot training, aviation training, Cessna 172 training, Cessna 172 aircraft",
+      "aircraft, fleet, training, Cessna 172, Elite Flight Training & Aircraft Management fleet, flight training, pilot training, aviation training, Cessna 172 training, Cessna 172 aircraft",
 
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/sun-city-aviation-academy-fly-over-miami.jpg",
+      imagePath: "/src/assets/elite-flight-training-fleet-cessna-172-2.jpg",
       imageAlt:
-        "sun city aviation academy trains professional pilots in south florida",
-      headerH1: `Cessna</br><span class="text-accent-300">172</span>`,
+        "elite flight training & aircraft management trains professional pilots in Kankakee, Illinois",
+      headerH1: `Cessna</br><span class="text-primary-100">172</span>`,
       paragraph:
-        "Start your aviation adventure with our robust fleet of Cessna 172 aircraft. Our Cessna 172s provide an ideal learning environment for aspiring pilots.",
+        "Start your aviation adventure with our robust fleet of Cessna 172 aircraft. Our Cessna 172 provides an ideal learning environment for aspiring pilots.",
       buttons: [
         {
-          name: "Enroll Now",
-          link: "/enroll-now",
+          name: "Rent Now",
+          link: "/aircraft-rental",
           primary: false,
         },
         {
@@ -33,26 +34,25 @@ const cessnaInfo = {
     pageSummary: {
       title: `Fly With Confidence`,
       paragraphs: [
-        "At Sun City Aviation Academy, we take pride in our exceptional fleet of aircraft and our simulator, designed to provide you with the highest quality flight training experience. Whether you're just beginning your aviation journey or advancing your skills, our versatile aircraft and training tools are here to support your goals.",
-        "We offer a variety of aircraft for training, including the Cessna 172 and Beechcraft Duchess, as well as a Redbird Simulator. Our fleet is maintained to the highest standards, ensuring that you can train with confidence and peace of mind.",
+        "At Elite Flight Training & Aircraft Management, we take pride in our exceptional fleet of aircraft, designed to provide you with the highest quality flight training experience. Whether you're just beginning your aviation journey or advancing your skills, our versatile aircraft and training tools are here to support your goals.",
+        "Our Cessna 172 aircraft are the perfect choice for those looking to take their first steps into the world of flight. With their reliable performance and user-friendly controls, the Cessna 172 provides an ideal learning environment for aspiring pilots. Discover the joy of flight with our Cessna 172 and reserve your spot now.",
       ],
     },
 
     aircraftInfo: {
-      title: `Cessna<span class="text-accent-400">172</span>`,
+      title: `Cessna<span class="text-accent-600">172</span>`,
       images: [
         {
-          imagePath:
-            "/src/assets/sun-city-aviation-academy-grounded-aircraft.jpg",
-          imageAlt: "side-of-cessna-172-at-redlands-airport-REI",
+          imagePath: "/src/assets/elite-flight-training-fleet-cessna-172.jpg",
+          imageAlt: "Elite Flight Training & Aircraft Management Cessna 172",
         },
         {
-          imagePath: "/src/assets/sun-city-aviation-academy-AeroCamp174.jpg",
-          imageAlt: "N7561G-nextgen-flight-academy-riverside-ca",
+          imagePath: "/src/assets/elite-flight-training-fleet-cessna-172-2.jpg",
+          imageAlt: "Elite Flight Training & Aircraft Management Cessna 172",
         },
         {
-          imagePath: "/src/assets/sun-city-aviation-academy-why-pilot.jpg",
-          imageAlt: "instrument-panel-of-cessna-172l-at-redlands-airport-REI",
+          imagePath: "/src/assets/greg-rosenke-p41WCA9p-ZY-unsplash.jpg",
+          imageAlt: "elite flight training & aircraft management cessna 172",
         },
       ],
       features: {
@@ -88,7 +88,7 @@ const cessnaInfo = {
 
     bookCTA: {
       upperHeading: "Still looking for more information on pilot training?",
-      headerH1: `Get Your <span class="text-accent-300">FREE</span><br> Pilot Training Guide!`,
+      headerH1: `Get Your <span class="text-primary-700">FREE</span><br> Pilot Training Guide!`,
       paragraph:
         "We have a free booklet which explains everything you need to know for your pilot certificate.",
       buttons: [
@@ -110,9 +110,9 @@ const cessnaInfo = {
         "Are you fascinated by the world of aviation? Have you dreamed of flying and exploring the skies? Do you often look upward at passing aircraft, wondering if you yourself could be in the cockpit?",
         "Begin your journey in aviation with our brief quiz. Our quiz is designed to look at your aviation related knowledge and aptitude, alongside your unique personality traits and interests, to provide insights into whether a future in aviation aligns with your aspirations.",
       ],
-      imagePath: "/src/assets/sun-city-aviation-academy-be-pilot-square.jpg",
+      imagePath: "/src/assets/benjamin-chambon-7LJLXYpqGl4-unsplash.jpg",
       imageAlt:
-        "sun city aviation academy student flying a plane over the city of miami",
+        "Elite Flight Training & Aircraft Management cessna 172 instrument panel",
       buttons: [
         {
           name: "Take the Quiz",
@@ -127,7 +127,7 @@ const cessnaInfo = {
       imageAlt: "Right Rudder Marketing team on the runway",
       headerH1: `<span class="text-primary-600">Start Your Aviation Journey</br></span>With a Discovery Flight`,
       paragraph:
-        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see the Ft. Lauderdale and Hollywood from a new perspective.",
+        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see Kankakee from a new perspective.",
       buttons: [
         {
           name: "Schedule Today",

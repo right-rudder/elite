@@ -1,17 +1,20 @@
 const ourTeam = {
   data: {
     //SEO Header Stuff
-    pageTitle: "Our Team | Sun City Aviation Academy",
+    pageTitle: "Our Team | Elite Flight Training & Aircraft Management",
     pageDescription:
-      "Our team of experienced pilots and instructors are dedicated to providing the highest quality flight training in South Florida. Learn more about our team and how they can help you achieve your aviation goals.",
+      "Our team of experienced pilots and instructors are dedicated to providing the highest quality flight training in Kankakee. Learn more about our team and how they can help you achieve your aviation goals.",
     pageKeywords:
       "flight school, flight training, pilot training, aviation academy, flight instructors, aviation instructors, flight school instructors, aviation school instructors, flight school team, aviation academy team, flight instructors team, aviation instructors team",
 
     //top header
     header: {
-      headerH1: `Come See</br><span class="text-accent-300">What Everyone's Talking About</span>`,
+      imagePath:
+        "/src/assets/elite-flight-training-certified-flight-instructor.jpg",
+      imageAlt: "Elite Flight Training & Aircraft Management Team",
+      headerH1: `Come</br><span class="text-primary-100">Meet Us</span>`,
       paragraph:
-        "Our team of experienced pilots and instructors are dedicated to providing the highest quality flight training in South Florida. Learn more about our team and how they can help you achieve your aviation goals.",
+        "Our team of experienced pilots and instructors are dedicated to providing the highest quality flight training in Kankakee. Learn more about our team and how they can help you achieve your aviation goals.",
       buttons: [
         {
           name: "Say Hello",
@@ -29,18 +32,19 @@ const ourTeam = {
     pageSummary: {
       title: `How It All Started?`,
       paragraphs: [
-        "Founded in December 2022 by Luke Poulos, Sun City Aviation Academy embodies a lifelong passion for aviation and teaching. Inspired by his grandfather's legacy and fueled by his father's teaching experience in the medical field, Luke is driven to nurture aspiring aviators.",
-        "With a solid background in aviation, including Part 135 charter operations and Part 121 airline experience, he understands the importance of a strong foundation in flight training. He also knows firsthand how the guidance of a knowledgeable instructor can give students a competitive edge in the aviation industry.",
+        "Founded in 2014 with a vision to bring a flight school to the south suburbs of Chicago,  Elite Flight Training continues to be one of the only complete flight institutions in the area.  Join us and make your flying dreams come true!",
+        "Elite Flight Training and Aircraft Management, LLC is located in Kankakee, just 50 miles south of Chicago. We offer professional and customized flight training programs including one of Chicagoland's only Multi-Engine Accelerated course.",
+        "We are a safety-focused flight school that offers a variety of training programs to meet the needs of our students. Our team of experienced pilots and instructors are dedicated to providing the highest quality flight training in Kankakee.",
       ],
     },
 
     gMaps: [
       {
-        location: "Pembroke Pines, FL",
+        location: "Kankakee, Illinois",
         inverted: false,
-        body: "Come visit us at our Pembroke Pines location. We are located at North Perry Airport KHWO.",
+        body: "Come visit us at our Kankakee location. We are located at the Greater Kankakee Airport - IKK",
         gMapUrl:
-          "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3586.1442401064114!2d-80.232982!3d25.996092!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9a96c916c96bb%3A0x7fe41940c41420e8!2sSun%20City%20Aviation%20Academy!5e0!3m2!1sen!2sus!4v1729617103276!5m2!1sen!2sus",
+          "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d384801.66765505675!2d-88.15365366956088!3d41.10694628423108!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880de9681a8d1e61%3A0x864e004c0da66efe!2sElite%20Flight%20Training%20%26%20Aircraft%20Management%20LLC!5e0!3m2!1sen!2sco!4v1730398118352!5m2!1sen!2sco",
       },
     ],
 
@@ -85,58 +89,40 @@ const ourTeam = {
       upperHeading: "Meet Our Team",
       heading: "Our Leadership Team",
       description:
-        "The leadership team at Sun City Aviation Academy is dedicated to providing the highest quality flight training in South Florida. With years of experience and a passion for aviation, our team is here to help you achieve your aviation goals.",
+        "The passion to fly is what drives our team. Our leadership team is dedicated to providing the highest quality flight training in Chicagoland. With years of experience and a passion for aviation, our team is here to help you achieve your aviation goals.",
       members: [
         {
-          name: "Luke Poulos",
-          imagePath:
-            "/src/assets/sun-citi-aviation-academy-founder-luke-poulos.jpg",
+          name: "Brian Rose",
+          imagePath: "/src/assets/BRIAN-ROSE.webp",
           imageAlt:
-            "Sun City Aviation Academy Certified Founder & CEO Luke Poulos",
-          bio: "Luke discovered his passion for teaching early in his aviation career. With over 20 years of experience and more than 4,000 flight hours, Luke is dedicated to sharing his knowledge. He holds several certifications including ATP, CFI, CFI-I, and MEI. Luke's journey in aviation was inspired by his grandfather and by his father's medical teaching background. He's not only a pilot but also a proud father who taught his own children to fly of whom now have successful careers in aviation. This passion for teaching and Luke's diverse aviation experience drives our academy's mission.",
-          rank: "Founder & CEO",
+            "Elite Flight Training & Aircraft Management Manager and Certified Flight Instructor Brian Rose",
+          bio: "Brian's story is unique, yet similar to many. He was working in the corporate world but always had a passion for flying.  He started taking lessons in 2004 and obtained his Private and Instrument Pilot Certificates.  From there, he would fly recreational until he met Jeff and become Elite Flight Training's first individual to receive his Commercial Pilot License.  Realizing his desire to want to teach others, he completed training to become a FAA Certified Flight Instructor and Certified Flight Instrument Instructor.  Brian's true enjoyment for flying is apparent by all his students success at Elite Flight Training.",
+          rank: "Manager<br>CFI, CFII, MEI",
         },
         {
-          name: "Joe Cannizzaro",
-          imagePath:
-            "/src/assets/sun-citi-aviation-academy-director-operations-joe.jpg",
+          name: "Kaleb Bruce",
+          imagePath: "/src/assets/KALEB-BRUCE.webp",
           imageAlt:
-            "Sun City Aviation Academy Director of Operations Joe Cannizzaro",
-          bio: "Joe spent the last 30 Years working in flight school operations, and flying professionally for both a Part 121 and Part 135 Operator. Joe has been an essential part of multiple flight schools throughout his 30 years, serving as a Chief pilot and Director of Operations. Joe has over 4,000 total flight hours and currently holds a ATP, CFI, CFI-I, and MEI certificates.",
-          rank: "Director of Operations",
+            "Elite Flight Training & Aircraft Management Certified Flight Instructor Kaleb Bruce",
+          bio: "Kaleb Bruce is a 1st generation pilot who’s passion for aviation blossomed in high school, after watching the TV show Airplane Repo.  Believe it or not, Kaleb’s teacher/mentor set up a meet and greet (job shadow) between Kaleb and the pilot reposing planes for the hit TV show, and instantly Kaleb was hooked!!  Kaleb is a former instructor and graduate of Lewis University and we’re happy to announce he’s a full time instructor for Elite!",
+          rank: "Certified Flight Instructor",
         },
         {
-          name: "Paul Janecki",
-          imagePath:
-            "/src/assets/sun-citi-aviation-academy-chief-pilot-paul.jpg",
-          imageAlt: "Sun City Aviation Academy Chief Pilot Paul Janecki",
-          bio: " Paul, with 40+ years in aviation, brings vast expertise. He has 15,000+ flight instruction hours and Airframe and Powerplant and Inspection Authorization credentials. He holds a Bachelor's degree in aviation management. After college, he joined an internship at a flight school, gaining skills as an Airframe and Powerplant Technician while receiving professional flight training. This led to him earning ATP, CFI, CFI-I, and MEI certificates.",
-          rank: "Chief Pilot",
-        },
-        {
-          name: "Cris Freilich",
-          imagePath: "/src/assets/sun-city-team-cris.webp",
+          name: "Kellen Saindon",
+          imagePath: "/src/assets/Kellen-Saindon.webp",
           imageAlt:
-            "Sun City Aviation Academy Director of Sales, Service, & Finance Cris Freilich",
-          bio: "Cris has a Bachelor's degree in business management with a background in finance, aviation, and marketing. Cris spent the last 10 years working as sales, service, and school director for several prominent fight schools in Florida. Throughout his time working at these flight schools, Cris' love and passion for aviation grew and has led him to complete his Private Pilot Certificate.",
-          rank: "Director of Sales, Service, & Finance",
-        },
-        {
-          name: "Georgette Poulos",
-          imagePath: "/src/assets/sun-city-team-georgette.webp",
-          imageAlt:
-            "Sun City Aviation Academy Executive Business Manager Georgette Poulos",
-          bio: " Georgette holds a bachelor's degree in Alternative Medicine and is a graduate of culinary school, but she is no stranger to aviation. Being married to a pilot for 28 years and having two pilots for children, she is well versed in the aviation field. Georgette is Sun City's executive business manager and is presently pursuing a bachelor's degree in aerospace management.",
-          rank: "Executive Business Manager",
+            "Elite Flight Training & Aircraft Management Certified Flight Instructor Kellen Saindon",
+          bio: "Meet Kellen Saindon, Elite's newest instructor and a product of our own training program. Kellen's journey with Elite began in 2019 when he completed his Private Pilot Training under the guidance of our skilled instructor, Brian. His passion for aviation led him to pursue a Bachelor of Science in Aviation Management at Lewis University, enhancing his knowledge and expertise in the field. Now, a resident of the local area, Kellen brings a unique blend of Elite's training and academic excellence to our team. His dedication to aviation and his roots with Elite make him a valuable addition to our instructor roster.",
+          rank: "Certified Flight Instructor",
         },
       ],
     },
 
     teamGrid: {
       upperHeading: "Meet Our Team",
-      heading: "The Backbone of Sun City Aviation Academy",
+      heading: "The Backbone of Elite Flight Training",
       description:
-        "Our team of staff and instructors are dedicated to providing the highest quality flight training in South Florida. With years of experience and a passion for aviation, our team is here to help you achieve your aviation goals.",
+        "The passion to fly is what drives our team. Our team is dedicated to providing the highest quality flight training in Chicagoland. With years of experience and a passion for aviation, our team is here to help you achieve your aviation goals.",
       members: [
         {
           name: "Jean Dorcelien",
@@ -145,94 +131,12 @@ const ourTeam = {
             "Sun City Aviation Academy Certified Flight Instructor Jean Dorcelien",
           rank: "Flight Instructor",
         },
-        {
-          name: "Nicolas McCaulsky",
-          imagePath: "/src/assets/sun-city-team-123abc5.webp",
-          imageAlt:
-            "Sun City Aviation Academy Certified Flight Instructor Nicolas McCaulsky",
-          rank: "Flight Instructor",
-        },
-        {
-          name: "Gleb Sokolov",
-          imagePath: "/src/assets/sun-city-team-123abc6.webp",
-          imageAlt:
-            "Sun City Aviation Academy Certified Flight Instructor Gleb Sokolov",
-          rank: "Flight Instructor",
-        },
-        {
-          name: "Marko Pavlichenko",
-          imagePath: "/src/assets/sun-city-team-mafer.webp",
-          imageAlt:
-            "Sun City Aviation Academy Dispatch Administrator Mafer Caceres",
-          rank: "Dispatch Administrator<br>Social Media Specialist",
-        },
-        {
-          name: "Marko Pavlichenko",
-          imagePath: "/src/assets/sun-city-team-marko.webp",
-          imageAlt:
-            "Sun City Aviation Certified Flight Instructor Marko Pavlichenko",
-          rank: "Flight Instructor",
-        },
-        {
-          name: "Alexis Vassel",
-          imagePath: "/src/assets/sun-city-team-alexis.webp",
-          imageAlt:
-            "Sun City Aviation Certified Flight Instructor Alexis Vassel",
-          rank: "Flight Instructor",
-        },
-        {
-          name: "Charles Mesina",
-          imagePath: "/src/assets/sun-city-team-charles.webp",
-          imageAlt:
-            "Sun City Aviation Certified Flight Instructor Charles Mesina",
-          rank: "Flight Instructor",
-        },
-        {
-          name: "Cara Ming",
-          imagePath: "/src/assets/woman-silhouette.webp",
-          imageAlt: "Sun City Aviation Certified Flight Instructor Cara Ming",
-          rank: "Flight Instructor",
-        },
-        {
-          name: "Jacqueline Wicker-McAllister",
-          imagePath: "/src/assets/woman-silhouette.webp",
-          imageAlt:
-            "Sun City Aviation Certified Flight Instructor Jacqueline Wicker-McAllister",
-          rank: "Flight Instructor",
-        },
-        {
-          name: "Andrew Graeler",
-          imagePath: "/src/assets/man-silhouette.webp",
-          imageAlt:
-            "Sun City Aviation Certified Flight Instructor Andrew Graeler",
-          rank: "Flight Instructor",
-        },
-        {
-          name: "Angel Christophe",
-          imagePath: "/src/assets/man-silhouette.webp",
-          imageAlt:
-            "Sun City Aviation Certified Flight Instructor Angel Christophe",
-          rank: "Office Manager",
-        },
-        {
-          name: "Zaccur Christophe",
-          imagePath: "/src/assets/man-silhouette.webp",
-          imageAlt:
-            "Sun City Aviation Certified Flight Instructor Zaccur Christophe",
-          rank: "Inventory Manager",
-        },
-        {
-          name: "Brian Combs",
-          imagePath: "/src/assets/man-silhouette.webp",
-          imageAlt: "Sun City Aviation Certified Flight Instructor Brian Combs",
-          rank: "Outreach Director",
-        },
       ],
     },
 
     bookCTA: {
       upperHeading: "Still looking for more information on pilot training?",
-      headerH1: `Get Your <span class="text-accent-300">FREE</span><br> Pilot Training Guide!`,
+      headerH1: `Get Your <span class="text-primary-700">FREE</span><br> Pilot Training Guide!`,
       paragraph:
         "We have a free booklet which explains everything you need to know for your pilot certificate.",
       buttons: [
@@ -254,7 +158,7 @@ const ourTeam = {
         "Are you fascinated by the world of aviation? Have you dreamed of flying and exploring the skies? Do you often look upward at passing aircraft, wondering if you yourself could be in the cockpit?",
         "Begin your journey in aviation with our brief quiz. Our quiz is designed to look at your aviation related knowledge and aptitude, alongside your unique personality traits and interests, to provide insights into whether a future in aviation aligns with your aspirations.",
       ],
-      imagePath: "/src/assets/sun-city-aviation-academy-be-pilot-square.jpg",
+      imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
       imageAlt:
         "sun city aviation academy student flying a plane over the city of miami",
       buttons: [
@@ -271,7 +175,7 @@ const ourTeam = {
       imageAlt: "Right Rudder Marketing team on the runway",
       headerH1: `<span class="text-primary-600">Start Your Aviation Journey</br></span>With a Discovery Flight`,
       paragraph:
-        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see the Ft. Lauderdale and Hollywood from a new perspective.",
+        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see Kankakee from a new perspective.",
       buttons: [
         {
           name: "Schedule Today",

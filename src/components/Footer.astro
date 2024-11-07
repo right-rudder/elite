@@ -95,18 +95,17 @@ const { pathname } = Astro.url;
           <div class="flex flex-col items-center lg:mx-10 mx-5 lg:ml-32">
             <!--WIDGET METAR-->
             <a
-              href="https://metar-taf.com/KHWO"
-              target="blank"
-              id="metartaf-B8VkYadJ"
-              class="lg:w-96 w-72 bg-primary-800 p-4 rounded-md text-center"
-              style="font-size:18px; font-weight:600; color:#FFF; display:block"
-              >METAR North Perry Airport</a
+              href="https://metar-taf.com/KIKK"
+              id="metartaf-J75LBrfe"
+              target="_blank"
+              class="lg:w-96 w-72 bg-primary-300 p-4 rounded-md text-center"
+              >METAR Greater Kankakee Airport</a
             >
             <script
               async
               defer
               crossorigin="anonymous"
-              src="https://metar-taf.com/embed-js/KHWO?bg_color=000000&layout=landscape&temp=f&visibility=mi&qnh=inHg&rh=rh&target=B8VkYadJ"
+              src="https://metar-taf.com/embed-js/KIKK?temp=f&layout=landscape&visibility=mi&qnh=inHg&rh=rh&target=J75LBrfe"
             ></script>
           </div>
         </div>
@@ -201,28 +200,30 @@ const { pathname } = Astro.url;
             ></path>
           </svg>
         </a>
-        <a
-          href={YOUTUBE_URL}
-          target="_blank"
-          aria-label="Youtube"
-          title="Youtube"
-          class="transition-colors duration-300 text-white hover:text-white/70 hover:scale-105"
-        >
-          <svg
-            class="size-7"
-            xmlns="http://www.w3.org/2000/svg"
-            x="0px"
-            y="0px"
-            width="100"
-            height="100"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-          >
-            <path
-              d="M21.582,6.186c-0.23-0.86-0.908-1.538-1.768-1.768C18.254,4,12,4,12,4S5.746,4,4.186,4.418 c-0.86,0.23-1.538,0.908-1.768,1.768C2,7.746,2,12,2,12s0,4.254,0.418,5.814c0.23,0.86,0.908,1.538,1.768,1.768 C5.746,20,12,20,12,20s6.254,0,7.814-0.418c0.861-0.23,1.538-0.908,1.768-1.768C22,16.254,22,12,22,12S22,7.746,21.582,6.186z M10,15.464V8.536L16,12L10,15.464z"
-            ></path>
-          </svg>
-        </a>
+        {
+          YOUTUBE_URL && (
+            <a
+              href={YOUTUBE_URL}
+              target="_blank"
+              aria-label="Youtube"
+              title="Youtube"
+              class="transition-colors duration-300 text-white hover:text-white/70 hover:scale-105"
+            >
+              <svg
+                class="size-7"
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="100"
+                height="100"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path d="M21.582,6.186c-0.23-0.86-0.908-1.538-1.768-1.768C18.254,4,12,4,12,4S5.746,4,4.186,4.418 c-0.86,0.23-1.538,0.908-1.768,1.768C2,7.746,2,12,2,12s0,4.254,0.418,5.814c0.23,0.86,0.908,1.538,1.768,1.768 C5.746,20,12,20,12,20s6.254,0,7.814-0.418c0.861-0.23,1.538-0.908,1.768-1.768C22,16.254,22,12,22,12S22,7.746,21.582,6.186z M10,15.464V8.536L16,12L10,15.464z" />
+              </svg>
+            </a>
+          )
+        }
       </div>
     </div>
   </div>

@@ -1,0 +1,18 @@
+---
+import ContentSplit from "../../components/ContentSplit.astro";
+import HeaderScreen from "../../components/HeaderScreen.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import maintenanceInfo from "../../data/aircraft-maintenance";
+
+const { data } = maintenanceInfo;
+---
+
+<BaseLayout
+  siteTitle={data.pageTitle}
+  siteDescription={data.pageDescription}
+  keywords={data.pageKeywords}
+>
+  <!-- HEADER -->
+  <HeaderScreen content={data.header} />
+  <ContentSplit content={data.brokerage} />
+</BaseLayout>

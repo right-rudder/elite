@@ -14,51 +14,55 @@ export const navbarLinks = [
     ],
   },
   {
-    name: "Training Courses",
-    link: "/flight-training-pilot-programs",
+    name: "Flight Training",
+    link: "/flight-training",
     submenu: [
       {
         name: "Private Pilot",
-        link: "/private-pilot-training",
+        link: "/flight-training/private-pilot-training",
       },
       {
         name: "Instrument Rating",
-        link: "/instrument-rating",
+        link: "/flight-training/instrument-rating",
       },
       {
         name: "Commercial Pilot",
-        link: "/commercial-pilot-training",
+        link: "/flight-training/commercial-pilot-training",
       },
       {
         name: "Multi-Engine Rating",
-        link: "/multi-engine-rating",
+        link: "/flight-training/multi-engine-rating",
+      },
+      {
+        name: "Certified Flight Instructor",
+        link: "/flight-training/certified-flight-instructor-cfi",
       },
     ],
   },
 
   {
     name: "Aircraft Services",
-    link: "/experience-aviation",
+    link: "/aircraft-services",
     submenu: [
       {
         name: "Brokerage",
-        link: "/aircraft-brokerage",
+        link: "/aircraft-services/aircraft-brokerage",
       },
       {
         name: "Rentals",
-        link: "/aircraft-rentals",
+        link: "/aircraft-services/aircraft-rentals",
       },
       {
         name: "For Sale",
-        link: "/aircraft-for-sale",
+        link: "/aircraft-services/aircraft-for-sale",
       },
       {
         name: "Maintenance",
-        link: "/aircraft-maintenance",
+        link: "/aircraft-services/aircraft-maintenance",
       },
       {
         name: "Charter Revenue",
-        link: "/charter-revenue",
+        link: "/aircraft-services/charter-revenue",
       },
     ],
   },
@@ -74,10 +78,6 @@ export const navbarLinks = [
       {
         name: "Our Fleet",
         link: "/our-fleet",
-      },
-      {
-        name: "Visit Us",
-        link: "/visit-us",
       },
       {
         name: "Blog",

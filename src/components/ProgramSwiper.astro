@@ -4,7 +4,9 @@ import ProgramCard from "./ProgramCard.astro";
 const { content } = Astro.props;
 ---
 
-<section class="bg-gray-200 py-16 lg:py-24 overflow-hidden">
+<section
+  class="bg-gradient-to-br from-primary-900 via-primary-950 to-slate-950 py-16 lg:py-24 overflow-hidden"
+>
   <div class="">
     {
       content.upperHeading && (
@@ -15,14 +17,14 @@ const { content } = Astro.props;
     }
     {
       content.heading && (
-        <h2 class="mx-auto mb-3 text-4xl lg:text-6xl lg:max-w-3xl font-sans text-center font-bold tracking-tight text-primary-800">
+        <h2 class="mx-auto mb-3 text-4xl lg:text-6xl lg:max-w-3xl font-sans text-center font-bold tracking-tight text-primary-50">
           {content.heading}
         </h2>
       )
     }
     {
       content.heading && (
-        <p class="mx-auto mb-12 text-lg max-w-3xl text-center tracking-loose text-muted-700">
+        <p class="mx-auto mb-12 text-lg max-w-3xl text-center tracking-loose text-muted-200">
           {content.description}
         </p>
       )
@@ -35,6 +37,7 @@ const { content } = Astro.props;
           content.cards.map((program) => (
             <div class="swiper-slide">
               <ProgramCard
+                style="w-full"
                 title={program.title}
                 imagePath={program.imagePath}
                 imageAlt={program.imageAlt}

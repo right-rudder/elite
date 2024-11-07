@@ -1,7 +1,8 @@
 const duchessInfo = {
   data: {
     //SEO Header Stuff
-    pageTitle: "Beechcraft Duchess | Our Fleet | Sun City Aviation Academy",
+    pageTitle:
+      "Beechcraft Duchess | Our Fleet | Elite Flight Training & Aircraft Management",
     pageDescription:
       "Sun City Aviation Academy multi-engine training with our Beechcraft Duchess. Our Beechcraft Duchess is a reliable and versatile aircraft, perfectly suited for those taking their first steps into the world of multi-engine flight. Our Beechcraft Duchess provides an ideal learning environment for aspiring pilots.",
     pageKeywords:
@@ -92,7 +93,7 @@ const duchessInfo = {
 
     bookCTA: {
       upperHeading: "Still looking for more information on pilot training?",
-      headerH1: `Get Your <span class="text-accent-300">FREE</span><br> Pilot Training Guide!`,
+      headerH1: `Get Your <span class="text-primary-700">FREE</span><br> Pilot Training Guide!`,
       paragraph:
         "We have a free booklet which explains everything you need to know for your pilot certificate.",
       buttons: [
@@ -114,7 +115,7 @@ const duchessInfo = {
         "Are you fascinated by the world of aviation? Have you dreamed of flying and exploring the skies? Do you often look upward at passing aircraft, wondering if you yourself could be in the cockpit?",
         "Begin your journey in aviation with our brief quiz. Our quiz is designed to look at your aviation related knowledge and aptitude, alongside your unique personality traits and interests, to provide insights into whether a future in aviation aligns with your aspirations.",
       ],
-      imagePath: "/src/assets/sun-city-aviation-academy-be-pilot-square.jpg",
+      imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
       imageAlt:
         "sun city aviation academy student flying a plane over the city of miami",
       buttons: [
@@ -131,7 +132,7 @@ const duchessInfo = {
       imageAlt: "Right Rudder Marketing team on the runway",
       headerH1: `<span class="text-primary-600">Start Your Aviation Journey</br></span>With a Discovery Flight`,
       paragraph:
-        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see the Ft. Lauderdale and Hollywood from a new perspective.",
+        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see Kankakee from a new perspective.",
       buttons: [
         {
           name: "Schedule Today",

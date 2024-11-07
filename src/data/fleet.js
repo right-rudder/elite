@@ -1,21 +1,20 @@
 const ourFleet = {
   data: {
     //SEO Header Stuff
-    pageTitle: "Our Fleet | Sun City Aviation Academy",
+    pageTitle: "Our Fleet | Elite Flight Training & Aircraft Management",
     pageDescription:
-      "We have a fleet of modern aircraft for your training needs. Our fleet includes Cessna 172s, Beechcraft Duchess and Redbird Simulator.",
+      "We have a fleet of modern aircraft for your training needs. Our fleet includes Cessna 172, Piper Warrior and Piper Twin Comanche.",
     pageKeywords:
-      "aircraft, fleet, training, Cessna 172, Beechcraft Duchess, Redbird Simulator, Sun City Aviation Academy fleet, flight training, pilot training, aviation training",
+      "flight training, aircraft management, elite flight training, elite aircraft management, Elite Flight Training & Aircraft Management, sun city flight school, sun city aviation, sun city flight academy, sun city aviation training, sun city flight training, sun city aviation, sun city flight, Elite Flight Training & Aircraft Management, sun city flight school, sun city aviation training, sun city flight training, sun city aviation, sun city flight, Elite Flight Training & Aircraft Management, sun city flight school, sun city aviation training, sun city flight training, sun city aviation, sun city flight, Elite Flight Training & Aircraft Management, sun city flight school, sun city aviation training, sun city flight training, sun city aviation, sun city flight, Elite Flight Training & Aircraft Management, sun city flight school, sun city aviation training, sun city flight training, sun city aviation, sun city flight, Elite Flight Training & Aircraft Management, sun city flight school, sun city aviation training, sun city flight training, sun city aviation, sun city flight",
 
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/sun-city-aviation-academy-grounded-aircraft.jpg",
-      imageAlt:
-        "sun city aviation academy trains professional pilots in south florida",
-      headerH1: `Our</br><span class="text-accent-300">Fleet</span>`,
+      imagePath: "/src/assets/elite-flight-training-fleet-cessna-172-2.jpg",
+      imageAlt: "elite flight training student in the cockpit of a Cessna 172",
+      headerH1: `Our</br><span class="text-primary-100">Fleet</span>`,
       paragraph:
-        "We have a fleet of modern aircraft for your training needs. Our fleet includes Cessna 172s, Beechcraft Duchess and Redbird Simulator.",
+        "We have a fleet of modern aircraft for your training needs. Our fleet includes Cessna 172, Piper Warrior and Piper Twin Comanche.",
       buttons: [
         {
           name: "Enroll Now",
@@ -33,8 +32,8 @@ const ourFleet = {
     pageSummary: {
       title: `Fly With Confidence`,
       paragraphs: [
-        "At Sun City Aviation Academy, we take pride in our exceptional fleet of aircraft and our simulator, designed to provide you with the highest quality flight training experience. Whether you're just beginning your aviation journey or advancing your skills, our versatile aircraft and training tools are here to support your goals.",
-        "We offer a variety of aircraft for training, including the Cessna 172 and Beechcraft Duchess, as well as a Redbird Simulator. Our fleet is maintained to the highest standards, ensuring that you can train with confidence and peace of mind.",
+        "At Elite Flight Training & Aircraft Management, we take pride in our exceptional fleet of aircraft, designed to provide you with the highest quality flight training experience. Whether you're just beginning your aviation journey or advancing your skills, our versatile aircraft and training tools are here to support your goals.",
+        "We offer a variety of aircraft for training, including the Cessna 172, the Piper Warrior and the Piper Twin Comanche. Our fleet is maintained to the highest standards, ensuring that you can train with confidence and peace of mind.",
       ],
     },
 
@@ -45,32 +44,34 @@ const ourFleet = {
       aircraft: [
         {
           title: "Cessna 172",
-          imagePath: "/src/assets/sun-city-aviation-academy-AeroCamp174.jpg",
+          imagePath: "/src/assets/elite-flight-training-fleet-cessna-172.jpg",
           imageAlt:
-            "Sun City Aviation Academy Cessna 172 parked at the airport",
+            "Elite Flight Training Cessna 172 parked at the airport by our flight school",
           description:
-            "Start your aviation adventure with our robust fleet of Cessna 172 aircraft. These reliable and versatile planes are perfectly suited for those taking their first steps into the world of flight. Our Cessna 172s provide an ideal learning environment for aspiring pilots.",
+            "Start your aviation adventure with our robust fleet of Cessna 172 aircraft. These reliable and versatile planes are perfectly suited for those taking their first steps into the world of flight.",
           link: "/our-fleet/cessna-172",
           linkText: "Details",
         },
         {
-          title: "Beechcraft Duchess",
+          title: "Piper Warrior",
           imagePath:
-            "/src/assets/sun-city-aviation-academy-multi-engine-aircraft.jpg",
+            "/src/assets/elite-flight-training-fleet-piper-warrior.jpg",
           imageAlt:
-            "Sun City Aviation Academy Beechcraft Duchess parked at the airport",
+            "Elite Flight Training Piper Warrior parked at the airport by our flight school",
           description:
-            "As you step into the cockpit of our Beechcraft Duchess, you'll discover a world of possibilities that extends beyond single engine flight. The Duchess is a testament to our commitment to providing you with the highest quality training resources.",
-          link: "/our-fleet/beechcraft-duchess",
+            "Our Piper Warrior aircraft are ideal for those looking to advance their skills and experience in the world of aviation. These planes offer a comfortable and reliable platform for your training needs.",
+          link: "/our-fleet/piper-warrior",
           linkText: "Details",
         },
         {
-          title: "Redbird Flight Simulator",
-          imagePath: "/src/assets/sun-city-wingman.jpg",
-          imageAlt: "Sun City Aviation Academy Redbird Simulator",
+          title: "Piper Twin Comanche",
+          imagePath:
+            "/src/assets/elite-flight-training-fleet-piper-twin-comanche.jpg",
+          imageAlt:
+            "Elite Flight Training Piper Twin Comanche parked at the airport by our flight school",
           description:
-            "Using a simulator allows you to practice maneuvers, refine techniques, and master emergency procedures. You can pause mid flight and replay different scenarios and conditions which help solidify your training and make you a better and safer pilot.",
-          link: "/our-fleet/redbird-simulator",
+            "For those seeking a multi-engine training experience, our Piper Twin Comanche aircraft are the perfect choice. These versatile planes offer a unique training opportunity for aspiring pilots.",
+          link: "/our-fleet/piper-twin-comanche",
           linkText: "Details",
         },
       ],
@@ -78,7 +79,7 @@ const ourFleet = {
 
     bookCTA: {
       upperHeading: "Still looking for more information on pilot training?",
-      headerH1: `Get Your <span class="text-accent-300">FREE</span><br> Pilot Training Guide!`,
+      headerH1: `Get Your <span class="text-primary-700">FREE</span><br> Pilot Training Guide!`,
       paragraph:
         "We have a free booklet which explains everything you need to know for your pilot certificate.",
       buttons: [
@@ -100,9 +101,9 @@ const ourFleet = {
         "Are you fascinated by the world of aviation? Have you dreamed of flying and exploring the skies? Do you often look upward at passing aircraft, wondering if you yourself could be in the cockpit?",
         "Begin your journey in aviation with our brief quiz. Our quiz is designed to look at your aviation related knowledge and aptitude, alongside your unique personality traits and interests, to provide insights into whether a future in aviation aligns with your aspirations.",
       ],
-      imagePath: "/src/assets/sun-city-aviation-academy-be-pilot-square.jpg",
+      imagePath: "/src/assets/benjamin-chambon-7LJLXYpqGl4-unsplash.jpg",
       imageAlt:
-        "sun city aviation academy student flying a plane over the city of miami",
+        "Elite Flight Training & Aircraft Management cessna 172 instrument panel",
       buttons: [
         {
           name: "Take the Quiz",
@@ -117,7 +118,7 @@ const ourFleet = {
       imageAlt: "Right Rudder Marketing team on the runway",
       headerH1: `<span class="text-primary-600">Start Your Aviation Journey</br></span>With a Discovery Flight`,
       paragraph:
-        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see the Ft. Lauderdale and Hollywood from a new perspective.",
+        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see Kankakee from a new perspective.",
       buttons: [
         {
           name: "Schedule Today",

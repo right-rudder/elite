@@ -12,7 +12,7 @@ if (!images[data.imagePath])
   );
 ---
 
-<div
+<section
   class="overflow-hidden bg-gradient-to-b from-white to-90% to-muted-100 px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0"
 >
   <div
@@ -24,12 +24,12 @@ if (!images[data.imagePath])
       <div class="lg:pr-4">
         <div class="lg:max-w-lg">
           <p
-            class="text-base font-semibold leading-7 text-accent-300 uppercase"
+            class="text-base font-semibold leading-7 text-accent-700 uppercase"
           >
             {data.upperHeading}
           </p>
           <h1
-            class="mt-0 text-3xl font-bold tracking-tight text-muted-700 sm:text-4xl"
+            class="mt-0 text-3xl font-bold tracking-tight text-primary-950 sm:text-4xl"
           >
             {data.heading}
           </h1>
@@ -74,7 +74,7 @@ if (!images[data.imagePath])
                   {data.list.items.map((item) => (
                     <li class="flex gap-x-3">
                       <svg
-                        class="mt-1 size-8 flex-none text-accent-400"
+                        class="mt-1 size-8 flex-none text-accent-600"
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
@@ -88,12 +88,13 @@ if (!images[data.imagePath])
                         />
                       </svg>
                       <span class="leading-snug">
-                        <strong class="font-bold text-muted-500 tracking-tight uppercase">
+                        <strong class="font-bold text-primary-800 tracking-tight uppercase">
                           {item.title}
                         </strong>{" "}
-                        {item.descriptions.map((dec) => (
-                          <p class="mb-2" set:html={dec} />
-                        ))}
+                        {item.descriptions &&
+                          item.descriptions.map((dec) => (
+                            <p class="mb-2 font-sans2" set:html={dec} />
+                          ))}
                       </span>
                     </li>
                   ))}
@@ -140,4 +141,4 @@ if (!images[data.imagePath])
       </div>
     </div>
   </div>
-</div>
+</section>

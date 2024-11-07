@@ -1,0 +1,18 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import HeaderScreen from "../../components/HeaderScreen.astro";
+import forSaleInfo from "../../data/aircraft-for-sale";
+import ForSaleGrid from "../../components/ForSaleGrid.astro";
+
+const { data } = forSaleInfo;
+---
+
+<BaseLayout
+  siteTitle={data.pageTitle}
+  siteDescription={data.pageDescription}
+  keywords={data.pageKeywords}
+>
+  <!-- HEADER -->
+  <HeaderScreen content={data.header} />
+  <ForSaleGrid data={data.fleetGrid} />
+</BaseLayout>

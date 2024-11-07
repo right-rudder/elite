@@ -25,23 +25,27 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Programs",
+    title: "Training",
     links: [
       {
         name: "Private Pilot",
-        link: "/private-pilot-training",
+        link: "/flight-training/private-pilot-training",
       },
       {
         name: "Instrument Rating",
-        link: "/instrument-rating",
+        link: "/flight-training/instrument-rating",
       },
       {
         name: "Commercial Pilot",
-        link: "/commercial-pilot-training",
+        link: "/flight-training/commercial-pilot-training",
       },
       {
         name: "Multi-Engine Rating",
-        link: "/multi-engine-rating",
+        link: "/flight-training/multi-engine-rating",
+      },
+      {
+        name: "CFI",
+        link: "/flight-training/certified-flight-instructor-cfi",
       },
     ],
   },
@@ -55,10 +59,6 @@ export const footerLinks = [
       {
         name: "Our Fleet",
         link: "/our-fleet",
-      },
-      {
-        name: "Visit Us",
-        link: "/visit-us",
       },
       {
         name: "Blog",

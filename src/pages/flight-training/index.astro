@@ -1,0 +1,31 @@
+---
+import ContentCTA from "../../components/ContentCTA.astro";
+import CTAColor from "../../components/CTAColor.astro";
+import FAQs from "../../components/FAQs";
+import GridPrograms from "../../components/GridPrograms.astro";
+import HeaderScreen from "../../components/HeaderScreen.astro";
+import flightTrainingPrograms from "../../data/flight-training-pilot-programs";
+import { GeneralFAQs } from "../../data/generalFAQs1";
+import programsSwiper from "../../data/programSwiper";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const { data } = flightTrainingPrograms;
+---
+
+<BaseLayout
+  siteTitle={data.pageTitle}
+  siteDescription={data.pageDescription}
+  keywords={data.pageKeywords}
+>
+  <!-- HEADER -->
+  <HeaderScreen content={data.header} />
+
+  <GridPrograms content={programsSwiper} />
+
+  <ContentCTA content={data.quizCTA} />
+
+  <FAQs faqs={GeneralFAQs} type="General" client:visible />
+
+  <CTAColor content={data.flyWithUsCTA} />
+  <script src="../../scripts/creativeSwiper.js"></script>
+</BaseLayout>

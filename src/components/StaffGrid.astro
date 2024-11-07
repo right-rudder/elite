@@ -5,20 +5,20 @@ const { data } = Astro.props;
 ---
 
 <div
-  class="relative isolate overflow-hidden bg-gradient-to-b from-primary-50 to-primary-100 px-6 pt-24 pb-8 sm:pt-32 lg:overflow-visible lg:px-0"
+  class="relative isolate overflow-hidden bg-gradient-to-b from-white to-muted-100 px-6 pt-24 pb-8 sm:pt-32 lg:overflow-visible lg:px-0"
 >
   <div class="mx-auto max-w-6xl lg:pr-4">
-    <div class="my-9">
-      <p class="text-base font-semibold leading-7 text-accent-300 uppercase">
+    <div class="mt-9 text-center">
+      <p class="text-base font-semibold leading-7 text-accent-700 uppercase">
         {data.upperHeading}
       </p>
       <h1
-        class="mt-0 text-3xl font-bold tracking-tight text-muted-700 sm:text-4xl"
+        class="mt-0 text-3xl font-bold tracking-tight text-primary-950 sm:text-4xl"
       >
         {data.heading}
       </h1>
       <p
-        class="mt-6 text-xl leading-8 text-muted-700"
+        class="mt-6 text-xl leading-8 text-muted-500"
         set:html={data.description}
       />
     </div>
@@ -52,8 +52,11 @@ const { data } = Astro.props;
         fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)"></rect>
     </svg>
   </div>
-  <div class="mt-12 flex justify-center align-middle">
-    <ul role="list" class="flex flex-wrap justify-center max-w-4xl divide-y-2">
+  <div class="mt-6 flex justify-center align-middle">
+    <ul
+      role="list"
+      class="flex flex-wrap justify-center max-w-4xl divide-y-2 divide-primary-200"
+    >
       {
         data.members.map((member) => (
           <StaffCard

@@ -11,9 +11,9 @@ const homePage = {
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/greg-rosenke-0DizjoNOCrw-unsplash.jpg",
+      imagePath: "/src/assets/zander-betterton-24R77S3ZA5s-unsplash.jpg",
       imageAlt:
-        "sun city aviation academy airplane flying over the city of miami",
+        "Elite Flight Training & Aircraft Management flight over Kankakee, IL",
       headerH1: `Come Fly<br>With Us`,
       paragraph:
         "Start your aviation journey with Elite Flight Training. Whether you're looking to fly for fun or pursue a career in aviation, Our programs and instructors to help you achieve your goals.",
@@ -31,12 +31,13 @@ const homePage = {
       ],
     },
 
-    whySuncity: {
-      upperHeading: "Why SunCity",
+    whyElite: {
+      upperHeading: "Why Elite Flight Training",
       heading: "Our Commitment",
       descriptions: [
-        "We offer a diverse range of programs designed to elevate you to new heights in the world of aviation. Our experienced instructors and state-of-the-art fleet ensure you receive the best training possible.",
-        "Luke Poulos, our founder, boasts over 20 years of aviation industry experience. His mission is to make Sun City Aviation Academy the top rated flight school in the country.",
+        "Founded in 2014 with a vision to bring a flight school to the south suburbs of Chicago,  Elite Flight Training continues to be one of the only complete flight institutions in the area.  Join us and make your flying dreams come true!",
+        "Elite Flight Training and Aircraft Management, LLC is located in Kankakee, just 50 miles south of Chicago. We offer professional and customized flight training programs including one of Chicagoland's only Multi-Engine Accelerated course.",
+        "Our team of experienced instructors are dedicated to providing you with the best training experience possible. We are committed to helping you achieve your goals and become a safe, competent pilot.",
       ],
       bullets: [
         {
@@ -68,24 +69,23 @@ const homePage = {
           icon: "M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z",
         },
       ],
-      imageLegend: `Luke Poulos<br><small class="text-white font-normal text-sm">Founder & CEO</small>`,
-      imagePath: "/src/assets/sun-city-luke.webp",
+      imagePath: "/src/assets/elite-flight-training-cfi-training.jpg",
       imageAlt:
-        "sun city aviation founder luke poulos in front of a sun city airplane",
+        "Elite Flight Training & Aircraft Management cessna 172 waiting for takeoff",
     },
 
     quizCTA: {
       upperHeading: "Take Our Quiz",
       heading: "Can You Become a Pilot?",
       descriptions: [
-        "Many people believe that becoming a pilot is out of reach due to concerns about expenses, time commitments, and safety. These concerns often arise from online research and general uncertainty. We understand these valid concerns and encourage you to speak with a Sun City team member to address any questions that may have arisen during your research.",
-        "At Sun City Aviation Academy, you don't need to make a substantial financial commitment upfront. It all begins with an affordable discovery flight, costing only a few hundred dollars. Pursuing your pilot's license is indeed a significant time investment, but it's a life changing achievement with long lasting rewards. Safety is our utmost priority at Sun City, ensuring your journey to becoming a pilot is both fulfilling and safe.",
+        "Many people believe that becoming a pilot is out of reach due to concerns about expenses, time commitments, and safety. These concerns often arise from online research and general uncertainty. We understand these valid concerns and encourage you to speak with a Elite Flight Training team member to address any questions that may have arisen during your research.",
+        "At Elite Flight Training, you don't need to make a substantial financial commitment upfront. It all begins with an affordable discovery flight, costing only a few hundred dollars. Pursuing your pilot's license is indeed a significant time investment, but it's a life changing achievement with long lasting rewards. Safety is our utmost priority at Sun City, ensuring your journey to becoming a pilot is both fulfilling and safe.",
         `Wondering if a pilot's life is right for you? Discover if the world of aviation is right for you by taking our "Is Flying Right for Me?" quiz. This quiz is designed to help you explore your interests and determine if the skies are where you belong. Get started on your aviation journey by clicking below to take the quiz.`,
       ],
       imageLegend: `Luke Poulos<br><small class="text-white font-normal text-sm">Founder & CEO</small>`,
-      imagePath: "/src/assets/sun-city-private-pilot-pass-checkride.webp",
+      imagePath: "/src/assets/benjamin-chambon-7LJLXYpqGl4-unsplash.jpg",
       imageAlt:
-        "sun city aviation student and flight instructor celebrating after passing a checkride",
+        "Elite Flight Training & Aircraft Management cessna 172 instrument panel",
       buttons: [
         {
           name: "Take the Quiz",
@@ -97,17 +97,17 @@ const homePage = {
 
     blogfeed: {
       upperHeading: "Our Blog",
-      heading: "Sun City Aviation Academy News",
+      heading: "Elite Flight News",
       description:
-        "Stay up to date with the latest news, pilot resources and updates from Sun City Aviation Academy.",
+        "Stay up to date with the latest news, pilot resources and updates from Elite Flight Training & Aircraft Management.",
     },
 
     flyWithUsCTA: {
       imagePath: "/src/assets/avel-chuklanov-QbTBCUJLqKY-unsplash(1).jpg",
       imageAlt: "Right Rudder Marketing team on the runway",
-      headerH1: `<span class="text-primary-600">Start Your Aviation Journey</br></span>With a Discovery Flight`,
+      headerH1: `<span class="text-accent-600">Start Your Aviation Journey</br></span>With a Discovery Flight`,
       paragraph:
-        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see the Ft. Lauderdale and Hollywood from a new perspective.",
+        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see Kankakee from a new perspective.",
       buttons: [
         {
           name: "Schedule Today",
@@ -118,39 +118,43 @@ const homePage = {
     },
 
     testimonials: {
-      upperHeading: "The SunCity Family",
+      upperHeading: "The Elite Family",
       heading: "Our Students Love Us",
       headingText: [
-        "While our main goal is to train future pilots safely and effectively, it’s important to us at SunCity Aviation Academy our students have a fun and comfortable environment to practice in.",
-        "Check out what our students and guests have to say about their experiences at SunCity.",
+        "While our main goal is to train future pilots safely and effectively, it’s important to us at Elite Flight Training our students have a fun and comfortable environment to practice in. We are proud of the relationships we have built with our students and guests.",
+        "Check out what they have to say about their experiences with Us.",
       ],
       buttonText: "Leave Us a Review",
       buttonLink:
-        "https://www.google.com/search?client=firefox-b-d&q=sun+city+aviation+academy#",
+        "https://www.google.com/search?client=firefox-b-d&q=elite+flight+training+kankakee#",
       reviews: [
         {
-          body: "This flight school provides premium service, wonderful atmosphere and excellent safety. I am very pleased with Sun City Aviation. I am working on getting my instrument rating and the Sun City team has been wonderful. My Flight Instructor Jean is great. I feel like I’m becoming a better pilot after each lesson. The planes are in great shape and I feel safe flying them (especially flying XC). Overall 5 Stars!",
-          author: "Hector R.",
+          body: "I absolutely love the facility and instructors at Elite. I'm able to easily keep current as a pilot and have easy access to aircraft just to take some friends up! The training is excellent if not better than when I was at a university for my aviation education. The one on one aspect here is a plus, not to mention the multi engine rating program is the most affordable I've seen in the country so far!",
+          author: "Kevin D.",
         },
         {
-          body: "Sun City Aviation is hands down one of the best flight schools out there! The instructors are not only super knowledgeable but also genuinely care about helping you succeed. They take the time to explain everything clearly, so you never feel lost. The planes are in great shape, and you always feel safe and comfortable when you’re up in the air. What I love most is the friendly and supportive vibe—everyone there is rooting for you. Whether you're just starting out or looking to level up your skills, Sun City Aviation is the place to be. Highly recommend!",
-          author: "Zaccur C.",
+          body: "Great flying school with very knowledgeable, supporting and patient instructors. Kaleb and Bryan are outstanding professionals and would recommend to anyone who would like to fulfill a dream of flying.",
+          author: "Tomas M.",
         },
         {
-          body: "I finished and passed my private pilot license at Sun City and now I'm doing the Instrument rating. The school and staff are great, my instructor Marko is excellent!!!",
-          author: "Ivan L.",
+          body: "My daughter did her first discovery flight over the weekend with Elite Flight Training out of Kankakee airport. She had Kellen as her instructor, such an amazing experience! A+++ instructors!!! Awesomeness!!! If you're thinking of taking flight instruction this is the place!!! Best part for papa is i got to come along for the ride!",
+          author: "Zack K.",
         },
         {
-          body: "I recently had the pleasure of training with Sun City for my Initial Multi Engine Commercial Rating. It was amazing. I was referred to Sun City from a DPE (FAA Designated Pilot Examiner) after I had a bad experience with a flight school in Melbourne FL. If one of the most well-known DPEs in the South Florida area recommended it (out of many), it carried a lot of weight given this is what they do day in and day out. They know where the best instructors are, the most well-maintained airplanes, and best pass rates for checkrides. The recommendation did not disappoint.",
-          author: "Jeff B.",
+          body: "Went to Elite Flight training to build some multi engine hours in their Twin Comanche. Very well equipped airplane and fun to fly. Best value for twin time I have found. Highly recommend Elite!",
+          author: "G. Colby",
         },
         {
-          body: "I spent almost a full year with this Sun City family and I couldn’t be more grateful. Getting to the finish line for my PPL would not have happened without Georgette and Luke, the owners. They are like a second set of parents to me after this rating. They are by far the most family oriented flight school I have been apart of and if you give them the chance, they will treat you like their family.",
-          author: "Joelle D.",
+          body: "5/5. The training costs is more on the affordable end in terms of normal pricing for aviation training and the CFIs are very friendly! All three make you feel safe to fly a plane.",
+          author: "Andrew B.",
         },
         {
-          body: "Anyone who care about having a positive  experience, prompt communication, and quality learning, you will not regret going to Sun City. Georgette and the staff are fantastic. The environment itself is built to enrich your personal understanding of flying. My son had a blast and can’t wait to continue. Thank you so much Georgette.",
-          author: "Olgyu C.",
+          body: "Great local flight school, great instructors, airplanes, etc. I had a great experience with Elite for my PPL and highly recommend them to anyone who is interested in learning to fly!",
+          author: "Carter G.",
+        },
+        {
+          body: "Wonderful place to train as a pilot. Friendly, courteous, flexible, and dedicated to safe instruction.  Brian Rose is a great instructor and keeps you on track with your training goals.  I recommended Elite to the flying club for members to gain further certifications, especially multi-engine.",
+          author: "Jason C.",
         },
       ],
     },

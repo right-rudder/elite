@@ -2,21 +2,21 @@ const certifiedFlightInstructor = {
   data: {
     //SEO Header Stuff
     pageTitle:
-      "Certified Flight Instructor | CFI,CFII,MEI | Sun City Aviation Academy",
+      "Certified Flight Instructor | CFI,CFII | Elite Flight Training & Aircraft Management",
     pageDescription:
-      "Become a trusted guide in the world of aviation. Become a Certified Flight Instructor (CFI) and teach others to fly. Sun City Aviation Academy offers comprehensive CFI training programs.",
+      "Become a trusted guide in the world of aviation. Become a Certified Flight Instructor (CFI) and teach others to fly.Elite Flight Training offers comprehensive CFI training programs.",
     pageKeywords:
-      "certified flight instructor, cfi, cfi training, cfi course, cfi school, cfi academy, cfi certification, cfi training cost, cfi training near me, cfi training programs, cfi training florida, cfi training south florida, cfi training fort lauderdale, cfi training miami, cfi training boca raton, cfi training west palm beach, cfi training hollywood, cfi training pompano beach, cfi training coral springs, cfi training deerfield beach, cfi training boynton beach, cfi training delray beach, cfi training coconut creek, cfi training margate, cfi training tamarac, cfi training sunrise, cfi training plantation, cfi training davie, cfi training pembroke pines, cfi training miramar, cfi training weston, cfi training hialeah, cfi training miami beach, cfi training miami gardens, cfi training miami lakes, cfi training aventura, cfi training hallandale beach, cfi training sunny isles beach, cfi training bal harbour, cfi training surfside, cfi training biscayne park, cfi training north miami beach, cfi training north miami, cfi training miami shores, cfi training miami springs, cfi training south miami, cfi training coral gables, cfi training coconut grove, cfi training kendall, cfi training homestead, cfi training florida keys, cfi training key largo, cfi training key west, cfi training marathon, cfi training islamorada, cfi training tavernier, cfi training key colony beach, cfi training big pine key, cfi training key biscayne, cfi training cape coral, cfi training fort myers, cfi training naples, cfi training marco island, cfi training bonita springs, cfi training estero, cfi training sanibel, cfi training captiva, cfi training lehigh acres, cfi training punta gorda, cfi training port charlotte, cfi training north port, cfi training venice, cfi training sarasota, cfi training bradenton, cfi training palmetto, cfi training ellenton, cfi training parrish, cfi training tampa, cfii training, mei training",
+      "Certified Flight Instructor, CFI, CFII, CFI training, CFI certification, CFI course, CFI program, CFI training program, CFI training course, CFI training near me, CFI training cost, CFI training requirements, CFI training online, CFI training academy, CFI training school, CFI training program near me, CFI training program cost, CFI training program requirements, CFI training program online, CFI training program academy, CFI training program school, CFI training course near me, CFI training course cost, CFI training course requirements, CFI training course online, CFI training course academy, CFI training course school",
 
     //top header
     header: {
       stars: true,
-      imagePath: "/src/assets/sun-city-aviation-academy-pilot-career-2.jpg",
+      imagePath: "/src/assets/elite-flight-training-cfi-training.jpg",
       imageAlt:
-        "sun city aviation academy trains professional pilots in south florida",
-      headerH1: `Certified</br><span class="text-accent-300">Flight Instructor</span>`,
+        "Elite Flight Training & Aircraft Management Certified Flight Instructor",
+      headerH1: `Certified</br><span class="text-primary-200">Flight Instructor</span>`,
       paragraph:
-        "Become a trusted guide in the world of aviation. Become a Certified Flight Instructor (CFI-CFII-MEI) and teach others to fly.",
+        "Become a trusted guide in the world of aviation. Become a Certified Flight Instructor (CFI-CFII) and teach others to fly.",
       buttons: [
         {
           name: "Enroll Now",
@@ -34,25 +34,26 @@ const certifiedFlightInstructor = {
     pageSummary: {
       title: `What Is A CFI?`,
       paragraphs: [
-        "Certified Flight Instructors (CFIs) play a pivotal role in the world of aviation as mentors, guides, and educators. They are the individuals responsible for shaping the next generation of skilled pilots, teaching student pilots not only the technical knowledge required for safe and efficient flight but also laying down and creating the core foundation for student pilot's aviation skills.",
-        "CFIs are the bridge between aspiring aviators and accomplishing their aviation goals, providing the necessary guidance, training, and expertise to turn those dreams into reality. Their dedication, experience, and commitment are what enable student pilots to fly confidently and safely into the skies, making CFIs the unsung heroes of the aviation community.",
+        "Certified Flight Instructors (CFIs) are the backbone of the aviation world. They’re like aviation superheroes who mentor, guide, and educate aspiring pilots. CFIs don’t just teach students the technical stuff needed for safe flights; they also build the foundation for their aviation skills.",
+        "They’re the bridge between dreams and reality, providing the guidance, training, and expertise to turn those dreams into soaring adventures. Thanks to CFIs, student pilots can confidently take to the skies, making them the unsung heroes of the aviation community.",
       ],
     },
 
     becomeCFI: {
-      imagePath: "/src/assets/sun-city-aviation-academy-pilot-career.jpg",
+      imagePath:
+        "/src/assets/elite-flight-training-certified-flight-instructor.jpg",
       imageAlt:
-        "Sun City Aviation Academy flight instructor smiling in front of a plane",
+        "Elite Flight Training & Aircraft Management Certified Flight Instructor",
       heading: "Certified Flight Instructor",
       upperHeading: "How to Become",
-      description: `CFI certification represents a significant milestone in a pilot's journey, signifying a high level of flight proficiency and instructional capabilities. This certification holds immense value not only for the individual achieving it but also for the broader aviation community.`,
+      description: `Do you have a passion to teach others, while improving your flight skills?  Becoming a CFI is an amazing way to teach others the knowledge you have gained and shape future generations of aviation specialists.`,
       paragraphs: [
         "CFIs serve as the backbone of flight training programs, ensuring that future pilots are not only technically proficient but also well versed in aviation safety and aeronautical decision making.",
         "Their expertise contributes to safer skies and more pilots in the aviation industry, as they pass on their knowledge and passion to the next generation. As mentors and educators, CFIs leave a significant mark on the aviation landscape, nurturing a culture of continuous learning, safety, and excellence that benefits the entire flying community.",
-        "At <strong>Sun City Aviation Academy</strong>, we offer a range of Certified Flight Instructor (CFI) certifications. Whether you're looking to start your journey as a CFI, become a Certified Flight Instructor Instrument (CFII) to teach instrument flying, or aim for the Multi Engine Instructor (MEI) rating, our comprehensive programs cover it all.",
+        "At <strong>Elite Flight Training</strong>, we offer a range of <strong>Certified Flight Instructor (CFI)</strong> certifications. Whether you're looking to start your journey as a CFI or become a <strong>Certified Flight Instructor Instrument (CFII)</strong> to teach instrument flying, our comprehensive programs cover it all.",
         "To get started on this rewarding path, aspiring CFIs will have gotten their Commercial Pilot Certificate, have logged a specific number of flight hours, and possess a valid medical certificate.",
         "From there, you'll undergo specialized training, extensive ground school, and practical flight experience under the guidance of our experienced instructors. Our dedicated team will ensure you're well prepared for the FAA examinations and practical assessments, setting you on the path to becoming a skilled and influential Certified Flight Instructor.",
-        "<strong>Sun City Aviation Academy</strong> offers courses for the three different CFI certifications: <strong>CFI</strong>, <strong>CFII</strong>, and <strong>MEI</strong>. Each certification builds on the previous one, providing you with the knowledge and skills needed to teach a wide range of aviation topics and flight maneuvers.",
+        "<strong>Elite Flight Training</strong> offers courses for the three different CFI certifications: <strong>CFI</strong>, <strong>CFII</strong>, and <strong>MEI</strong>. Each certification builds on the previous one, providing you with the knowledge and skills needed to teach a wide range of aviation topics and flight maneuvers.",
       ],
       list: {
         heading: "The Different Types of Flight Instructors",
@@ -79,21 +80,10 @@ const certifiedFlightInstructor = {
               "Whether you're aspiring to be a CFII or looking to enhance your flight instructor career, this certification opens up opportunities to impart invaluable knowledge and skills to future pilots.",
             ],
           },
-          {
-            icon: "M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 0 1-1.125-1.125v-3.75ZM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 0 1-1.125-1.125v-8.25ZM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 0 1-1.125-1.125v-2.25Z",
-            title: "Multi Engine Instructor",
-            descriptions: [
-              "The Multi Engine Instructor (MEI) certification is a specialized qualification that focuses on instructing in multi-engine aircraft.",
-              "If you have a passion for high performance, multi-engine planes, and want to share your expertise with others, the MEI certification is your gateway.",
-              "MEIs are sought after for their proficiency in teaching the intricacies of multi-engine flight, a skill set that is highly valued in the aviation industry.",
-              "In addition to the standard CFI requirements, MEI candidates must possess a deep understanding of multi-engine systems, aerodynamics, and advanced flight maneuvers. As an MEI, you'll teach students how to operate aircraft with multiple engines, emphasizing the safe handling of these powerful machines.",
-              "The MEI certification equips you with the expertise to prepare aspiring aviators for a future in multi-engine aircraft, making you an integral part of their journey towards advanced pilot careers.",
-            ],
-          },
         ],
       },
       afterListParagraphs: [
-        `To get your CFI certificate, you will need to have and meet the requirements for a commercial pilot certificate. This involves accruing 250 flight hours and holding a valid medical certificate. For more information on obtaining your commercial certificate, please visit our <a href="/commercial-pilot-training" class="font-medium text-accent-800 hover:underline">commercial certificate course page</a>.`,
+        `To get your CFI certificate, you will need to have and meet the requirements for a commercial pilot certificate. This involves accruing 250 flight hours and holding a valid medical certificate. For more information on obtaining your commercial certificate, please visit our <a href="/flight-training/commercial-pilot-training" class="font-medium text-accent-600 hover:underline">commercial certificate course page</a>.`,
         "Additionally, you'll need to pass the FAA's Certified Flight Instructor Airplane knowledge test, which assesses your understanding of flight principles, regulations, and teaching techniques.",
         "Achieving a passing score on this test demonstrates your proficiency in the subject matter and readiness to instruct.",
         "Furthermore, the FAA mandates that CFI candidates complete a certified flight instructor course, which includes ground instruction and practical flight training. This course is designed to prepare you for the CFI checkride, during which you'll demonstrate your ability to teach effectively, provide in-flight instruction, and evaluate student pilots' skills.",
@@ -108,7 +98,7 @@ const certifiedFlightInstructor = {
 
     bookCTA: {
       upperHeading: "Still looking for more information on pilot training?",
-      headerH1: `Get Your <span class="text-accent-300">FREE</span><br> Pilot Training Guide!`,
+      headerH1: `Get Your <span class="text-primary-700">FREE</span><br> Pilot Training Guide!`,
       paragraph:
         "We have a free booklet which explains everything you need to know for your pilot certificate.",
       buttons: [
@@ -130,9 +120,9 @@ const certifiedFlightInstructor = {
         "Are you fascinated by the world of aviation? Have you dreamed of flying and exploring the skies? Do you often look upward at passing aircraft, wondering if you yourself could be in the cockpit?",
         "Begin your journey in aviation with our brief quiz. Our quiz is designed to look at your aviation related knowledge and aptitude, alongside your unique personality traits and interests, to provide insights into whether a future in aviation aligns with your aspirations.",
       ],
-      imagePath: "/src/assets/sun-city-aviation-academy-be-pilot-square.jpg",
+      imagePath: "/src/assets/benjamin-chambon-7LJLXYpqGl4-unsplash.jpg",
       imageAlt:
-        "sun city aviation academy student flying a plane over the city of miami",
+        "Elite Flight Training & Aircraft Management cessna 172 instrument panel",
       buttons: [
         {
           name: "Take the Quiz",
@@ -147,7 +137,7 @@ const certifiedFlightInstructor = {
       imageAlt: "Right Rudder Marketing team on the runway",
       headerH1: `<span class="text-primary-600">Start Your Aviation Journey</br></span>With a Discovery Flight`,
       paragraph:
-        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see the Ft. Lauderdale and Hollywood from a new perspective.",
+        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see Kankakee from a new perspective.",
       buttons: [
         {
           name: "Schedule Today",

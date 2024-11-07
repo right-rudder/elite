@@ -5,13 +5,13 @@ const { content } = Astro.props;
 ---
 
 <section
-  class="flex flex-wrap justify-center py-12 lg:py-20 items-center align-middle bg-gradient-to-br from-primary-50 to-white"
+  class="flex flex-wrap justify-center py-12 lg:py-20 items-center align-middle bg-gradient-to-br from-primary-200 via-white to-accent-200"
 >
   <div
     class="text-white w-full lg:w-1/2 text-center lg:text-left z-10 flex flex-col items-center lg:items-start gap-4 px-5 h-full justify-center"
   >
     <p
-      class="text-base mt-3 font-sans font-medium tracking-wide text-primary-500 max-w-xl"
+      class="text-base mt-3 font-sans font-medium tracking-wide text-primary-950 max-w-xl"
       set:html={content.upperHeading}
     />
     <h3
@@ -19,7 +19,7 @@ const { content } = Astro.props;
       set:html={content.headerH1}
     />
     <p
-      class="text-base lg:text-xl mt-3 font-sans font-semibold tracking-wide text-primary-600 max-w-xl"
+      class="text-base lg:text-xl mt-3 font-sans font-semibold tracking-wide text-muted-600 max-w-xl"
       set:html={content.paragraph}
     />
     <div

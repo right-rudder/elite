@@ -2,7 +2,7 @@ const redbirdInfo = {
   data: {
     //SEO Header Stuff
     pageTitle:
-      "Redbird Flight Simulator | Our Fleet | Sun City Aviation Academy",
+      "Redbird Flight Simulator | Our Fleet | Elite Flight Training & Aircraft Management",
     pageDescription:
       "Sun City Aviation Academy offers a Redbird Simulator for pilot training. Our Redbird Simulator is a state-of-the-art training tool that provides a realistic flight experience for pilots of all levels.",
     pageKeywords:
@@ -85,7 +85,7 @@ const redbirdInfo = {
 
     bookCTA: {
       upperHeading: "Still looking for more information on pilot training?",
-      headerH1: `Get Your <span class="text-accent-300">FREE</span><br> Pilot Training Guide!`,
+      headerH1: `Get Your <span class="text-primary-700">FREE</span><br> Pilot Training Guide!`,
       paragraph:
         "We have a free booklet which explains everything you need to know for your pilot certificate.",
       buttons: [
@@ -107,7 +107,7 @@ const redbirdInfo = {
         "Are you fascinated by the world of aviation? Have you dreamed of flying and exploring the skies? Do you often look upward at passing aircraft, wondering if you yourself could be in the cockpit?",
         "Begin your journey in aviation with our brief quiz. Our quiz is designed to look at your aviation related knowledge and aptitude, alongside your unique personality traits and interests, to provide insights into whether a future in aviation aligns with your aspirations.",
       ],
-      imagePath: "/src/assets/sun-city-aviation-academy-be-pilot-square.jpg",
+      imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
       imageAlt:
         "sun city aviation academy student flying a plane over the city of miami",
       buttons: [
@@ -124,7 +124,7 @@ const redbirdInfo = {
       imageAlt: "Right Rudder Marketing team on the runway",
       headerH1: `<span class="text-primary-600">Start Your Aviation Journey</br></span>With a Discovery Flight`,
       paragraph:
-        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see the Ft. Lauderdale and Hollywood from a new perspective.",
+        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see Kankakee from a new perspective.",
       buttons: [
         {
           name: "Schedule Today",

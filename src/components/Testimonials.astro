@@ -2,7 +2,7 @@
 const { content } = Astro.props;
 ---
 
-<section id="testimonials" class="bg-white lg:py-24">
+<section id="testimonials" class="bg-slate-100 lg:py-24">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="flex flex-wrap justify-evenly items-start align-middle">
       <div
@@ -10,7 +10,7 @@ const { content } = Astro.props;
       >
         {
           content.upperHeading && (
-            <p class="text-xl font-sans text-center uppercase lg:text-right font-bold tracking-tight text-accent-300">
+            <p class="text-xl font-sans text-center uppercase lg:text-right font-bold tracking-tight text-accent-700">
               {content.upperHeading}
             </p>
           )
@@ -43,14 +43,14 @@ const { content } = Astro.props;
       </div>
       <div class="w-full lg:w-2/3 lg:max-w-2xl px-4 mt-12 lg:mt-0 lg:px-12">
         <ul
-          class="flex flex-col justify-center align-middle items-center divide-y-2 divide-accent-300/30"
+          class="flex flex-col justify-center align-middle items-center divide-y-2 divide-primary-100"
         >
           {
             content.reviews.map((review, index) => (
               <li class={`${index > 3 ? "hidden lg:block" : ""} py-12`}>
                 <blockquote class="relative mx-auto">
                   <svg
-                    class="absolute -top-6 -start-8 size-16 text-accent-200"
+                    class="absolute -top-6 -start-8 size-16 text-accent-100"
                     width="16"
                     height="16"
                     viewBox="0 0 16 16"
@@ -64,7 +64,7 @@ const { content } = Astro.props;
                     />
                   </svg>
                   <svg
-                    class="absolute bottom-6 end-8 size-16 text-accent-200 rotate-180"
+                    class="absolute bottom-6 end-8 size-16 text-accent-100 rotate-180"
                     width="16"
                     height="16"
                     viewBox="0 0 16 16"
@@ -79,11 +79,11 @@ const { content } = Astro.props;
                   </svg>
 
                   <div class="relative z-10">
-                    <p class="text-muted-600 font-medium text-lg leading-relaxed font-sans2 px-2">
+                    <p class="text-gray-700 font-medium text-lg leading-relaxed font-sans2 px-2">
                       <em>{review.body}</em>
                     </p>
                   </div>
-                  <p class="mt-4 text-3xl text-accent-400/80 font-bold italic font-sans text-center">
+                  <p class="mt-4 text-3xl text-accent-700/80 font-bold italic font-sans text-center">
                     {review.author}
                   </p>
                 </blockquote>
