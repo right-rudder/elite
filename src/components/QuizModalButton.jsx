@@ -30,7 +30,7 @@ const QuizModalButton = ({ btnStyle, btnText }) => {
     console.log("Form data:", formData);
 
     const url =
-      "https://services.leadconnectorhq.com/hooks/U9ULEEpmYvsaAGJyX7Wn/webhook-trigger/51a045fe-f219-46c5-acb3-26a6344429e9";
+      "https://services.leadconnectorhq.com/hooks/3YxJwd7Old9QsiOu2G7q/webhook-trigger/GX48X5gaBu9ZPfTm5GPO";
 
     fetch(url, {
       method: "POST",
@@ -45,7 +45,7 @@ const QuizModalButton = ({ btnStyle, btnText }) => {
           setTimeout(() => {
             toggleModal();
             document.body.style.overflow = "auto";
-          }, 6300);
+          }, 8100);
         } else {
           console.error("Form submission failed:", response.statusText);
         }
@@ -83,7 +83,7 @@ const QuizModalButton = ({ btnStyle, btnText }) => {
                 <p className="text-center italic text-base mt-0 mb-6">
                   Please fill out the form below to get started.
                 </p>
-                <form onSubmit={handleSubmit} className="mt-8">
+                <form onSubmit={handleSubmit} className="mt-8 font-light">
                   <div className="mb-4">
                     <label
                       htmlFor="firstName"
@@ -95,7 +95,7 @@ const QuizModalButton = ({ btnStyle, btnText }) => {
                         id="firstName"
                         name="firstName"
                         autoComplete="given-name"
-                        className="w-full p-2 border text-black bg-muted-50 border-muted-500 rounded-sm"
+                        className="w-full p-2 border text-black font-sans2 font-normal bg-muted-50 border-muted-500 rounded-sm"
                         required
                       />
                     </label>
@@ -111,7 +111,7 @@ const QuizModalButton = ({ btnStyle, btnText }) => {
                         id="lastName"
                         name="lastName"
                         autoComplete="family-name"
-                        className="w-full p-2 border text-black bg-muted-50 border-muted-500 rounded-sm"
+                        className="w-full p-2 border text-black font-sans2 font-normal bg-muted-50 border-muted-500 rounded-sm"
                         required
                       />
                     </label>
@@ -127,7 +127,7 @@ const QuizModalButton = ({ btnStyle, btnText }) => {
                         id="email"
                         name="email"
                         autoComplete="email"
-                        className="w-full p-2 border text-black bg-muted-50 border-muted-500 rounded-sm"
+                        className="w-full p-2 border text-black font-sans2 font-normal bg-muted-50 border-muted-500 rounded-sm"
                         required
                       />
                     </label>
@@ -151,7 +151,7 @@ const QuizModalButton = ({ btnStyle, btnText }) => {
                         min={10}
                         max={10}
                         autoComplete="tel"
-                        className="w-full p-2 border text-black bg-muted-50 border-muted-500 rounded-sm"
+                        className="w-full p-2 border text-black font-sans2 font-normal bg-muted-50 border-muted-500 rounded-sm"
                         required
                       />
                     </label>
@@ -224,7 +224,7 @@ const QuizModalButton = ({ btnStyle, btnText }) => {
                           id="pursue-other"
                           name="Inspirations"
                           rows={2}
-                          className="w-full p-2 border text-black bg-muted-50 border-muted-500 rounded-sm"
+                          className="w-full p-2 border text-black font-sans2 font-normal bg-muted-50 border-muted-500 rounded-sm"
                         />
                       </label>
                     </div>
@@ -240,7 +240,7 @@ const QuizModalButton = ({ btnStyle, btnText }) => {
                         id="goals"
                         name="goals"
                         rows={2}
-                        className="w-full p-2 border text-black bg-muted-50 border-muted-500 rounded-sm"
+                        className="w-full p-2 border text-black font-sans2 font-normal bg-muted-50 border-muted-500 rounded-sm"
                         required
                       />
                     </label>
@@ -493,7 +493,7 @@ const QuizModalButton = ({ btnStyle, btnText }) => {
                           id="guidance-other"
                           name="Guidance"
                           rows={2}
-                          className="w-full p-2 border text-black bg-muted-50 border-muted-500 rounded-sm"
+                          className="w-full p-2 border text-black font-sans2 font-normal bg-muted-50 border-muted-500 rounded-sm"
                         />
                       </label>
                     </div>
@@ -508,7 +508,7 @@ const QuizModalButton = ({ btnStyle, btnText }) => {
                         id="winglift"
                         name="winglift"
                         rows={2}
-                        className="w-full p-2 border text-black bg-muted-50 border-muted-500 rounded-sm"
+                        className="w-full p-2 border text-black font-sans2 font-normal bg-muted-50 border-muted-500 rounded-sm"
                         required
                       />
                     </label>
@@ -524,7 +524,7 @@ const QuizModalButton = ({ btnStyle, btnText }) => {
                         id="anything-else"
                         name="anything-else"
                         rows={2}
-                        className="w-full p-2 border text-black bg-muted-50 border-muted-500 rounded-sm"
+                        className="w-full p-2 border text-black font-sans2 font-normal bg-muted-50 border-muted-500 rounded-sm"
                       />
                     </label>
                   </div>
@@ -574,15 +574,16 @@ const QuizModalButton = ({ btnStyle, btnText }) => {
                 </h2>
 
                 <div className="flex flex-row justify-center">
-                  <div className="bg-green-200 rounded-sm-full py-3 px-4 mb-10">
+                  <div className="bg-green-200 rounded-full py-3 px-4 mb-10">
                     <div className="text-green-700 text-5xl">✓</div>
                   </div>
                 </div>
 
                 <p className="px-5">
-                  Thank you for contacting Summit Flight Academy. We are looking
-                  forward to working with you soon. We will review your message
-                  and get back with you within 1-5 business days. <br />
+                  Thank you for contacting Elite Flight Training & Aircraft
+                  Management. We are looking forward to working with you soon.
+                  We will review your message and get back with you within 1-5
+                  business days. <br />
                   <br />
                   You can also give us a call at{" "}
                   <a className="text-red-500" href={`tel:${PHONE_NUMBER}`}>
@@ -599,13 +600,13 @@ const QuizModalButton = ({ btnStyle, btnText }) => {
             )}
 
             <button
-              className="bg-accent-400 p-1 rounded-full absolute top-2 right-2"
+              className="bg-accent-700 p-1 rounded-full absolute top-2 right-2"
               onClick={() => {
                 toggleModal();
                 document.body.style.overflow = "auto";
               }}
             >
-              <IoMdClose className="text-2xl text-accent-950" />
+              <IoMdClose className="text-2xl text-white" />
             </button>
           </div>
         </div>

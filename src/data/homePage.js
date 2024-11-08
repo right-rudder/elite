@@ -78,7 +78,7 @@ const homePage = {
       upperHeading: "Take Our Quiz",
       heading: "Can You Become a Pilot?",
       descriptions: [
-        "Many people believe that becoming a pilot is out of reach due to concerns about expenses, time commitments, and safety. These concerns often arise from online research and general uncertainty. We understand these valid concerns and encourage you to speak with a Elite Flight Training team member to address any questions that may have arisen during your research.",
+        "Many aspiring pilots hesitate due to concerns about cost, time, and safety. These concerns often arise from online research and general uncertainty. We understand these valid concerns and encourage you to speak with a Elite Flight Training team member to address any questions that may have arisen during your research.",
         "At Elite Flight Training, you don't need to make a substantial financial commitment upfront. It all begins with an affordable discovery flight, costing only a few hundred dollars. Pursuing your pilot's license is indeed a significant time investment, but it's a life changing achievement with long lasting rewards. Safety is our utmost priority at Elite, ensuring your journey to becoming a pilot is both fulfilling and safe.",
         `Wondering if a pilot's life is right for you? Discover if the world of aviation is right for you by taking our "Is Flying Right for Me?" quiz. This quiz is designed to help you explore your interests and determine if the skies are where you belong. Get started on your aviation journey by clicking below to take the quiz.`,
       ],

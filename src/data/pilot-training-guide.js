@@ -72,7 +72,7 @@ const pilotTrainingGuide = {
             "Elite Flight Training & Aircraft Management clouds in the sky IFR training",
           button: {
             name: "Our Courses",
-            link: "/flight-training-pilot-programs",
+            link: "/flight-training",
             primary: true,
           },
         },
