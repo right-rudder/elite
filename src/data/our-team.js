@@ -50,7 +50,7 @@ const ourTeam = {
 
     partners: {
       heading:
-        "Sun City Aviation Academy is a partner affiliate with the following organizations:",
+        "Elite Flight Training Academy is a partner affiliate with the following organizations:",
       organizations: [
         {
           name: "Stratus Financial",
@@ -128,7 +128,7 @@ const ourTeam = {
           name: "Jean Dorcelien",
           imagePath: "/src/assets/sun-city-team-123abc2.webp",
           imageAlt:
-            "Sun City Aviation Academy Certified Flight Instructor Jean Dorcelien",
+            "Elite Flight Training Academy Certified Flight Instructor Jean Dorcelien",
           rank: "Flight Instructor",
         },
       ],
@@ -160,14 +160,8 @@ const ourTeam = {
       ],
       imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
       imageAlt:
-        "sun city aviation academy student flying a plane over the city of miami",
-      buttons: [
-        {
-          name: "Take the Quiz",
-          link: "/quiz",
-          primary: true,
-        },
-      ],
+        "Elite Flight Training academy student flying a plane over the city of miami",
+      quizModal: true,
     },
 
     flyWithUsCTA: {

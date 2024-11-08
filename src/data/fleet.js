@@ -5,7 +5,7 @@ const ourFleet = {
     pageDescription:
       "We have a fleet of modern aircraft for your training needs. Our fleet includes Cessna 172, Piper Warrior and Piper Twin Comanche.",
     pageKeywords:
-      "flight training, aircraft management, elite flight training, elite aircraft management, Elite Flight Training & Aircraft Management, sun city flight school, sun city aviation, sun city flight academy, sun city aviation training, sun city flight training, sun city aviation, sun city flight, Elite Flight Training & Aircraft Management, sun city flight school, sun city aviation training, sun city flight training, sun city aviation, sun city flight, Elite Flight Training & Aircraft Management, sun city flight school, sun city aviation training, sun city flight training, sun city aviation, sun city flight, Elite Flight Training & Aircraft Management, sun city flight school, sun city aviation training, sun city flight training, sun city aviation, sun city flight, Elite Flight Training & Aircraft Management, sun city flight school, sun city aviation training, sun city flight training, sun city aviation, sun city flight, Elite Flight Training & Aircraft Management, sun city flight school, sun city aviation training, sun city flight training, sun city aviation, sun city flight",
+      "flight training, aircraft management, elite flight training, elite aircraft management, Elite Flight Training & Aircraft Management, Elite flight school, Elite Flight Training, Elite flight academy, Elite Flight Training training, Elite flight training, Elite Flight Training, Elite flight, Elite Flight Training & Aircraft Management, Elite flight school, Elite Flight Training training, Elite flight training, Elite Flight Training, Elite flight, Elite Flight Training & Aircraft Management, Elite flight school, Elite Flight Training training, Elite flight training, Elite Flight Training, Elite flight, Elite Flight Training & Aircraft Management, Elite flight school, Elite Flight Training training, Elite flight training, Elite Flight Training, Elite flight, Elite Flight Training & Aircraft Management, Elite flight school, Elite Flight Training training, Elite flight training, Elite Flight Training, Elite flight, Elite Flight Training & Aircraft Management, Elite flight school, Elite Flight Training training, Elite flight training, Elite Flight Training, Elite flight",
 
     //top header
     header: {
@@ -104,13 +104,7 @@ const ourFleet = {
       imagePath: "/src/assets/benjamin-chambon-7LJLXYpqGl4-unsplash.jpg",
       imageAlt:
         "Elite Flight Training & Aircraft Management cessna 172 instrument panel",
-      buttons: [
-        {
-          name: "Take the Quiz",
-          link: "/quiz",
-          primary: true,
-        },
-      ],
+      quizModal: true,
     },
 
     flyWithUsCTA: {

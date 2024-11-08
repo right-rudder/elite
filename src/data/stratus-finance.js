@@ -4,7 +4,7 @@ const stratusInfo = {
     pageTitle:
       "Stratus Financial | Financing | Elite Flight Training & Aircraft Management",
     pageDescription:
-      "Stratus Financial is a financing option for students looking to become a pilot. Sun City Aviation Academy has partnered with Stratus Financial to provide students with the financial assistance they need to complete their pilot training.",
+      "Stratus Financial is a financing option for students looking to become a pilot. Elite Flight Training Academy has partnered with Stratus Financial to provide students with the financial assistance they need to complete their pilot training.",
     pageKeywords:
       "stratus finance, financing, pilot financing, pilot training financing, pilot training loans, pilot loans, pilot training loans, pilot training financing options, pilot training financial assistance, pilot training financial aid, pilot training scholarships, pilot training grants, pilot training payment plans, pilot training financing companies, pilot training financing programs, pilot training financing bad credit, pilot training financing no credit check, pilot training financing for international students, pilot training financing for veterans, pilot training financing for disabled, pilot training",
 
@@ -13,10 +13,10 @@ const stratusInfo = {
       stars: true,
       imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
       imageAlt:
-        "sun city aviation academy trains professional pilots in south florida",
+        "Elite Flight Training academy trains professional pilots in south florida",
       headerH1: `Financing</br><span class="text-accent-300">Stratus Financial</span>`,
       paragraph:
-        "Sun City Aviation Academy has partnered with Stratus Financial to provide students with the financial assistance they need to complete their pilot training.",
+        "Elite Flight Training Academy has partnered with Stratus Financial to provide students with the financial assistance they need to complete their pilot training.",
       buttons: [
         {
           name: "Apply Now",
@@ -57,14 +57,8 @@ const stratusInfo = {
       ],
       imagePath: "/src/assets/chuttersnap-M2-_GRvWWg0-unsplash.jpg",
       imageAlt:
-        "sun city aviation academy student flying a plane over the city of miami",
-      buttons: [
-        {
-          name: "Take the Quiz",
-          link: "/quiz",
-          primary: true,
-        },
-      ],
+        "Elite Flight Training academy student flying a plane over the city of miami",
+      quizModal: true,
     },
 
     flyWithUsCTA: {
