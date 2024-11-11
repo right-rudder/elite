@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://eliteproaviation.com/
+Sitemap: https://eliteproaviation.com/sitemap-index.xml
