@@ -20,7 +20,7 @@ const cessnaInfo = {
       buttons: [
         {
           name: "Rent Now",
-          link: "/aircraft-rental",
+          link: "/aircraft-services/aircraft-rentals",
           primary: false,
         },
         {
@@ -74,8 +74,8 @@ const cessnaInfo = {
       ],
       buttons: [
         {
-          name: "Enroll Now",
-          link: "/enroll-now",
+          name: "Rent Now",
+          link: "/aircraft-services/aircraft-rentals",
           primary: true,
         },
         {
