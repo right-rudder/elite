@@ -25,7 +25,7 @@ const { pathname } = Astro.url;
 ---
 
 <footer
-  class="relative bg-gradient-to-b from-primary-950 font-sans to-primary-900"
+  class="relative bg-gradient-to-b from-primary-950 font-sans to-primary-900 overflow-hidden"
 >
   <div
     class="px-4 pt-24 pb-16 lg:pb-2 md:pt-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
@@ -67,7 +67,9 @@ const { pathname } = Astro.url;
           </div>
         </div>
       </div>
-      <div class="grid grid-cols-2 mt-8 gap-9 lg:col-span-4 lg:grid-cols-9">
+      <div
+        class="grid grid-cols-2 mt-8 gap-9 lg:col-span-4 lg:grid-cols-9 xl:grid-cols-10"
+      >
         {
           footerLinks.map((column, index) => (
             <div
@@ -91,14 +93,14 @@ const { pathname } = Astro.url;
             </div>
           ))
         }
-        <div class="col-span-2 lg:col-span-3">
+        <div class="col-span-2 lg:col-span-3 xl:col-span-4 w-full">
           <div class="flex flex-col items-center">
             <!--WIDGET METAR-->
             <a
               href="https://metar-taf.com/KIKK"
               id="metartaf-J75LBrfe"
               target="_blank"
-              class="lg:w-96 w-72 bg-primary-300 p-4 rounded-md text-center"
+              class="bg-primary-300 p-4 rounded-sm text-center w-full"
               >METAR Greater Kankakee Airport</a
             >
             <script

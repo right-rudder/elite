@@ -139,13 +139,7 @@ const ourTeam = {
       headerH1: `Get Your <span class="text-primary-700">FREE</span><br> Pilot Training Guide!`,
       paragraph:
         "We have a free booklet which explains everything you need to know for your pilot certificate.",
-      buttons: [
-        {
-          name: "Download Now",
-          link: "/book-download",
-          primary: true,
-        },
-      ],
+      bookModal: true,
       imagePath: "/src/assets/sun-city-book-mock-up.webp",
       imageAlt: "Right Rudder Marketing team on the runway",
     },

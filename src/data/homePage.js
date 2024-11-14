@@ -120,7 +120,7 @@ const homePage = {
       ],
       buttonText: "Leave Us a Review",
       buttonLink:
-        "https://www.google.com/search?client=firefox-b-d&q=elite+flight+training+kankakee#",
+        "https://search.google.com/local/writereview?placeid=ChIJYR6NGmjpDYgR_m6mDUwAToY",
       reviews: [
         {
           body: "I absolutely love the facility and instructors at Elite. I'm able to easily keep current as a pilot and have easy access to aircraft just to take some friends up! The training is excellent if not better than when I was at a university for my aviation education. The one on one aspect here is a plus, not to mention the multi engine rating program is the most affordable I've seen in the country so far!",

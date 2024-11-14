@@ -20,7 +20,7 @@ const piperWarriorInfo = {
       buttons: [
         {
           name: "Rent Now",
-          link: "/aircraft-rental",
+          link: "/aircraft-services/aircraft-rentals",
           primary: false,
         },
         {
@@ -76,7 +76,7 @@ const piperWarriorInfo = {
       buttons: [
         {
           name: "Rent Now",
-          link: "/aircraft-rental",
+          link: "/aircraft-services/aircraft-rentals",
           primary: true,
         },
         {

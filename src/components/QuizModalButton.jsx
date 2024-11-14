@@ -29,10 +29,9 @@ const QuizModalButton = ({ btnStyle, btnText }) => {
 
     console.log("Form data:", formData);
 
-    const url =
-      "https://services.leadconnectorhq.com/hooks/3YxJwd7Old9QsiOu2G7q/webhook-trigger/GX48X5gaBu9ZPfTm5GPO";
+    const GHL_QUIZ_FORM_WEBHOOK_URL = import.meta.env.GHL_QUIZ_FORM_WEBHOOK_URL;
 
-    fetch(url, {
+    fetch(GHL_QUIZ_FORM_WEBHOOK_URL, {
       method: "POST",
       body: new URLSearchParams(formData),
       headers: {

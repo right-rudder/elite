@@ -17,8 +17,8 @@ const ourFleet = {
         "We have a fleet of modern aircraft for your training needs. Our fleet includes Cessna 172, Piper Warrior and Piper Twin Comanche.",
       buttons: [
         {
-          name: "Enroll Now",
-          link: "/enroll-now",
+          name: "Rent Now",
+          link: "/aircraft-services/aircraft-rentals",
           primary: false,
         },
         {

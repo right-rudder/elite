@@ -1,6 +1,6 @@
 ---
 pubDate: "November 7, 2024"
-author: John Doe
+author: Brian Rose
 title: "Game-Changer Alert: How CAE's Apple Vision Pro App is Revolutionizing Pilot Training"
 description: "This updated program is designed for pilots in South Florida, Miami, Hollywood, and the surrounding areas who are looking to expand their skills and gain experience in seaplane operations. With a focus on freshwater takeoffs and landings, the course emphasizes safety, skill development, and practical application."
 heroImage: "/blog/CAE_first_to_showcase_immersive_pilot_training_solution_built_for_Apple_Vision_Pro.webp"

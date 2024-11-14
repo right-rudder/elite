@@ -14,8 +14,8 @@ import {
   LOCATIONS,
 } from "../consts";
 
-const GHL_CONTACT_FORM_WEBHOOK_URL =
-  "https://services.leadconnectorhq.com/hooks/3YxJwd7Old9QsiOu2G7q/webhook-trigger/P0zC71XOJDE4DW2vTOON";
+const GHL_CONTACT_FORM_WEBHOOK_URL = import.meta.env
+  .GHL_CONTACT_FORM_WEBHOOK_URL;
 
 const { data } = contact;
 ---
@@ -25,7 +25,7 @@ const { data } = contact;
   siteDescription={data.pageDescription}
   keywords={data.pageKeywords}
 >
-  <div class="h-20 lg:h-28 w-full bg-accent-700"></div>
+  <div class="h-24 lg:h-28 w-full bg-accent-700"></div>
 
   <section class="relative isolate bg-white">
     <div class="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
