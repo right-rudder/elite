@@ -15,8 +15,8 @@ import {
 import Header from "../components/Header.astro";
 import discoveryInfo from "../data/discovery-flight";
 
-const GHL_DISCOVERY_FORM_WEBHOOK_URL =
-  "https://services.leadconnectorhq.com/hooks/3YxJwd7Old9QsiOu2G7q/webhook-trigger/9TtPBJEcv1O3b2EmZkV2";
+const GHL_DISCOVERY_FORM_WEBHOOK_URL = import.meta.env
+  .GHL_DISCOVERY_FORM_WEBHOOK_URL;
 
 const { data } = discoveryInfo;
 ---

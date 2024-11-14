@@ -16,8 +16,7 @@ import Header from "../components/Header.astro";
 import enrollInfo from "../data/enroll-now";
 import programsSwiper from "../data/programSwiper";
 
-const GHL_ENROLL_FORM_WEBHOOK_URL =
-  "https://services.leadconnectorhq.com/hooks/3YxJwd7Old9QsiOu2G7q/webhook-trigger/f6YoVC92CfNeDd4ZM5ip";
+const GHL_ENROLL_FORM_WEBHOOK_URL = import.meta.env.GHL_ENROLL_FORM_WEBHOOK_URL;
 
 const { data } = enrollInfo;
 ---
