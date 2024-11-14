@@ -2,12 +2,10 @@
 /// <reference types="astro/client" />
 
 interface ImportMetaEnv {
-  readonly ENROLLMENT_FORM_WEBHOOK_URL: string;
-  readonly CONTACT_US_FORM_WEBHOOK_URL: string;
-  readonly QUICK_START_FORM_WEBHOOK_URL: string;
-  readonly EMAIL_FORM_WEBHOOK_URL: string;
-  readonly TRAINING_COURSE_FORM_WEBHOOK_URL: string;
-  readonly INTRO_FLIGHT_FORM_WEBHOOK_URL: string;
+  readonly GHL_ENROLL_FORM_WEBHOOK_URL: string;
+  readonly GHL_CONTACT_FORM_WEBHOOK_URL: string;
+  readonly GHL_DISCOVERY_FORM_WEBHOOK_URL: string;
+  readonly GHL_QUIZ_FORM_WEBHOOK_URL: string;
 }
 
 interface ImportMeta {
