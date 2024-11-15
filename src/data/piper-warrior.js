@@ -48,7 +48,7 @@ const piperWarriorInfo = {
       images: [
         {
           imagePath:
-            "/src/assets/elite-flight-training-nulti-engine-rating.png",
+            "/src/assets/elite-flight-training-private-pilot-cropped.png",
           imageAlt: "Elite Flight Training & Aircraft Management Piper Warrior",
         },
         {
@@ -56,7 +56,8 @@ const piperWarriorInfo = {
           imageAlt: "Elite Flight Training & Aircraft Management Piper Warrior",
         },
         {
-          imagePath: "/src/assets/elite-flight-training-multi-engine.jpg",
+          imagePath:
+            "/src/assets/elite-flight-training-fleet-piper-warrior.jpg",
           imageAlt: "Elite Flight Training & Aircraft Management Piper Warrior",
         },
       ],
@@ -64,11 +65,7 @@ const piperWarriorInfo = {
         title: "Avionics and Features:",
         firstParagraph:
           "Our Piper Warrior is equipped with the latest avionics and safety features, including:",
-        list: [
-          "Advanced Garmin 430 navigation systems",
-          "Aspen, dual G5 PFDs",
-          "Garmin MFDs",
-        ],
+        list: ["Standard six-pack instrument panel.", "Garmin GTN™ 650Xi"],
         secondParagraph:
           "These tools ensure that you’re not just a pilot, but an expert navigator too, ready to traverse the skies with confidence.",
         finalParagraph: `The Piper Warrior is a versatile aircraft that can be used for a variety of training purposes, great for private pilot training, instrument training, and cross-country flights.`,
