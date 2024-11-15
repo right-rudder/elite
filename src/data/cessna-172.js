@@ -59,11 +59,7 @@ const cessnaInfo = {
         title: "Avionics and Features:",
         firstParagraph:
           "Immerse yourself in a learning environment where technology meets training. Our Cessna 172s are equipped with:",
-        list: [
-          "Advanced Garmin 430 navigation systems",
-          "Aspen, dual G5 PFDs",
-          "Garmin MFDs",
-        ],
+        list: ["Standard six-pack instrument panel.", "Garmin GNS™ 530"],
         secondParagraph:
           "These tools ensure that you’re not just a pilot, but an expert navigator too, ready to traverse the skies with confidence.",
         finalParagraph: `Beyond the basics, our instrument capable Cessna 172s allow you to continue your journey beyond the private certificate and into an Instrument Rating certification. Discover the joy of flight with our Cessna 172s and reserve your spot now.`,

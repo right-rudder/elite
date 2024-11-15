@@ -64,11 +64,7 @@ const piperTwinInfo = {
         title: "Avionics and Features:",
         firstParagraph:
           "Our Piper Twin Comanche is equipped with the latest avionics and safety features to ensure that you have a safe and enjoyable flight every time. Some of the features include:",
-        list: [
-          "Advanced Garmin 430 navigation systems",
-          "Aspen, dual G5 PFDs",
-          "Garmin MFDs",
-        ],
+        list: ["Dual Garmin G5 kit (AI/DG)", "Avidyne IFD440"],
         secondParagraph:
           "These tools ensure that you’re not just a pilot, but an expert navigator too, ready to traverse the skies with confidence.",
         finalParagraph: `Our Piper Twin Comanche is a state-of-the-art training tool that provides a realistic flight experience for pilots of all levels. Whether you’re a student pilot or a seasoned aviator, the Twin Comanche is designed to help you hone your skills and build confidence in the cockpit.`,

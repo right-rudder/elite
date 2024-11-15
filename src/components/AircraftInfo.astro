@@ -90,7 +90,7 @@ const { data } = Astro.props;
         <div class="swiper-wrapper bg-gray-900 py-1">
           {
             data.images.map((image) => (
-              <div class="swiper-slide cursor-pointer overflow-hidden">
+              <div class="swiper-slide cursor-pointer overflow-hidden aspect-[5/3]">
                 <ImageComp
                   imagePath={image.imagePath}
                   imageAlt={image.imageAlt}
