@@ -24,7 +24,7 @@ const rentalsInfo = {
         },
         {
           name: "Call Us",
-          link: "tel:8159393575",
+          link: "tel:815-369-0525",
           primary: false,
         },
       ],
@@ -37,7 +37,7 @@ const rentalsInfo = {
         "Have an itch to get up in the air?  Take one of our awe-inspiring aircraft out for a spin, Captain!  You're in charge, so feel free to plan a local flight or cross country expedition.  Either way, we can help you plan and facilitate your flying adventure.",
         "Imagine seeing the world from a whole new perspective.  Well, Elite Flight Training has a beautiful fleet of aircraft that are available for rent — located just 50 miles south of Chicago. Rent an aircraft to 'buzz the tower' (not literally, please), or sit back and relax as an experienced pilot provides an unforgettable scenic tour.",
         "Whether you need a plane for leisure travel or business trips, we have the perfect aircraft for you. Our rates are competitive, and our rental process is seamless, allowing you to focus on what you love most - flying.",
-        `Just a heads up, our office hours are from 9 am to 6 pm every day. But here’s the thing, we only take appointments. This way, we can give each of our clients the best service and make sure they feel special. If you want to book an appointment or ask about our services, just give us a call at <a href="tel:8159393575" class="text-accent-600 hover:underline">+1-815-939-3575</a> or shoot us an email at <a href="mailto:eliteproaviation@gmail.com" class="text-accent-600 hover:underline">eliteproaviation@gmail.com</a> whenever you’re free. We’re here to help!`,
+        `Just a heads up, our office hours are from 9 am to 6 pm every day. But here’s the thing, we only take appointments. This way, we can give each of our clients the best service and make sure they feel special. If you want to book an appointment or ask about our services, just give us a call at <a href="tel:815-369-0525" class="text-accent-600 hover:underline">+1 815-369-0525</a> or shoot us an email at <a href="mailto:eliteproaviation@gmail.com" class="text-accent-600 hover:underline">eliteproaviation@gmail.com</a> whenever you’re free. We’re here to help!`,
       ],
 
       finalButton: {
