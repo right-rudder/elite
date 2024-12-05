@@ -25,7 +25,7 @@ const maintenanceInfo = {
         },
         {
           name: "Call Us",
-          link: "tel:8159393575",
+          link: "tel:815-369-0525",
           primary: false,
         },
       ],

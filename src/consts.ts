@@ -23,12 +23,12 @@ export const LOCATIONS = [
     state: "IL",
     zip: "60901",
     gMaps: "https://maps.app.goo.gl/q1SJrrPdmpFBcyjY7",
-    phone: "+1-815-939-3575",
+    phone: "+1 815-369-0525",
   },
 ];
 
 // CHANGE client business info
-export const PHONE_NUMBER = "+1-815-939-3575";
+export const PHONE_NUMBER = "+1 815-369-0525";
 export const ADDRESS_LINE_1 = "809 East 4000S Road";
 export const ADDRESS_LINE_2 = "Kankakee, Illinois 60901";
 export const FACEBOOK_URL =

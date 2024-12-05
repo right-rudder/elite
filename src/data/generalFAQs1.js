@@ -8,7 +8,7 @@ export const GeneralFAQs = [
   },
   {
     title: "How do I book a discovery or intro flight?",
-    content: `<a href="https://www.flightcircle.com/shop/325431594e72/4000002368" target="_blank" class="link">Click here</a> to book your flight. Alternately you can email us at <a href="mailto:info@eliteproaviation.com" target="_blank" class="link">info@eliteproaviation.com</a>, or call our office at <a href="tel:8159393575" target="_blank" class="link">+1-815-939-3575</a>.`,
+    content: `<a href="https://www.flightcircle.com/shop/325431594e72/4000002368" target="_blank" class="link">Click here</a> to book your flight. Alternately you can email us at <a href="mailto:info@eliteproaviation.com" target="_blank" class="link">info@eliteproaviation.com</a>, or call our office at <a href="tel:815-369-0525" target="_blank" class="link">+1 815-369-0525</a>.`,
   },
   {
     title: "What are the FAA requirements to become a private pilot?",
