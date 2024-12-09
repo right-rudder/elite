@@ -159,6 +159,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"how-to-take-flight-for-the-first-time-and-ignite-your-career.md": {
+	id: "how-to-take-flight-for-the-first-time-and-ignite-your-career.md";
+  slug: "how-to-take-flight-for-the-first-time-and-ignite-your-career";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 };
 
 	};
