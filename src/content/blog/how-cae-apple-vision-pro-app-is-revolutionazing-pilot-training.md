@@ -6,7 +6,7 @@ description: "This updated program is designed for pilots in South Florida, Miam
 heroImage: "/blog/CAE_first_to_showcase_immersive_pilot_training_solution_built_for_Apple_Vision_Pro.webp"
 readingTime: 4
 category: "News"
-tags: ["Training"]
+tags: ["Training", "Future training", "Apple Vision Pro", "Virtual Training"]
 ---
 
 Remember when pilot training meant spending countless hours in ground school before even touching a simulator? Well, those days might soon be behind us. CAE just dropped some seriously exciting news that's got the aviation training world buzzing: they've created the first-ever pilot training app for Apple Vision Pro. And trust me, this isn't just another fancy tech toy – it's about to shake up how we train pilots in ways we never imagined.
