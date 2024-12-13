@@ -42,9 +42,8 @@ const QuizModalButton = ({ btnStyle, btnText }) => {
         if (response.ok) {
           setFormSubmitted(true);
           setTimeout(() => {
-            toggleModal();
-            document.body.style.overflow = "auto";
-          }, 8100);
+            window.location.href = "/quiz-confirmation";
+          }, 2000);
         } else {
           console.error("Form submission failed:", response.statusText);
         }
