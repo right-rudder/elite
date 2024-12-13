@@ -1,0 +1,45 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import { FaCheckCircle } from "react-icons/fa";
+import { PHONE_NUMBER, EMAIL_ADDRESS } from "../consts";
+const headerData = {
+  headerH1: `Thank You</br>for Contacting`,
+  imagePath: "/src/assets/alexander-almegaard-QEJ8jxeeH1E-unsplash.jpg",
+  imageAlt: "Elite Flight Training & Aircraft Management Clouds in the sky",
+};
+---
+
+<BaseLayout
+  siteTitle="Quiz Confirmation | Elite Flight Training & Aircraft Management"
+>
+  <Header data={headerData} />
+
+  <section class="py-16 px-5 bg-white">
+    <div
+      class="flex flex-col items-center text-2xl mx-auto text-center gap-8 max-w-2xl bg-gray-200 rounded-xl p-8"
+    >
+      <FaCheckCircle
+        className="text-9xl text-accent-600 hover:text-accent-400 duration-500 ease-in-out"
+      />
+
+      <p class="text-gray-600 leading-relaxed">
+        Thank you for contacting <strong
+          >Elite Flight Training & Aircraft Management</strong
+        >. We are looking forward to working with you soon. We will review your
+        message and get back with you within 1-5 business days.
+      </p>
+      <p class="text-gray-600 leading-relaxed">
+        You can also give us a call at <a
+          class="text-primary hover:text-primary-950 hover:underline duration-300"
+          href=`tel:${PHONE_NUMBER}`
+          >{PHONE_NUMBER}
+          <br />
+        </a> or send us an email at <a
+          class="text-primary hover:text-primary-950 hover:underline duration-300"
+          href=`mailto:${EMAIL_ADDRESS}`>{EMAIL_ADDRESS}</a
+        >.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
