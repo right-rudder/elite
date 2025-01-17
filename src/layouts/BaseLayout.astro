@@ -8,7 +8,7 @@ import "@fontsource-variable/quicksand";
 import "@fontsource-variable/pathway-extreme";
 import Navbar from "../components/Navbar";
 const { pathname } = Astro.url;
-const { siteTitle, siteDescription, keywords } = Astro.props;
+const { siteTitle, siteDescription, keywords, oImage } = Astro.props;
 import ChatWidget from "../components/ChatWidget.astro";
 import Banner from "../components/Banner.astro";
 ---
@@ -20,7 +20,7 @@ import Banner from "../components/Banner.astro";
       title={siteTitle || SITE_TITLE}
       description={siteDescription || SITE_DESCRIPTION}
       keywords={keywords || KEYWORDS}
-      image={OG_IMAGE}
+      image={oImage || OG_IMAGE}
     />
   </head>
   <body class="font-sans">
