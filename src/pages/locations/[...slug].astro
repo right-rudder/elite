@@ -1,0 +1,139 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import HeaderScreen from "../../components/HeaderScreen.astro";
+import ProgramSwiper from "../../components/ProgramSwiper.astro";
+import CTAColor from "../../components/CTAColor.astro";
+import ContentCTA from "../../components/ContentCTA.astro";
+import Content from "../../components/Content.astro";
+import programsSwiper from "../../data/programSwiper";
+
+export async function getStaticPaths() {
+  const location = await getCollection("location");
+  return location.map((location) => ({
+    params: { slug: location.slug },
+    props: location,
+  }));
+}
+type Props = CollectionEntry<"location">;
+
+const location = Astro.props;
+
+const headerContent = {
+  stars: true,
+      imagePath: "/src/assets/thom-milkovic-mef-_dKTZjU-unsplash.jpg",
+      imageAlt: "Elite Flight Training",
+      headerH1: `Become a Pilot</br>in<span class="text-primary-100"></br>${location.data.city}, ${location.data.stateShort}</span>`,
+      paragraph:
+        "Becoming a pilot is a thrilling journey that opens up a world of possibilities and adventure. Being a pilot is a lifestyle.",
+      buttons: [
+        {
+          name: "Enroll Now",
+          link: "/enroll-now",
+          primary: false,
+        },
+        {
+          name: "Book a Discovery Flight",
+          link: "/discovery-flight",
+          primary: false,
+        },
+      ],
+    };
+
+const shouldBePilot = {
+  imagePath: "/src/assets/elite-flight-training-private-pilot-cropped.png",
+  imageAlt: `Flight training in ${location.data.city}, ${location.data.stateShort}`,
+  heading: `Why Train in ${location.data.city}, ${location.data.stateShort}?`,
+  upperHeading: "Experience the Best in Aviation Training",
+  description: `${location.data.description}`,
+  paragraphs: [
+    `Located in ${location.data.city}, ${location.data.stateShort}, we offer a premier flight training experience. The favorable weather in this region provides consistent flying conditions, making it an excellent choice for year-round training.`,
+    `The airspace surrounding ${location.data.city} offers a mix of controlled and uncontrolled environments, allowing students to gain practical experience in diverse flying conditions.`,
+    `You'll also have the opportunity to explore stunning views and unique navigation challenges around ${location.data.keyPlace1} and ${location.data.keyPlace2} during cross-country flights.`,
+  ],
+  list: {
+    heading: "Key Benefits of Training in Our Location",
+    items: [
+      {
+        icon: "M18.3937 4.3638L14 7L6 5L5 6L10.5 10.5L8 14H5L4 15L6.5 16.5L7.5 17.5L9 20L10 19V16L13.5 13.5L18 19L19 18L17 10L19.6362 5.60634C19.85 5.24999 19.7939 4.79385 19.5 4.5C19.2061 4.20615 18.75 4.14999 18.3937 4.3638Z",
+        title: "Year-Round Flying Weather",
+        descriptions: [
+          `Enjoy clear skies and mild conditions, making ${location.data.city} a prime destination for uninterrupted flight training.`,
+        ],
+      },
+      {
+        icon: "M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z",
+        title: "Ideal Training Airspace",
+        descriptions: [
+          `The area features both controlled and uncontrolled airspace, providing students with the opportunity to practice flying in a variety of scenarios.`,
+        ],
+      },
+      {
+        icon: "m14 7-5.223 8.487L7 13l-5 7h20z",
+        title: "Scenic Cross-Country Flights",
+        descriptions: [
+          `Build navigation skills while taking in breathtaking sights around ${location.data.keyPlace1} and ${location.data.keyPlace2}.`,
+        ],
+      },
+    ],
+  },
+  afterListParagraphs: [
+    `By training in ${location.data.city}, ${location.data.stateLong}, you'll not only gain essential aviation skills but also enjoy a memorable journey in a top-tier training environment.`,
+  ],
+  finalButton: {
+    name: "Enroll Today",
+    link: "/enroll-now",
+    primary: true,
+  },
+};
+
+const quizCTA = {
+  reverse: true,
+      upperHeading: "Take Our Quiz",
+      heading: "Do You Have What It Takes To Be A Pilot?",
+      descriptions: [
+        "Are you fascinated by the world of aviation? Have you dreamed of flying and exploring the skies? Do you often look upward at passing aircraft, wondering if you yourself could be in the cockpit?",
+        "Begin your journey in aviation with our brief quiz. Our quiz is designed to look at your aviation related knowledge and aptitude, alongside your unique personality traits and interests, to provide insights into whether a future in aviation aligns with your aspirations.",
+      ],
+      imagePath: "/src/assets/benjamin-chambon-7LJLXYpqGl4-unsplash.jpg",
+      imageAlt:
+        "Elite Flight Training & Aircraft Management cessna 172 instrument panel",
+      quizModal: true,
+};
+
+const flyWithUsCTA = {
+      imagePath: "/src/assets/avel-chuklanov-QbTBCUJLqKY-unsplash(1).jpg",
+      imageAlt: "Right Rudder Marketing team on the runway",
+      headerH1: `<span class="text-primary-600">Start Your Aviation Journey</br></span>With a Discovery Flight`,
+      paragraph:
+        "Doing a discovery flight is the best way to determine if being a pilot is right for you. Whether you're trying it out for fun or want to fly professionally, doing a discovery flight will allow you to see Kankakee from a new perspective.",
+      buttons: [
+        {
+          name: "Schedule Today",
+          link: "/discovery-flight",
+          primary: true,
+        },
+      ],
+    };
+
+---
+
+<BaseLayout
+  siteTitle=`How to Become a Pilot in ${location.data.city}, ${location.data.stateShort} | Elite Flight Training`
+  siteDescription=`Become a Pilot in ${location.data.city}, ${location.data.stateShort} with Elite Flight Training. New to flying? Learn why you should become a pilot with Elite Flight Training. Discover our unmatched training standards, flexible scheduling, advanced fleet, and prime locations.`
+  keywords=`${location.data.city}, ${location.data.stateLong}, ${location.data.city}-${location.data.stateShort}, Elite Flight Training, New to flying, Become a pilot in ${location.data.city}, ${location.data.city} pilot training, ${location.data.city} flight school, ${location.data.city} flight academy, FAA Part 141, FAA Part 61, Flexible flight training, Cessna 172, Cessna 152, Piper Warrior, Beechcraft Duchess, Riverside Municipal Airport, Redlands Municipal Airport, Aviation career, Flight lessons, Discovery flight`
+>
+  <!-- HEADER -->
+  <HeaderScreen content={headerContent} />
+
+  <Content data={shouldBePilot} />
+
+  <ProgramSwiper content={programsSwiper} />
+
+  <ContentCTA content={quizCTA} />
+
+  <CTAColor content={flyWithUsCTA} />
+
+  <script src="../../scripts/creativeSwiper.js"></script>
+
+</BaseLayout>
