@@ -210,9 +210,9 @@ declare module 'astro:content' {
   collection: "location";
   data: any
 } & { render(): Render[".md"] };
-"grant-park.md": {
-	id: "grant-park.md";
-  slug: "grant-park";
+"grant-park-il.md": {
+	id: "grant-park-il.md";
+  slug: "grant-park-il";
   body: string;
   collection: "location";
   data: any
