@@ -157,21 +157,21 @@ declare module 'astro:content' {
   slug: "how-cae-apple-vision-pro-app-is-revolutionazing-pilot-training";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 "how-to-take-flight-for-the-first-time-and-ignite-your-career.md": {
 	id: "how-to-take-flight-for-the-first-time-and-ignite-your-career.md";
   slug: "how-to-take-flight-for-the-first-time-and-ignite-your-career";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 "the-role-of-technology-in-modern-flight-training.md": {
 	id: "the-role-of-technology-in-modern-flight-training.md";
   slug: "the-role-of-technology-in-modern-flight-training";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 };
 "location": {
@@ -180,77 +180,77 @@ declare module 'astro:content' {
   slug: "aroma-park-il";
   body: string;
   collection: "location";
-  data: any
+  data: InferEntrySchema<"location">
 } & { render(): Render[".md"] };
 "bonfield-il.md": {
 	id: "bonfield-il.md";
   slug: "bonfield-il";
   body: string;
   collection: "location";
-  data: any
+  data: InferEntrySchema<"location">
 } & { render(): Render[".md"] };
 "bourbonnais-il.md": {
 	id: "bourbonnais-il.md";
   slug: "bourbonnais-il";
   body: string;
   collection: "location";
-  data: any
+  data: InferEntrySchema<"location">
 } & { render(): Render[".md"] };
 "bradley-il.md": {
 	id: "bradley-il.md";
   slug: "bradley-il";
   body: string;
   collection: "location";
-  data: any
+  data: InferEntrySchema<"location">
 } & { render(): Render[".md"] };
 "chebanse-il.md": {
 	id: "chebanse-il.md";
   slug: "chebanse-il";
   body: string;
   collection: "location";
-  data: any
+  data: InferEntrySchema<"location">
 } & { render(): Render[".md"] };
 "grant-park-il.md": {
 	id: "grant-park-il.md";
   slug: "grant-park-il";
   body: string;
   collection: "location";
-  data: any
+  data: InferEntrySchema<"location">
 } & { render(): Render[".md"] };
 "herscher-il.md": {
 	id: "herscher-il.md";
   slug: "herscher-il";
   body: string;
   collection: "location";
-  data: any
+  data: InferEntrySchema<"location">
 } & { render(): Render[".md"] };
 "kankakee-il.md": {
 	id: "kankakee-il.md";
   slug: "kankakee-il";
   body: string;
   collection: "location";
-  data: any
+  data: InferEntrySchema<"location">
 } & { render(): Render[".md"] };
 "manteno-il.md": {
 	id: "manteno-il.md";
   slug: "manteno-il";
   body: string;
   collection: "location";
-  data: any
+  data: InferEntrySchema<"location">
 } & { render(): Render[".md"] };
 "momence-il.md": {
 	id: "momence-il.md";
   slug: "momence-il";
   body: string;
   collection: "location";
-  data: any
+  data: InferEntrySchema<"location">
 } & { render(): Render[".md"] };
 "st-anne-il.md": {
 	id: "st-anne-il.md";
   slug: "st-anne-il";
   body: string;
   collection: "location";
-  data: any
+  data: InferEntrySchema<"location">
 } & { render(): Render[".md"] };
 };
 
@@ -262,5 +262,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = never;
+	export type ContentConfig = typeof import("../../src/content/config.js");
 }

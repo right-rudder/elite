@@ -6,6 +6,7 @@ interface ImportMetaEnv {
   readonly GHL_CONTACT_FORM_WEBHOOK_URL: string;
   readonly GHL_DISCOVERY_FORM_WEBHOOK_URL: string;
   readonly GHL_QUIZ_FORM_WEBHOOK_URL: string;
+  readonly GHL_BOOK_FORM_WEBHOOK_URL: string;
 }
 
 interface ImportMeta {

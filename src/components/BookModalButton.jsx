@@ -21,15 +21,16 @@ const BookModalButton = ({ btnStyle, btnText }) => {
       return;
     }
 
-    const name = formData.get("firstName");
+    const name = formData.get("first-name");
     setUserName(name);
 
     console.log("Form data:", formData);
 
-    const url =
-      "https://services.leadconnectorhq.com/hooks/3YxJwd7Old9QsiOu2G7q/webhook-trigger/GX48X5gaBu9ZPfTm5GPO";
+    const GHL_BOOK_FORM_WEBHOOK_URL =
+      import.meta.env.GHL_BOOK_FORM_WEBHOOK_URL ||
+      "https://services.leadconnectorhq.com/hooks/3YxJwd7Old9QsiOu2G7q/webhook-trigger/jKeXJHSut2s7K1dVzCGt";
 
-    fetch(url, {
+    fetch(GHL_BOOK_FORM_WEBHOOK_URL, {
       method: "POST",
       body: new URLSearchParams(formData),
       headers: {
@@ -42,7 +43,7 @@ const BookModalButton = ({ btnStyle, btnText }) => {
           setTimeout(() => {
             toggleModal();
             document.body.style.overflow = "auto";
-          }, 8100);
+          }, 5400);
         } else {
           console.error("Form submission failed:", response.statusText);
         }
@@ -67,15 +68,15 @@ const BookModalButton = ({ btnStyle, btnText }) => {
         {btnText}
       </button>
       {showModal && (
-        <div id="book-modal" className="relative z-50">
+        <div id="book-modal" className="z-50">
           <div className="fixed inset-0 h-full w-full bg-slate-900 bg-opacity-95 flex items-center justify-center">
             {!formSubmitted && (
-              <div className="bg-white p-12 max-w-xl my-4 text-black h-3/4 rounded-md overflow-y-auto">
+              <div className="bg-white relative p-12 max-w-xl my-4 text-black rounded-md overflow-y-auto">
                 <p className="text-xl text-center font-bold leading-7 text-accent-700 uppercase">
-                  QUIZ
+                  Guide Download
                 </p>
                 <h2 className="text-3xl text-primary-950 text-center font-bold mb-1">
-                  Is Flight Training for You?
+                  Start Your Journey
                 </h2>
                 <p className="text-center italic text-base mt-0 mb-6">
                   Please fill out the form below to get started.
@@ -144,13 +145,22 @@ const BookModalButton = ({ btnStyle, btnText }) => {
                     Get the guide
                   </button>
                 </form>
+                <button
+                  className="bg-accent-700 p-1 rounded-full absolute top-2 right-2"
+                  onClick={() => {
+                    toggleModal();
+                    document.body.style.overflow = "auto";
+                  }}
+                >
+                  <IoMdClose className="text-2xl text-white" />
+                </button>
               </div>
             )}
 
             {formSubmitted && (
-              <div className="bg-white p-12 max-w-xl m-4 text-black rounded-sm-md h-full overflow-y-auto text-center">
+              <div className="bg-white p-12 max-w-2xl m-4 text-black rounded-sm-md h-3/4 overflow-y-auto text-center rounded-xl">
                 <h2 className="font-bold text-4xl py-10">
-                  Thank you {userName} for filling the Quiz.
+                  Thank you {userName} for Downloading Our Guide.
                 </h2>
 
                 <div className="flex flex-row justify-center">
@@ -178,16 +188,6 @@ const BookModalButton = ({ btnStyle, btnText }) => {
                 </p>
               </div>
             )}
-
-            <button
-              className="bg-accent-700 p-1 rounded-full absolute top-28 right-2"
-              onClick={() => {
-                toggleModal();
-                document.body.style.overflow = "auto";
-              }}
-            >
-              <IoMdClose className="text-2xl text-white" />
-            </button>
           </div>
         </div>
       )}
