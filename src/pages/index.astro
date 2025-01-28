@@ -9,6 +9,7 @@ import ContentCTA from "../components/ContentCTA.astro";
 import homePage from "../data/homePage";
 import programsSwiper from "../data/programSwiper";
 import BlogFeed from "../components/BlogFeed.astro";
+import BookDownload from "../components/BookDownload.astro";
 
 const { data } = homePage;
 ---
@@ -23,6 +24,7 @@ const { data } = homePage;
 
   <ProgramSwiper content={programsSwiper} />
   <ContentSplit content={data.whyElite} />
+  <BookDownload />
   <Testimonials content={data.testimonials} />
   <ContentCTA content={data.quizCTA} />
   <BlogFeed data={data.blogfeed} />
