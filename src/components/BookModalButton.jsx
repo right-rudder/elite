@@ -26,7 +26,9 @@ const BookModalButton = ({ btnStyle, btnText }) => {
 
     console.log("Form data:", formData);
 
-    const GHL_BOOK_FORM_WEBHOOK_URL = import.meta.env.GHL_BOOK_FORM_WEBHOOK_URL;
+    const GHL_BOOK_FORM_WEBHOOK_URL =
+      import.meta.env.GHL_BOOK_FORM_WEBHOOK_URL ||
+      "https://services.leadconnectorhq.com/hooks/3YxJwd7Old9QsiOu2G7q/webhook-trigger/jKeXJHSut2s7K1dVzCGt";
 
     fetch(GHL_BOOK_FORM_WEBHOOK_URL, {
       method: "POST",
