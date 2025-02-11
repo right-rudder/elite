@@ -173,6 +173,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"top-5-reasons-to-learn-to-fly.md": {
+	id: "top-5-reasons-to-learn-to-fly.md";
+  slug: "top-5-reasons-to-learn-to-fly";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 };
 "location": {
 "aroma-park-il.md": {
@@ -262,5 +269,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("../../src/content/config.js");
+	export type ContentConfig = typeof import("./../../src/content/config.js");
 }
