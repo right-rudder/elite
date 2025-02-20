@@ -29,7 +29,7 @@ tags:
   ]
 ---
 
-Technology is revolutionizing flight training, making it more efficient, accessible, and safer for aspiring pilots. At [Elite Flight Training](https://eliteproaviation.com/), located in Kankakee, Illinois, we use advanced tools and methods to help students achieve their aviation goals. Whether you're working toward your private pilot license or advanced ratings, understanding how technology plays a role in modern flight training is essential.
+Technology is revolutionizing flight training, making it more efficient, accessible, and safe for aspiring pilots. At [Elite Flight Training](https://eliteproaviation.com/), located in Kankakee, Illinois, we use advanced tools and methods to help students achieve their aviation goals. Whether you're working toward your private pilot license or advanced ratings, understanding how technology plays a role in modern flight training is essential.
 
 ## Advanced Flight Simulators
 
