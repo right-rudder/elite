@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Accordion from "./accordion";
 
 export default function FAQs({ faqs, type }) {
@@ -12,6 +12,35 @@ export default function FAQs({ faqs, type }) {
       setOpen(e.target.id);
     }
   };
+
+  // Create FAQ schema for structured data
+  useEffect(() => {
+    // Create the FAQPage schema
+    const faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.title,
+        acceptedAnswer: {
+          "@type": "Answer",
+          // Use the content or paragraph1 property, depending on what's available
+          text: faq.content || faq.paragraph1 || "",
+        },
+      })),
+    };
+
+    // Add the schema to the document
+    const script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.textContent = JSON.stringify(faqSchema);
+    document.head.appendChild(script);
+
+    // Cleanup function
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, [faqs]);
 
   return (
     <section className="bg-muted-100">

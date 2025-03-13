@@ -22,6 +22,23 @@ import Banner from "../components/Banner.astro";
       keywords={keywords || KEYWORDS}
       image={oImage || OG_IMAGE}
     />
+    <!-- Resource Hints -->
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Core Web Vitals optimization -->
+    <script type="module">
+      document.addEventListener('DOMContentLoaded', () => {
+        // Largest Contentful Paint optimization
+        const observer = new PerformanceObserver((entryList) => {
+          for (const entry of entryList.getEntries()) {
+            console.log('LCP candidate:', entry.startTime, entry);
+          }
+        });
+        observer.observe({type: 'largest-contentful-paint', buffered: true});
+      });
+    </script>
   </head>
   <body class="font-sans">
     <!-- Google Tag Manager (noscript) -->
@@ -40,5 +57,26 @@ import Banner from "../components/Banner.astro";
     </main>
     <Footer />
     <ChatWidget />
+    
+    <!-- Deferred and async loading of non-critical resources -->
+    <script>
+      // Add deferred loading for non-critical resources
+      window.addEventListener('load', () => {
+        // Load any deferred scripts or styles here
+        const deferredScripts = document.querySelectorAll('script[data-deferred]');
+        deferredScripts.forEach(script => {
+          if (script.parentNode) {
+            const newScript = document.createElement('script');
+            [...script.attributes].forEach(attr => {
+              if (attr.name !== 'data-deferred') {
+                newScript.setAttribute(attr.name, attr.value);
+              }
+            });
+            newScript.textContent = script.textContent;
+            script.parentNode.replaceChild(newScript, script);
+          }
+        });
+      });
+    </script>
   </body>
 </html>

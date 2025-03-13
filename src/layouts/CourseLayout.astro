@@ -4,7 +4,7 @@ import { Image } from "astro:assets";
 import type { ImageMetadata } from "astro";
 import CourseInfo from "../components/CourseInfo";
 import CourseCard from "../components/CourseCard.astro";
-import { courses } from "../data/coursesData";
+// Removed the problematic import since it's not actually used (the courses mapping is commented out)
 import EmailCTA from "../components/EmailCTA.astro";
 import GetInContact from "../components/GetInContact.astro";
 
@@ -191,6 +191,59 @@ const TRAINING_COURSE_FORM_WEBHOOK_URL = import.meta.env
 </section>
 
 <EmailCTA />
+
+<!-- Course Schema.org Structured Data -->
+<script define:vars={{ data }}>
+  // Create JSON-LD schema for course
+  const courseSchema = {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": data.title,
+    "description": data.intro.join(" "),
+    "provider": {
+      "@type": "Organization",
+      "name": "Elite Flight Training & Aircraft Management",
+      "sameAs": "https://eliteproaviation.com/"
+    },
+    "hasCourseInstance": {
+      "@type": "CourseInstance",
+      "courseMode": "onsite",
+      "location": {
+        "@type": "Place",
+        "name": "Greater Kankakee Airport - IKK",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "809 East 4000S Road",
+          "addressLocality": "Kankakee",
+          "addressRegion": "IL",
+          "postalCode": "60901",
+          "addressCountry": "US"
+        }
+      },
+      "offers": {
+        "@type": "Offer",
+        "category": "Flight Training",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    "offers": {
+      "@type": "Offer",
+      "category": "Flight Training",
+      "availability": "https://schema.org/InStock"
+    },
+    "educationalCredentialAwarded": data.hiddenField,
+    "educationalProgramMode": "Full-Time",
+    "timeRequired": data.duration || "Varies by student"
+  };
+
+  // Add the schema to the document
+  document.addEventListener('DOMContentLoaded', () => {
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.text = JSON.stringify(courseSchema);
+    document.head.appendChild(script);
+  });
+</script>
 
 <script define:vars={{ TRAINING_COURSE_FORM_WEBHOOK_URL }}>
   const checkbox = document.getElementById("agree-data-collection");
