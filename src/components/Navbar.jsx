@@ -15,6 +15,39 @@ const Navbar = ({ pathname }) => {
   const [openMobile, setOpenMobile] = useState(false);
   const [navBar, setNavbar] = useState(false);
 
+  // SEO enhancement: Create navigation schema when component mounts
+  useEffect(() => {
+    // Create navigation schema
+    const navigationSchema = {
+      "@context": "https://schema.org",
+      "@type": "SiteNavigationElement",
+      name: navbarLinks.map((link) => link.name),
+      url: navbarLinks
+        .map((link) => {
+          // Only include actual URLs, not dropdown triggers
+          if (link.link) {
+            // Make relative links absolute
+            if (link.link.startsWith("/")) {
+              return `https://eliteproaviation.com${link.link}`;
+            }
+            return link.link;
+          }
+          return null;
+        })
+        .filter(Boolean),
+    };
+
+    // Add navigation schema to the page
+    const script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.textContent = JSON.stringify(navigationSchema);
+    document.head.appendChild(script);
+
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
+
   const handleHamburgerClick = () => {
     setOpenMobile(() => !openMobile);
     if (!openMobile) {
@@ -75,7 +108,11 @@ const Navbar = ({ pathname }) => {
   };
 
   return (
-    <nav className="w-full h-0 sticky inset-0 z-20 font-sans tracking-wider">
+    <nav
+      className="w-full h-0 sticky inset-0 z-20 font-sans tracking-wider"
+      role="navigation"
+      aria-label="Main navigation"
+    >
       <div
         className={`${
           navBar || openMobile
@@ -91,7 +128,7 @@ const Navbar = ({ pathname }) => {
             <div className="flex w-full items-center justify-between">
               <a
                 href="/"
-                title="SunCity Aviation Academy"
+                title="Elite Flight Training & Aircraft Management - Home"
                 className="hover:brightness-110 flex p-3 h-20 lg:h-28 justify-end align-middle items-center duration-200 ease-in-out w-2/3 lg:w-1/5 lg:bg-accent-700"
               >
                 <img
@@ -104,32 +141,47 @@ const Navbar = ({ pathname }) => {
                 />
               </a>
               <div className="hidden ml-12 lg:flex justify-end lg:w-[72%]">
-                <ul className="flex justify-between align-middle w-full items-center text-white">
+                <ul
+                  className="flex justify-between align-middle w-full items-center text-white"
+                  role="menubar"
+                >
                   {navbarLinks.map((item, index) => (
                     <li
                       key={index}
                       className={`${isActive(item, pathname) ? "decoration-transparent underline font-bold" : "font-medium"} py-0 uppercase tracking-tight relative group last:no-underline last:px-0`}
                       onMouseEnter={() => setHoveredIndex(index)}
                       onMouseLeave={() => setHoveredIndex(null)}
+                      role="none"
                     >
                       {item.link ? (
                         <a
                           href={item.link}
                           target={`${item.link.includes("http") ? "_blank" : "_self"}`}
                           className="font-normal text-lg duration-300 hover:underline decoration-accent-600 decoration-4 underline-offset-[10px] py-12 whitespace-nowrap group-last:font-bold group-last:bg-accent-700 group-last:py-3 group-last:px-5 group-last:hover:bg-accent-500 group-last:hover:no-underline"
+                          role="menuitem"
+                          aria-label={`${item.name} navigation link`}
                         >
                           <span className="relative text-white group-last:text-white group-last:hover:text-primary-950">
                             {item.name}
                           </span>
                         </a>
                       ) : (
-                        <span className="cursor-default text-white text-lg duration-300 hover:underline decoration-accent-500 decoration-4 underline-offset-[10px] py-12 whitespace-nowrap">
+                        <span
+                          className="cursor-default text-white text-lg duration-300 hover:underline decoration-accent-500 decoration-4 underline-offset-[10px] py-12 whitespace-nowrap"
+                          role="menuitem"
+                          aria-haspopup="true"
+                          aria-expanded={
+                            hoveredIndex === index ? "true" : "false"
+                          }
+                        >
                           {item.name}
                         </span>
                       )}
                       {item.submenu && item.submenu.length > 0 && (
                         <ul
                           className={`absolute top-10 bg-primary-800/95 min-w-48 text-center border-b-4 border-white/20 whitespace-nowrap text-white -left-4 duration-200 ease-out ${hoveredIndex === index ? "max-h-auto w-auto opacity-100" : "max-h-0 h-0 opacity-0 overflow-hidden"}`}
+                          role="menu"
+                          aria-label={`${item.name} submenu`}
                         >
                           {item.submenu.map((subitem, subIndex) => (
                             <li
@@ -137,17 +189,29 @@ const Navbar = ({ pathname }) => {
                               className={`${isActive(subitem, pathname) ? "bg-accent-700 text-accent-100" : ""} relative font-normal hover:bg-accent-600 hover:scale-105 px-1 hover:font-semibold hover:shadow-sm drop-shadow-sm`}
                               onMouseEnter={() => setSubHoveredIndex(subIndex)}
                               onMouseLeave={() => setSubHoveredIndex(null)}
+                              role="none"
                             >
                               {subitem.link ? (
                                 <a
                                   className="p-3 block"
                                   href={subitem.link}
                                   target={`${subitem.link.includes("http") ? "_blank" : "_self"}`}
+                                  role="menuitem"
+                                  aria-label={`${subitem.name} under ${item.name}`}
                                 >
                                   {subitem.name}
                                 </a>
                               ) : (
-                                <span className="cursor-default p-3 block">
+                                <span
+                                  className="cursor-default p-3 block"
+                                  role="menuitem"
+                                  aria-haspopup="true"
+                                  aria-expanded={
+                                    subHoveredIndex === subIndex
+                                      ? "true"
+                                      : "false"
+                                  }
+                                >
                                   {subitem.name}
                                 </span>
                               )}

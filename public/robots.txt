@@ -1,4 +1,27 @@
 User-agent: *
 Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /*.pdf$
+Disallow: /*?*
 
+# Optimize crawl rate
+Crawl-delay: 5
+
+# Sitemap location
 Sitemap: https://eliteproaviation.com/sitemap-index.xml
+
+# Google specific directives
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Googlebot-Image
+Allow: /public/blog/
+Allow: /assets/
+
+# Bing specific directives
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 3

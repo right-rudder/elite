@@ -4,14 +4,14 @@ export const SITE_TITLE =
 
 // CHANGE default meta description -> should only be used in homepage technically, but is there for a fallback in case a page is missed
 export const SITE_DESCRIPTION =
-  "Elite Flight Training & Aircraft Management offers flight training in Kankakee, IL. We offer private pilot training, instrument rating training, commercial pilot training, and more. Contact us today!";
+  "Transform your aviation career with Elite Flight Training in Kankakee, IL. From private pilot licenses to commercial certifications, experience hands-on training with expert instructors and modern aircraft. Start your journey with a discovery flight today!";
 
 //SEO tip -> keyword + city 1
 //Should have between 5-10 different localities to mix and match keywords
 //typical keywords = how to become a pilot, flight school near, private pilot, discovery flight, introductory flight, instrument rating, commercial certificate, certified flight instructor, airline programs, how to become an airline pilot
 // CHANGE default keywords -> should only be used in homepage technically, but is there for a fallback in case a page is missed
 export const KEYWORDS =
-  "elite flight training, elite aircraft management, elite aircraft rentals, elite aircraft maintenance, elite aircraft brokerage, aircraft management,  aircraft rentals,  aircraft maintenance,  aircraft brokerage, flight training, flight school, pilot training, private pilot training, instrument rating training, commercial pilot training, multi-engine training, Kankakee, IL";
+  "flight school Kankakee, pilot training Illinois, private pilot license, discovery flights near me, instrument rating training, commercial pilot certification, flight instructor program, aircraft rental Kankakee, aviation training IL, how to become a pilot";
 
 export const OG_IMAGE = "/Elite-OG-image.webp";
 

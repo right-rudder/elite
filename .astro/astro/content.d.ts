@@ -180,6 +180,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"why-train-at-an-illinois-flight-school-the-unique-advantages-of-midwest-aviation.md": {
+	id: "why-train-at-an-illinois-flight-school-the-unique-advantages-of-midwest-aviation.md";
+  slug: "why-train-at-an-illinois-flight-school-the-unique-advantages-of-midwest-aviation";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 };
 "location": {
 "aroma-park-il.md": {
@@ -269,5 +276,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("./../../src/content/config.js");
+	export type ContentConfig = typeof import("../../src/content/config.js");
 }

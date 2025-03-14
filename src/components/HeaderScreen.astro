@@ -1,7 +1,6 @@
 ---
 import { Image } from "astro:assets";
 import type { ImageMetadata } from "astro";
-
 const { content } = Astro.props;
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "/src/assets/*.{jpeg,jpg,png,gif,webp}"
@@ -11,6 +10,11 @@ if (!images[content.imagePath]) {
     `"${content.imagePath}" does not exist in glob: "src/assets/*.{jpeg,jpg,png,gif,webp}"`
   );
 }
+
+// Extract the base filename for use in structured data
+const imagePathParts = content.imagePath.split('/');
+const filename = imagePathParts[imagePathParts.length - 1];
+const imageTitle = filename.replace(/\.(jpeg|jpg|png|gif|webp)$/, '').replace(/-/g, ' ');
 ---
 
 <header
@@ -20,7 +24,10 @@ if (!images[content.imagePath]) {
     src={images[content.imagePath]()}
     alt={content.imageAlt}
     width={1920}
+    height={1080}
     loading={"eager"}
+    fetchpriority="high"
+    decoding="sync"
     class="absolute inset-0 -z-0 object-cover object-center w-full h-full animate-slow-zoom"
   />
   <div
@@ -32,21 +39,22 @@ if (!images[content.imagePath]) {
     class="text-white mt-20 lg:mt-0 text-center lg:text-left z-10 flex flex-col items-center gap-4 px-5 h-full lg:pt-28 justify-center"
   >
     <h1
-      class="text-5xl md:text-6xl uppercase lg:text-7xl drop-shadow-lg xl:text-8xl text-center font-semibold text-muted-100"
+      class="text-5xl md:text-6xl uppercase lg:text-7xl drop-shadow-lg xl:text-8xl text-center font-semibold text-muted-100 animate-fade-in-down"
       set:html={content.headerH1}
     />
     <h2
-      class="text-xl mt-3 font-normal tracking-wide text-center max-w-4xl"
+      class="text-xl mt-3 font-normal tracking-wide text-center max-w-4xl animate-fade-in-up"
       set:html={content.paragraph}
     />
     <div
-      class="mt-6 flex flex-wrap justify-center align-middle items-center gap-6 z-10"
+      class="mt-6 flex flex-wrap justify-center align-middle items-center gap-6 z-10 animate-fade-in"
     >
       {
         content.buttons.map((btn) => (
           <a
             href={btn.link}
             class={`${btn.primary ? "btn-primary" : "btn-white"} w-full md:w-auto`}
+            aria-label={`${btn.name} - ${content.headerH1.replace(/<[^>]*>/g, '')}`}
           >
             <span class="drop-shadow-sm">{btn.name}</span>
           </a>
@@ -55,3 +63,14 @@ if (!images[content.imagePath]) {
     </div>
   </div>
 </header>
+
+<!-- Add structured data for the hero image -->
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": `https://eliteproaviation.com${content.imagePath.replace('/src/assets', '/assets')}`,
+  "name": content.imageAlt,
+  "description": content.imageAlt,
+  "representativeOfPage": true
+})}>
+</script>
