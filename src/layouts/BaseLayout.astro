@@ -7,10 +7,10 @@ import "@fontsource/merriweather";
 import "@fontsource-variable/quicksand";
 import "@fontsource-variable/pathway-extreme";
 import Navbar from "../components/Navbar";
+import Banner from "../components/Banner.astro";
+
 const { pathname } = Astro.url;
 const { siteTitle, siteDescription, keywords, oImage } = Astro.props;
-import ChatWidget from "../components/ChatWidget.astro";
-import Banner from "../components/Banner.astro";
 ---
 
 <!doctype html>
@@ -109,7 +109,6 @@ import Banner from "../components/Banner.astro";
       <slot />
     </main>
     <Footer />
-    <ChatWidget />
 
     <!-- Deferred and async loading of non-critical resources -->
     <script>
